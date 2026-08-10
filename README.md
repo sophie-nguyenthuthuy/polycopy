@@ -42,7 +42,7 @@ Tests: `python3 -m unittest discover -s tests`
 | Win record | Per market: sell proceeds − buy cost + resolution payout of remaining shares. Win = resolved market with PnL > $0.01. |
 | Classify | `ARB` (holds both sides ≥30% of markets), `SCALPER` (≥800 trades), `INSIDER_SUSPECT` (perfect record + score ≥5 from: low activity, avg stake ≥$200, median entry ≤0.75, geo/politics concentration ≥40%, entries ≤96h before close), `PERFECT`, `NEAR_PERFECT` (≥90%). |
 | Watch | Polls each qualified wallet's `/trades` every 60s, dedupes vs stored ids, alerts via Telegram (stdout if unconfigured). |
-| Copy sim | On their BUY: walk the live ask book with $10/$100, add 50bps adverse slippage, apply the market's taker fee (`bps/10⁴ · min(p,1−p) · shares` — 0 on most markets). Exit when the trader sells (at best bid) or at resolution payout. Open fills marked at best bid. |
+| Copy sim | On their BUY: walk the live ask book with $10/$100, add 50bps adverse slippage, apply taker fees (`bps/10⁴ · min(p,1−p) · shares`; default 0 — Gamma's `takerBaseFee` field is a signed max, not the charged rate, opt in via `use_market_fee_field`). Exit when the trader sells (at best bid) or at resolution payout. Open fills marked at best bid. |
 | Backtest | Replays stored history; entry = trader's price +150bps adverse (no historical books exist — be skeptical of backtest numbers, live watch numbers are the real experiment). |
 
 Strategies: `s10` / `s100` copy INSIDER_SUSPECT wallets only; `perfect100` copies

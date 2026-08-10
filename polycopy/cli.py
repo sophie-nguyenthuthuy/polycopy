@@ -21,6 +21,9 @@ def main(argv=None):
     d = sub.add_parser("discover", help="seed from leaderboards, scan + classify wallets")
     d.add_argument("--limit", type=int, help="max wallets to scan")
     d.add_argument("--addr", action="append", default=[], help="extra wallet address(es) to include")
+    d.add_argument("--recent", type=int, default=0, metavar="PAGES",
+                   help="also seed from N pages of recent large geo/politics fills")
+    d.add_argument("--no-leaderboard", action="store_true")
 
     s = sub.add_parser("scan", help="scan specific wallet(s)")
     s.add_argument("addresses", nargs="+")
@@ -46,7 +49,8 @@ def main(argv=None):
     api = PolymarketAPI(cfg.rate_limit_sec, cfg.http_timeout)
 
     if args.cmd == "discover":
-        discover(store, api, cfg, extra_addresses=args.addr, limit=args.limit)
+        discover(store, api, cfg, extra_addresses=args.addr, limit=args.limit,
+                 recent_pages=args.recent, use_leaderboard=not args.no_leaderboard)
         print()
         print_wallets(store, qualified_only=True)
     elif args.cmd == "scan":

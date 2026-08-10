@@ -18,7 +18,8 @@ def _sim_lines(fills: list[dict]) -> list[str]:
 def process_new_trade(store: Store, api: PolymarketAPI, cfg: Config,
                       wallet_row: dict, trade: dict, dry_run: bool) -> None:
     market = store.market(trade["condition_id"])
-    fee_bps = market["taker_fee_bps"] if market else cfg.default_fee_bps
+    fee_bps = (market["taker_fee_bps"] if market and cfg.use_market_fee_field
+               else cfg.default_fee_bps)
 
     new_fills = []
     if trade["side"] == "BUY" and trade["price"] <= cfg.max_entry_price:

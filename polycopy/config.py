@@ -30,6 +30,9 @@ class Config:
     slippage_extra_bps: int = 50       # extra adverse bps on top of book walk
     backtest_adverse_bps: int = 150    # entry penalty vs trader's fill in backtests
     default_fee_bps: int = 0           # most Polymarket markets: no taker fee
+    # gamma's takerBaseFee is the max rate signed into orders, NOT the charged fee
+    # (actually 0 on nearly all markets) — only trust it if you opt in:
+    use_market_fee_field: bool = False
     max_entry_price: float = 0.985     # don't copy buys of near-certain outcomes
     # telegram
     telegram_token: str = ""

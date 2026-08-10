@@ -73,17 +73,38 @@ def scan_wallet(store: Store, api: PolymarketAPI, cfg: Config, address: str,
     return result
 
 
+def seed_from_recent(api: PolymarketAPI, pages: int = 4, min_usd: float = 300.0) -> list[str]:
+    """Wallets placing large fills on geopolitics/politics markets in the recent
+    global trade feed — the cohort leaderboards never surface."""
+    seen: list[str] = []
+    for page in range(pages):
+        for t in api.trades(limit=500, offset=page * 500):
+            usd = float(t["price"]) * float(t["size"])
+            if usd >= min_usd and categorize(t.get("title") or "") in ("geopolitics", "politics"):
+                seen.append(t["proxyWallet"])
+    return list(dict.fromkeys(seen))
+
+
 def discover(store: Store, api: PolymarketAPI, cfg: Config,
-             extra_addresses: list[str] | None = None, limit: int | None = None) -> list[dict]:
+             extra_addresses: list[str] | None = None, limit: int | None = None,
+             recent_pages: int = 0, use_leaderboard: bool = True) -> list[dict]:
     seeds: list[str] = list(extra_addresses or [])
-    for window in cfg.leaderboard_windows:
-        for rank_type in ("pnl",):
-            try:
-                rows = api.leaderboard(window, rank_type, cfg.leaderboard_limit)
-            except Exception as e:  # noqa: BLE001
-                print(f"[warn] leaderboard {window}/{rank_type}: {e}")
-                continue
-            seeds.extend(r["proxyWallet"] for r in rows)
+    if recent_pages:
+        try:
+            geo = seed_from_recent(api, recent_pages)
+            print(f"Seeded {len(geo)} wallets from recent large geo/politics fills")
+            seeds.extend(geo)
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] recent-trades seed: {e}")
+    if use_leaderboard:
+        for window in cfg.leaderboard_windows:
+            for rank_type in ("pnl",):
+                try:
+                    rows = api.leaderboard(window, rank_type, cfg.leaderboard_limit)
+                except Exception as e:  # noqa: BLE001
+                    print(f"[warn] leaderboard {window}/{rank_type}: {e}")
+                    continue
+                seeds.extend(r["proxyWallet"] for r in rows)
     seeds = list(dict.fromkeys(seeds))
     if limit:
         seeds = seeds[:limit]
@@ -106,7 +127,8 @@ def discover(store: Store, api: PolymarketAPI, cfg: Config,
 def print_wallets(store: Store, qualified_only: bool):
     rows = store.wallets(qualified_only)
     if not rows:
-        print("No wallets stored yet. Run: polycopy discover")
+        print("No qualified wallets yet." if qualified_only and store.wallets()
+              else "No wallets stored yet. Run: polycopy discover")
         return
     print(f"{'address':<44} {'label':<16} {'W':>3} {'L':>3} {'wr':>5} {'trades':>6} {'pnl':>12} q")
     for w in rows:

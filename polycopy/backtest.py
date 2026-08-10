@@ -35,7 +35,8 @@ def run(store: Store, cfg: Config) -> str:
     for addr, w in wallets.items():
         for t in store.wallet_trades(addr):
             market = store.market(t["condition_id"])
-            fee_bps = market["taker_fee_bps"] if market else cfg.default_fee_bps
+            fee_bps = (market["taker_fee_bps"] if market and cfg.use_market_fee_field
+                       else cfg.default_fee_bps)
             if t["side"] == "BUY" and 0.005 <= t["price"] <= cfg.max_entry_price:
                 entry = min(0.999, t["price"] * (1 + adverse))
                 for strat, usd, labels in STRATEGIES:
