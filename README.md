@@ -63,6 +63,18 @@ every qualified wallet at $100.
 - Discovery seeds from leaderboards, so a quiet insider who never hit a leaderboard
   window won't be found automatically — add suspects via `--addr` / `scan`.
 
+## Free deployment: GitHub Actions collector
+
+`.github/workflows/collect.yml` runs [ci_cycle.sh](ci_cycle.sh) every 30 min on
+GitHub's runners (useful where local ISPs block the domain — runners sit in
+regions with unrestricted access): first run does a full discovery seed, then each
+cycle re-sweeps recent geo/politics fills, watch-passes qualified wallets, and
+commits `data/polycopy.db` + `data/REPORT.md` back to the repo. Add repo secrets
+`TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` for phone alerts; without them alerts
+land in the run log + REPORT history. Note scheduled runs give ~30–60 min
+detection latency — the copy-sim prices at the book seen *at detection*, so
+results honestly reflect what a free pipeline could capture.
+
 ## Config
 
 Optional `polycopy.toml` in the working directory overrides any `Config` field
