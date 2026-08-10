@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 polycopy.db
 polycopy.toml
+.overnight_seeded

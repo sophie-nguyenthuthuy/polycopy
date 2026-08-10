@@ -38,7 +38,7 @@ class Config:
     telegram_token: str = ""
     telegram_chat_id: str = ""
     # http
-    rate_limit_sec: float = 0.25
+    rate_limit_sec: float = 0.6
     http_timeout: float = 20.0
 
     @classmethod
