@@ -41,6 +41,12 @@ def main(argv=None):
     r = sub.add_parser("report", help="P&L report for live + backtest simulations")
     r.add_argument("--refresh", action="store_true", help="refresh marks/resolutions first")
 
+    for prefix in ("", "mf-"):
+        q = sub.add_parser(prefix + "qualify", help="manually (un)qualify wallets for watching/copying")
+        q.add_argument("addresses", nargs="+")
+        q.add_argument("--label", help="override label (e.g. PERFECT)")
+        q.add_argument("--off", action="store_true", help="unqualify instead")
+
     md = sub.add_parser("mf-discover", help="Manifold: seed from recent big bets, scan + classify")
     md.add_argument("--pages", type=int, default=3, help="pages of 1000 recent bets to seed from")
     md.add_argument("--min-mana", type=float, default=100.0)
@@ -68,6 +74,19 @@ def main(argv=None):
         cfg.db_path = "manifold.db"
     store = Store(cfg.db_path)
     api = PolymarketAPI(cfg.rate_limit_sec, cfg.http_timeout)
+
+    if args.cmd.endswith("qualify"):
+        for a in args.addresses:
+            row = next((w for w in store.wallets() if w["address"] == a or w["name"] == a), None)
+            if not row:
+                print(f"not in db (scan it first): {a}")
+                continue
+            store.db.execute("UPDATE wallets SET qualified=?, label=? WHERE address=?",
+                             (0 if args.off else 1, args.label or row["label"], row["address"]))
+            store.db.commit()
+            print(f"{'un' if args.off else ''}qualified {row['name'] or row['address']}"
+                  + (f" as {args.label}" if args.label else ""))
+        return
 
     if is_mf:
         import os
