@@ -1,11 +1,13 @@
-# polycopy status — 2026-08-10 16:45 UTC
+# polycopy status — 2026-08-10 17:40 UTC
 
 ## Qualified wallets
 ```
 address                                      label              W   L    wr trades          pnl q
-0x1465b79bff7992bc703e1aafb3683b1089647072   NEAR_PERFECT      59   5   92%    724       41,280 *
-    - near-perfect: 92% over 64 resolved
-    - meaningful stakes (avg $29,909/market)
+0xd6d9ed4117ddd92d85878cf981c11ba2a0bb2c2f   NEAR_PERFECT      16   1   94%     49      170,322 *
+    - near-perfect: 94% over 17 resolved
+    - low activity (49 trades)
+    - meaningful stakes (avg $13,121/market)
+    - late entries (median 1h before close)
 ```
 ## Copy-simulation P&L
 ```
@@ -17,5 +19,5 @@ perfect100  no fills yet
 == backtest fills ==
 s10         no fills yet
 s100        no fills yet
-perfect100  fills= 68 (closed 55, open 13) invested=$6,800 fees=$0.00 realized=$-68.28 openMTM=$+171.17 total=$+102.88 (+1.5%) win 49/55
+perfect100  fills= 18 (closed 16, open 2) invested=$1,800 fees=$0.00 realized=$+73.82 openMTM=$-84.07 total=$-10.26 (-0.6%) win 15/16
 ```
