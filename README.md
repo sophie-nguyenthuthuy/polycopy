@@ -21,6 +21,7 @@ python3 -m polycopy discover --limit 100 --addr 0xSUSPECT_WALLET
 # 2. Inspect / rescan any wallet
 python3 -m polycopy scan 0xWALLET
 python3 -m polycopy wallets            # qualified only; --all for everything
+python3 -m polycopy qualify 0xWALLET   # hand-pick a copy target (--off to remove)
 
 # 3. Replay their stored history as if you had copied every entry
 python3 -m polycopy backtest
@@ -84,6 +85,7 @@ phase-2 copy loop end to end:
 ```bash
 python3 -m polycopy mf-discover --pages 3 --min-mana 200   # seed + classify
 python3 -m polycopy mf-scan some_username                  # scan specific users
+python3 -m polycopy mf-qualify some_username               # hand-pick copy targets
 export MANIFOLD_API_KEY=...                                # from manifold.markets profile
 python3 -m polycopy mf-watch --execute                     # copy bets with real mana
 python3 -m polycopy mf-report
