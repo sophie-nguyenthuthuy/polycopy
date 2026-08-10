@@ -3,3 +3,4 @@ __pycache__/
 polycopy.db
 polycopy.toml
 .overnight_seeded
+manifold.db

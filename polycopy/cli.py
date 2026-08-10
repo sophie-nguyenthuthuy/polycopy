@@ -41,12 +41,60 @@ def main(argv=None):
     r = sub.add_parser("report", help="P&L report for live + backtest simulations")
     r.add_argument("--refresh", action="store_true", help="refresh marks/resolutions first")
 
+    md = sub.add_parser("mf-discover", help="Manifold: seed from recent big bets, scan + classify")
+    md.add_argument("--pages", type=int, default=3, help="pages of 1000 recent bets to seed from")
+    md.add_argument("--min-mana", type=float, default=100.0)
+    md.add_argument("--limit", type=int)
+
+    ms = sub.add_parser("mf-scan", help="Manifold: scan specific user(s) by username or id")
+    ms.add_argument("users", nargs="+")
+
+    mw = sub.add_parser("mf-watch", help="Manifold: poll qualified users, alert + sim (+ optional play-money execute)")
+    mw.add_argument("--once", action="store_true")
+    mw.add_argument("--dry-run", action="store_true")
+    mw.add_argument("--poll", type=int)
+    mw.add_argument("--execute", action="store_true",
+                    help="place real play-money bets (needs MANIFOLD_API_KEY env)")
+
+    sub.add_parser("mf-wallets", help="Manifold: list stored users")
+    sub.add_parser("mf-report", help="Manifold: live sim + backtest P&L")
+
     args = p.parse_args(argv)
     cfg = Config.load()
+    is_mf = args.cmd.startswith("mf-")
     if args.db:
         cfg.db_path = args.db
+    elif is_mf:
+        cfg.db_path = "manifold.db"
     store = Store(cfg.db_path)
     api = PolymarketAPI(cfg.rate_limit_sec, cfg.http_timeout)
+
+    if is_mf:
+        import os
+
+        from . import manifold as mf
+        mapi = mf.ManifoldAPI(api_key=os.environ.get("MANIFOLD_API_KEY", ""))
+        if args.cmd == "mf-discover":
+            mf.discover(store, mapi, cfg, pages=args.pages, min_mana=args.min_mana, limit=args.limit)
+            print()
+            print_wallets(store, qualified_only=True)
+        elif args.cmd == "mf-scan":
+            for u in args.users:
+                uid = u if len(u) > 20 else mf.ManifoldAPI().user_by_name(u).get("id", u)
+                mf.scan_user(store, mapi, cfg, uid, verbose=True)
+        elif args.cmd == "mf-wallets":
+            print_wallets(store, qualified_only=False)
+        elif args.cmd == "mf-watch":
+            if args.poll:
+                cfg.poll_sec = args.poll
+            mf.watch(store, mapi, cfg, once=args.once, dry_run=args.dry_run, execute=args.execute)
+        elif args.cmd == "mf-report":
+            mf.refresh_marks(store, mapi)
+            print("== live (watch-mode) fills ==")
+            print(simulate.report(store, "live"))
+            print("\n== backtest fills ==")
+            print(bt.run(store, cfg))
+        return
 
     if args.cmd == "discover":
         discover(store, api, cfg, extra_addresses=args.addr, limit=args.limit,

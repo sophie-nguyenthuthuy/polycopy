@@ -75,6 +75,23 @@ land in the run log + REPORT history. Note scheduled runs give ~30–60 min
 detection latency — the copy-sim prices at the book seen *at detection*, so
 results honestly reflect what a free pipeline could capture.
 
+## Manifold port (play money — legal everywhere, full loop)
+
+The same pipeline runs against Manifold Markets, including optional **real
+play-money execution** (mana has no monetary value), which exercises the whole
+phase-2 copy loop end to end:
+
+```bash
+python3 -m polycopy mf-discover --pages 3 --min-mana 200   # seed + classify
+python3 -m polycopy mf-scan some_username                  # scan specific users
+export MANIFOLD_API_KEY=...                                # from manifold.markets profile
+python3 -m polycopy mf-watch --execute                     # copy bets with real mana
+python3 -m polycopy mf-report
+```
+
+Uses `manifold.db` by default; bets/markets are normalized into the same store
+schema, so metrics, classification, simulation and backtest are shared code.
+
 ## Config
 
 Optional `polycopy.toml` in the working directory overrides any `Config` field
