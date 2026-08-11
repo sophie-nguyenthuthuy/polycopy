@@ -70,11 +70,26 @@ every qualified wallet at $100.
 GitHub's runners (useful where local ISPs block the domain — runners sit in
 regions with unrestricted access): first run does a full discovery seed, then each
 cycle re-sweeps recent geo/politics fills, watch-passes qualified wallets, and
-commits `data/polycopy.db` + `data/REPORT.md` back to the repo. Add repo secrets
+commits the research record back to the repo. Add repo secrets
 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` for phone alerts; without them alerts
 land in the run log + REPORT history. Note scheduled runs give ~30–60 min
 detection latency — the copy-sim prices at the book seen *at detection*, so
 results honestly reflect what a free pipeline could capture.
+
+State persistence matters more than it looks: the SQLite DB rides
+`actions/cache` between runs (committing a ~20MB binary that churns 48×/day
+would bloat the repo), and the analysis rows are committed as text so they
+survive cache eviction:
+
+| file | what |
+|---|---|
+| `data/wallets.csv` | every wallet scanned, with label, record and why it scored |
+| `data/fills.csv` | every simulated copy fill — entry, exit, fees, P&L |
+| `data/qualified_trades.csv` | the copied traders' own trades (their entry vs ours = the latency cost) |
+| `data/REPORT.md`, `data/BACKTEST.txt` | human-readable snapshot each cycle |
+
+If a cycle ever logs `first run: full discovery seed` when a DB should exist,
+persistence is broken and the experiment is silently collecting nothing.
 
 ## Manifold port (play money — legal everywhere, full loop)
 
