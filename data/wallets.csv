@@ -1,4 +1,5 @@
 address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_count,realized_pnl,last_scan,reasons
+0x8faabef68d5951d3e06ca511dfc778ed6f54deb5,747281,NORMAL,5,0,7,1,0.875,8,27,84,6006.394541821194,1786426555,low activity (84 trades); meaningful stakes (avg $776/market); buys uncertainty (median entry 0.41); geo/politics concentration 86%; late entries (median 87h before close)
 0x8fba2c29715c41dd87e781c23373aa1e0549d08a,abura2025,NORMAL,4,0,59,59,0.5,118,5,159,350629.7294195455,1786426115,"low activity (159 trades); meaningful stakes (avg $4,582/market); buys uncertainty (median entry 0.44); late entries (median 6h before close)"
 0xa06ac74809c95107a40d6332f9fa3f3cecead284,itskkoma,NORMAL,4,0,50,31,0.6172839506172839,81,2,149,17395.373243302147,1786426107,"low activity (149 trades); meaningful stakes (avg $1,366/market); buys uncertainty (median entry 0.53); late entries (median 2h before close)"
 0xb4f978be63cdf75554b0b46a4262a6db597cc9a7,0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186,NORMAL,4,0,45,41,0.5232558139534884,86,3,133,20871.026893055776,1786426002,low activity (133 trades); meaningful stakes (avg $436/market); buys uncertainty (median entry 0.47); late entries (median 6h before close)
@@ -16,6 +17,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xeb43947e764e190697df27b508f897e8b0df4201,,NORMAL,3,0,50,59,0.45871559633027525,109,0,440,-144035.1533227786,1786426387,"meaningful stakes (avg $5,778/market); buys uncertainty (median entry 0.49); late entries (median 2h before close)"
 0x228b8d11eba89bf1c554f8879a9293b7106daf4c,0x228B8d11EBa89BF1c554f8879a9293B7106DaF4c-1765442354872,NORMAL,2,0,47,38,0.5529411764705883,89,0,206,504.92204594832197,1786426175,buys uncertainty (median entry 0.53); late entries (median 3h before close)
 0x24aab9f0ffe38a718f988760f5d27c8418317e0a,Wtfitst2daj,NORMAL,2,0,61,66,0.48031496062992124,128,20,212,160.34878973572575,1786425528,buys uncertainty (median entry 0.45); late entries (median 87h before close)
+0x5678a44d43bf78849053bf598e67cafd6c57e468,monkeyoffmeback,NORMAL,2,0,37,16,0.6981132075471698,54,24,140,-448.0402878386847,1786426552,low activity (140 trades); meaningful stakes (avg $271/market)
 0x03805a13a0b3e058f55f6c6af95389d4f431073d,donthackme,SCALPER,0,0,2,2,0.5,4,395,1000,-258.6,1786425768,1000 trades — market-maker/scalper profile
 0x076daa87c4fe1a85402a9b6b8e0a866224388d4c,,SCALPER,0,0,79,86,0.47878787878787876,165,156,1000,2842.8173668123977,1786426143,1000 trades — market-maker/scalper profile
 0x16bb9951a36fce71e2ef57890b786145e0ba8492,SDTrading,SCALPER,0,0,322,357,0.4742268041237113,679,5,1000,2660.4448684289428,1786425725,1000 trades — market-maker/scalper profile
