@@ -81,13 +81,18 @@ def watch(store: Store, api: PolymarketAPI, cfg: Config, once: bool = False,
               f"{'DRY RUN' if dry_run else 'telegram ' + ('ON' if cfg.telegram_token else 'unconfigured -> stdout')})")
     cycles = 0
     while True:
-        n = poll_once(store, api, cfg, dry_run)
-        cycles += 1
-        if n:
-            print(f"[{time.strftime('%H:%M:%S')}] {n} new trades processed")
-        if cycles % 10 == 0:  # refresh resolutions + marks every ~10 polls
-            sync_markets(store, api, store.unresolved_condition_ids())
-            simulate.refresh_marks(store, api, cfg)
+        try:
+            n = poll_once(store, api, cfg, dry_run)
+            cycles += 1
+            if n:
+                print(f"[{time.strftime('%H:%M:%S')}] {n} new trades processed")
+            if cycles % 10 == 0:  # refresh resolutions + marks every ~10 polls
+                sync_markets(store, api, store.unresolved_condition_ids())
+                simulate.refresh_marks(store, api, cfg)
+        except Exception as e:  # noqa: BLE001 — one bad market must not end the watch
+            print(f"[{time.strftime('%H:%M:%S')}] [warn] cycle failed: {type(e).__name__}: {e}")
+            if once:
+                raise
         if once:
             break
         time.sleep(cfg.poll_sec)

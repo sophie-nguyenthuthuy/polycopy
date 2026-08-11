@@ -24,12 +24,14 @@ def format_alert(wallet_row: dict, trade: dict, sims: list[str]) -> str:
     name = wallet_row.get("name") or wallet_row.get("pseudonym") or trade["wallet"][:10]
     wr = wallet_row.get("win_rate") or 0
     arrow = "🟢 BUY" if trade["side"] == "BUY" else "🔴 SELL"
+    slug = trade.get("event_slug") or ""
+    url = slug if slug.startswith("http") else f"https://polymarket.com/event/{slug}"
     lines = [
         f"🚨 {wallet_row.get('label', '?')} trader moved",
         f"{name} — {wr:.0%} win rate, {wallet_row.get('wins', 0)}W/{wallet_row.get('losses', 0)}L",
         f"{arrow} '{trade.get('outcome')}' @ {trade['price']:.3f} — ${trade['usd']:,.0f}",
         f"{trade.get('title')}",
-        f"https://polymarket.com/event/{trade.get('event_slug')}",
+        url,
     ]
     lines += sims
     return "\n".join(lines)

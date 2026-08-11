@@ -136,10 +136,15 @@ def market_to_gamma(m: dict) -> dict | None:
     else:
         p = float(m.get("probability") or 0.5)
         prices = [p, 1.0 - p]
+    # Manifold allows "never closes" markets with absurd closeTime (year 10000+),
+    # which datetime cannot represent — treat those as no close date.
     close_iso = ""
     ts = m.get("resolutionTime") or m.get("closeTime")
     if ts:
-        close_iso = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        try:
+            close_iso = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except (ValueError, OverflowError, OSError):
+            close_iso = ""
     return {
         "conditionId": cid, "question": m.get("question"), "slug": m.get("slug"),
         "closed": bool(m.get("isResolved")), "closedTime": close_iso, "endDate": close_iso,
@@ -345,12 +350,17 @@ def watch(store: Store, api: ManifoldAPI, cfg: Config, once: bool = False,
           f"{', EXECUTE play-money ON' if execute and api.api_key else ''})")
     cycles = 0
     while True:
-        n = poll_once(store, api, cfg, dry_run, execute)
-        cycles += 1
-        if n:
-            print(f"[{time.strftime('%H:%M:%S')}] {n} new bets processed")
-        if cycles % 10 == 0:
-            refresh_marks(store, api)
+        try:
+            n = poll_once(store, api, cfg, dry_run, execute)
+            cycles += 1
+            if n:
+                print(f"[{time.strftime('%H:%M:%S')}] {n} new bets processed")
+            if cycles % 10 == 0:
+                refresh_marks(store, api)
+        except Exception as e:  # noqa: BLE001 — one bad market must not end the watch
+            print(f"[{time.strftime('%H:%M:%S')}] [warn] cycle failed: {type(e).__name__}: {e}")
+            if once:
+                raise
         if once:
             break
         time.sleep(cfg.poll_sec)
