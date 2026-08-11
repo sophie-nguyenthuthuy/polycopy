@@ -41,6 +41,9 @@ def main(argv=None):
     r = sub.add_parser("report", help="P&L report for live + backtest simulations")
     r.add_argument("--refresh", action="store_true", help="refresh marks/resolutions first")
 
+    e = sub.add_parser("export", help="dump wallets + fills to CSV (durable research record)")
+    e.add_argument("--dir", default="data", help="output directory (default data/)")
+
     for prefix in ("", "mf-"):
         q = sub.add_parser(prefix + "qualify", help="manually (un)qualify wallets for watching/copying")
         q.add_argument("addresses", nargs="+")
@@ -74,6 +77,12 @@ def main(argv=None):
         cfg.db_path = "manifold.db"
     store = Store(cfg.db_path)
     api = PolymarketAPI(cfg.rate_limit_sec, cfg.http_timeout)
+
+    if args.cmd == "export":
+        from .export import export_csv
+        for name, n in export_csv(store, args.dir).items():
+            print(f"{name}: {n} rows")
+        return
 
     if args.cmd.endswith("qualify"):
         for a in args.addresses:

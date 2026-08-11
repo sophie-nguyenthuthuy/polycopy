@@ -20,6 +20,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # The DB must survive between runs, or every cycle re-discovers from
+      # scratch and all accumulated fills are lost. Committing the binary would
+      # bloat the repo (~20MB churning 48x/day), so it rides the cache and the
+      # analysis rows are committed as CSV instead. Unique key => always saved;
+      # restore-keys pulls the most recent previous cache.
+      - name: restore db
+        uses: actions/cache@v4
+        with:
+          path: data/polycopy.db
+          key: polycopy-db-${{ github.run_id }}
+          restore-keys: polycopy-db-
       - name: tests
         run: python3 -m unittest discover -s tests
       - name: collection cycle

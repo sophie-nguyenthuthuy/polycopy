@@ -18,6 +18,7 @@ fi
 python3 -m polycopy watch --once
 
 python3 -m polycopy backtest > data/BACKTEST.txt || true
+python3 -m polycopy export --dir data
 {
   echo "# polycopy status — $(date -u '+%Y-%m-%d %H:%M UTC')"
   echo
