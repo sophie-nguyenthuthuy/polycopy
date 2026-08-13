@@ -1,4 +1,4 @@
-# polycopy status — 2026-08-13 06:59 UTC
+# polycopy status — 2026-08-13 08:40 UTC
 
 ## Qualified wallets
 ```
@@ -8,6 +8,11 @@ address                                      label              W   L    wr trad
     - low activity (68 trades)
     - meaningful stakes (avg $404/market)
     - late entries (median 87h before close)
+0x2a17c545d823842cdc8baedb5d61ac4e32aeef0f   INSIDER_SUSPECT   12   0  100%     24          250 *
+    - perfect record: 12W/0L
+    - low activity (24 trades)
+    - meaningful stakes (avg $412/market)
+    - geo/politics concentration 58%
 0xdf44c3e8ce0a3f66dd4cdf7688e1f23500d770f1   NEAR_PERFECT      17   1   94%    223        7,126 *
     - near-perfect: 94% over 18 resolved
     - meaningful stakes (avg $3,036/market)
@@ -33,10 +38,10 @@ address                                      label              W   L    wr trad
 == live (watch-mode) fills ==
 s10         no fills yet
 s100        no fills yet
-perfect100  fills=  9 (closed 3, open 6) invested=$900 fees=$0.00 realized=$-69.75 openMTM=$-17.01 total=$-86.76 (-9.6%) win 1/3
+perfect100  fills= 10 (closed 4, open 6) invested=$1,000 fees=$0.00 realized=$-66.11 openMTM=$-10.55 total=$-76.65 (-7.7%) win 2/4
 
 == backtest fills ==
-s10         fills= 15 (closed 10, open 5) invested=$150 fees=$0.00 realized=$+1.78 openMTM=$+2.67 total=$+4.45 (+3.0%) win 8/10
-s100        fills= 15 (closed 10, open 5) invested=$1,500 fees=$0.00 realized=$+17.83 openMTM=$+26.68 total=$+44.51 (+3.0%) win 8/10
-perfect100  fills=241 (closed 215, open 26) invested=$24,100 fees=$0.00 realized=$-1,112.99 openMTM=$+114.86 total=$-998.13 (-4.1%) win 161/215
+s10         fills= 26 (closed 18, open 8) invested=$260 fees=$0.00 realized=$+3.38 openMTM=$+2.35 total=$+5.73 (+2.2%) win 15/18
+s100        fills= 26 (closed 18, open 8) invested=$2,600 fees=$0.00 realized=$+33.76 openMTM=$+23.53 total=$+57.29 (+2.2%) win 15/18
+perfect100  fills=253 (closed 224, open 29) invested=$25,300 fees=$0.00 realized=$-1,094.43 openMTM=$+112.99 total=$-981.44 (-3.9%) win 169/224
 ```
