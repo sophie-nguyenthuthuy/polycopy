@@ -158,6 +158,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xdee31034faa022b8a324eeb8496798735d5a6fe5,WarewaPain,SCALPER,0,0,82,111,0.42487046632124353,193,3,1000,-8894.711486715758,1786532808,1000 trades — market-maker/scalper profile
 0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2,Mysaria,SCALPER,0,0,0,0,0.0,0,579,1000,0.0,1786425858,1000 trades — market-maker/scalper profile
 0xe88d4252391deb5f3b940722a5af742fc0d76a3a,,NORMAL,0,0,0,0,0.0,0,1,7,0.0,1786437087,only 0 resolved markets — not enough history
+0xe8e086f7ef06af27889edfb5026e1453c61d7eec,15perces,ARB,0,0,70,69,0.5035971223021583,139,44,996,1942.7278200100698,1786651554,holds both sides in 34% of markets
 0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a,BigRabbit,SCALPER,0,0,224,162,0.5803108808290155,386,48,1000,324877.83713579207,1786638447,1000 trades — market-maker/scalper profile
 0xeb6f0a13ea8c5a7a0514c25495adbe815c1025f0,87879809837209837982,SCALPER,0,0,70,29,0.7070707070707071,100,65,1015,214468.3585119513,1786532659,1015 trades — market-maker/scalper profile
 0xefcedda09b4f2224c856edbd9c41c1d6db124e4a,,SCALPER,0,0,213,184,0.5365239294710328,397,28,1000,-5828.465659352534,1786447404,1000 trades — market-maker/scalper profile
