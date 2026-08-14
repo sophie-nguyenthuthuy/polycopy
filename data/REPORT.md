@@ -1,4 +1,4 @@
-# polycopy status — 2026-08-14 00:09 UTC
+# polycopy status — 2026-08-14 03:08 UTC
 
 ## Qualified wallets
 ```
@@ -13,6 +13,11 @@ address                                      label              W   L    wr trad
     - low activity (24 trades)
     - meaningful stakes (avg $412/market)
     - geo/politics concentration 58%
+0xcfeaa2e026b2d5e92d76c5925be6f41834c3cba7   INSIDER_SUSPECT   12   0  100%     30          311 *
+    - perfect record: 12W/0L
+    - low activity (30 trades)
+    - meaningful stakes (avg $426/market)
+    - geo/politics concentration 63%
 0xdf44c3e8ce0a3f66dd4cdf7688e1f23500d770f1   NEAR_PERFECT      17   1   94%    223        7,126 *
     - near-perfect: 94% over 18 resolved
     - meaningful stakes (avg $3,036/market)
@@ -38,10 +43,10 @@ address                                      label              W   L    wr trad
 == live (watch-mode) fills ==
 s10         no fills yet
 s100        no fills yet
-perfect100  fills= 17 (closed 13, open 4) invested=$1,700 fees=$0.00 realized=$-122.75 openMTM=$-17.48 total=$-140.23 (-8.2%) win 4/13
+perfect100  fills= 17 (closed 13, open 4) invested=$1,700 fees=$0.00 realized=$-122.75 openMTM=$-9.48 total=$-132.22 (-7.8%) win 4/13
 
 == backtest fills ==
-s10         fills= 26 (closed 19, open 7) invested=$260 fees=$0.00 realized=$+3.08 openMTM=$+2.73 total=$+5.81 (+2.2%) win 15/19
-s100        fills= 26 (closed 19, open 7) invested=$2,600 fees=$0.00 realized=$+30.80 openMTM=$+27.27 total=$+58.07 (+2.2%) win 15/19
-perfect100  fills=258 (closed 237, open 21) invested=$25,800 fees=$0.00 realized=$-1,088.51 openMTM=$+54.60 total=$-1,033.90 (-4.0%) win 176/237
+s10         fills= 42 (closed 28, open 14) invested=$420 fees=$0.00 realized=$+7.40 openMTM=$+2.28 total=$+9.68 (+2.3%) win 24/28
+s100        fills= 42 (closed 28, open 14) invested=$4,200 fees=$0.00 realized=$+74.03 openMTM=$+22.80 total=$+96.84 (+2.3%) win 24/28
+perfect100  fills=274 (closed 246, open 28) invested=$27,400 fees=$0.00 realized=$-1,045.28 openMTM=$+49.76 total=$-995.52 (-3.6%) win 185/246
 ```
