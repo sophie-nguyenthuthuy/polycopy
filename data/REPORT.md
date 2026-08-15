@@ -1,4 +1,4 @@
-# polycopy status — 2026-08-15 14:29 UTC
+# polycopy status — 2026-08-15 14:54 UTC
 
 ## Qualified wallets
 ```
@@ -63,7 +63,7 @@ s100        fills=  3 (closed 0, open 3) invested=$300 fees=$0.00 realized=$+0.0
 perfect100  fills= 22 (closed 18, open 4) invested=$2,200 fees=$0.00 realized=$-160.79 openMTM=$+6.73 total=$-154.05 (-7.0%) win 5/18
 
 == backtest fills ==
-s10         fills= 45 (closed 29, open 16) invested=$450 fees=$0.00 realized=$+7.11 openMTM=$+2.26 total=$+9.37 (+2.1%) win 24/29
-s100        fills= 45 (closed 29, open 16) invested=$4,500 fees=$0.00 realized=$+71.08 openMTM=$+22.59 total=$+93.67 (+2.1%) win 24/29
-perfect100  fills=399 (closed 370, open 29) invested=$39,900 fees=$0.00 realized=$-1,577.53 openMTM=$+79.94 total=$-1,497.59 (-3.8%) win 287/370
+s10         fills= 45 (closed 29, open 16) invested=$450 fees=$0.00 realized=$+7.11 openMTM=$+2.18 total=$+9.29 (+2.1%) win 24/29
+s100        fills= 45 (closed 29, open 16) invested=$4,500 fees=$0.00 realized=$+71.08 openMTM=$+21.82 total=$+92.90 (+2.1%) win 24/29
+perfect100  fills=399 (closed 370, open 29) invested=$39,900 fees=$0.00 realized=$-1,577.53 openMTM=$+79.79 total=$-1,497.74 (-3.8%) win 287/370
 ```
