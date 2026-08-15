@@ -79,6 +79,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x7fc6e183e48e2f7658cd825ff4f40e44e9327306,tradingdecs,NORMAL,2,0,61,214,0.22181818181818183,279,26,598,10653.439460897931,1786483424,buys uncertainty (median entry 0.09); late entries (median 45h before close)
 0x84eeecd1b7e901ca0f3c36842f9f7a44301564b4,BERICHING,NORMAL,2,0,120,59,0.6703910614525139,179,3,322,-743.7873468087785,1786765682,buys uncertainty (median entry 0.68); late entries (median 4h before close)
 0x9765b5ff568c548d1620ef99ddd9d290ede1436b,byteA,NORMAL,2,0,63,16,0.7974683544303798,79,14,173,2677.253005157974,1786616117,low activity (173 trades); meaningful stakes (avg $583/market)
+0xa33d7104059352d748d0e38546c4aeaed112eabe,XVHJSGD,NORMAL,2,0,33,48,0.4074074074074074,82,87,502,3931.4783729287806,1786793194,"meaningful stakes (avg $1,902/market); geo/politics concentration 44%"
 0xecc90c67e3100ce7e7e33f6c641a03237fe55f71,0xeCc90C67E3100ce7e7E33F6c641A03237FE55f71-1770624266352,NORMAL,2,0,257,64,0.8006230529595015,322,3,712,44543.17755208009,1786561830,buys uncertainty (median entry 0.56); late entries (median 0h before close)
 0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2,TommyLeePeeca,ARB,0,0,31,15,0.6739130434782609,46,6,3428,17978.860477059672,1786642369,holds both sides in 94% of markets
 0x011f2d377e56119fb09196dffb0948ae55711122,11122,SCALPER,0,0,93,84,0.5254237288135594,179,89,1000,8464.354769657146,1786490374,1000 trades — market-maker/scalper profile
@@ -226,4 +227,5 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xfd1c01b6e76cfe06f934bef5b5db52ea4c792746,arturfml131,NORMAL,0,0,0,0,0.0,0,1,2,0.0,1786432702,only 0 resolved markets — not enough history
 0xfdc0bd67fbd71aa8edd00121eb2a7fcbddc34b85,oneheadedtiger,ARB,0,0,144,128,0.5294117647058824,272,23,1952,4193.504536141702,1786783001,holds both sides in 40% of markets
 0xfe787d2da716d60e8acff57fb87eb13cd4d10319,ferrariChampions2026,SCALPER,0,0,182,203,0.4727272727272727,385,6,1000,-46557.54163586718,1786425554,1000 trades — market-maker/scalper profile
+0xfeb99d66220e6b94799f4ef0a3cfb12b3f9495c9,Gamer-Girl,SCALPER,0,0,176,169,0.5101449275362319,345,10,1000,6628.060520572773,1786793184,1000 trades — market-maker/scalper profile
 0xff7ca9cd180d33119e653e3eb50555a3e2ccb233,NoSteinNoGate,SCALPER,0,0,49,41,0.5444444444444444,90,200,1000,1274.3642098280698,1786447378,1000 trades — market-maker/scalper profile
