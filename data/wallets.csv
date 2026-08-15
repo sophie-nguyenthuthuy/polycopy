@@ -54,6 +54,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xa7df7b1200442d92ec6c997dabd7428cb04fabe9,ll12l12,NORMAL,3,0,14,12,0.5384615384615384,27,1,35,2029.660475058456,1786629672,low activity (35 trades); meaningful stakes (avg $845/market); late entries (median 17h before close)
 0xb272505077cc2c6bde5acca133ea6364152e5030,BaseballBill,NORMAL,3,0,73,75,0.49324324324324326,148,18,206,46766.46611932011,1786604325,"meaningful stakes (avg $1,611/market); buys uncertainty (median entry 0.40); late entries (median 4h before close)"
 0xb589734f08a5b12a7b6f30b782a5deeace3f91e3,vananal0318,NORMAL,3,0,192,162,0.5423728813559322,355,1,567,111069.25665869731,1786527822,"meaningful stakes (avg $1,548/market); buys uncertainty (median entry 0.42); late entries (median 3h before close)"
+0xc7e7eed3b86669ed14647d51d23f0725c48b40b4,PeterEriksson,NORMAL,3,0,76,69,0.5241379310344828,145,19,739,13282.639868018652,1786771827,meaningful stakes (avg $210/market); buys uncertainty (median entry 0.24); geo/politics concentration 71%
 0xd34f2b5e9ee02bed8a107fdf9bda2d866dc61c95,GoingGangrene,NEAR_PERFECT,3,1,304,27,0.918429003021148,334,4,712,10118.411578915471,1786425518,"near-perfect: 92% over 334 resolved; meaningful stakes (avg $1,566/market); late entries (median 3h before close)"
 0xe55aab114e95fff2fa267313916381d79323ecf7,steevenseakael,NORMAL,3,0,58,49,0.5420560747663551,107,0,252,95724.0717979298,1786425999,"meaningful stakes (avg $6,407/market); buys uncertainty (median entry 0.51); late entries (median 10h before close)"
 0xe6a9d2301ed7e1222002d04e9463c5f521d9e35a,Eddd1x,NORMAL,3,0,156,142,0.5234899328859061,299,7,665,32819.244336294396,1786426157,"meaningful stakes (avg $1,561/market); buys uncertainty (median entry 0.56); late entries (median 3h before close)"
@@ -164,7 +165,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xaba6eb96620a77cf5777dae47a40a15bf8510cd9,,NORMAL,0,0,1,0,1.0,1,12,41,44.339622002075465,1786768675,only 1 resolved markets — not enough history
 0xafe4272b4fb0bcc1d734ee2cdec3e78cdc94f3f7,QuentinChen,SCALPER,0,0,210,204,0.5072463768115942,414,1,941,212675.06188146007,1786426309,941 trades — market-maker/scalper profile
 0xb0c85813a7a4428f1139ff91d3118a92c391fe7f,.tak-r.anymore..,SCALPER,0,0,15,6,0.7142857142857143,22,500,1000,-126.97336399198383,1786426360,1000 trades — market-maker/scalper profile
-0xb1ca909e848cc24ec4e220ce1c453bc290c51705,abdkxrhxr,SCALPER,0,0,77,39,0.6637931034482759,116,630,1000,48568.00392939094,1786684637,1000 trades — market-maker/scalper profile
+0xb1ca909e848cc24ec4e220ce1c453bc290c51705,abdkxrhxr,SCALPER,0,0,103,41,0.7152777777777778,144,683,1108,59200.646239409645,1786771871,1108 trades — market-maker/scalper profile
 0xb6ce76828a51b382f7e88cbb9baa0f03f9c17a7d,black-rabbit,ARB,0,0,116,68,0.6304347826086957,185,5,1000,59044.57910940325,1786565428,holds both sides in 53% of markets
 0xbacd00c9080a82ded56f504ee8810af732b0ab35,ScottyNooo,ARB,0,0,119,86,0.5804878048780487,205,36,1000,18011.613685621713,1786460980,holds both sides in 32% of markets
 0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705,1winstreak1,ARB,0,0,84,74,0.5316455696202531,158,2,1000,29170.01375234711,1786425939,holds both sides in 59% of markets
