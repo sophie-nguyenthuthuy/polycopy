@@ -242,6 +242,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705,1winstreak1,ARB,0,0,84,74,0.5316455696202531,158,2,1000,29170.01375234711,1786425939,holds both sides in 59% of markets
 0xc26dea90d69e2dd1327761ee612cec8f60dc10f1,0xc26deA,NORMAL,0,0,0,0,0.0,0,47,60,0.0,1786834350,only 0 resolved markets — not enough history
 0xc2de93c744f3406ff4a67623913d3c6df4116781,machbut,SCALPER,0,0,19,13,0.59375,32,4,951,73568.88912233803,1786576335,951 trades — market-maker/scalper profile
+0xc313268eddded61b6a6033e49d0c2d731ca2e128,0xc313268EdDdeD61b6A6033e49D0C2d731ca2e128-1776828135293,SCALPER,0,0,126,177,0.4158415841584158,303,4,997,-127.61304290569265,1786853382,997 trades — market-maker/scalper profile
 0xc34b4901be324718c176100e350211d97b199296,ForAndWithYou,SCALPER,0,0,589,264,0.690504103165299,855,2,1000,422603.39226875507,1786629630,1000 trades — market-maker/scalper profile
 0xc3ca1a42fd9217b2d02fb05980c1803af462688e,ThePrinceThatWasPromised,NORMAL,0,0,0,0,0.0,0,6,53,0.0,1786633780,only 0 resolved markets — not enough history
 0xc550e5ee1011afb6d37c7fbb18fea32e03f9272d,alwaysOn,SCALPER,0,0,229,35,0.8674242424242424,264,54,1019,19158.9416729381,1786825776,1019 trades — market-maker/scalper profile
@@ -266,6 +267,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xddb6e6246546230503f153506ac1e9914978b9b3,baseinv3,ARB,0,0,39,47,0.45348837209302323,86,20,984,1437.2087800050458,1786616110,holds both sides in 38% of markets
 0xde9f7f4e77a1595623ceb58e469f776257ccd43c,tradecraft,ARB,0,0,158,156,0.5031847133757962,314,9,1998,-76387.84473801828,1786825778,holds both sides in 76% of markets
 0xdee31034faa022b8a324eeb8496798735d5a6fe5,WarewaPain,SCALPER,0,0,82,111,0.42487046632124353,193,3,1000,-8894.711486715758,1786532808,1000 trades — market-maker/scalper profile
+0xdfee1d79b4384ca40109c87c8b5027df33a364bb,User175,SCALPER,0,0,136,124,0.5230769230769231,260,27,999,93874.28043853582,1786853397,999 trades — market-maker/scalper profile
 0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2,Mysaria,SCALPER,0,0,0,0,0.0,0,579,1000,0.0,1786425858,1000 trades — market-maker/scalper profile
 0xe6cff64f34937adc9cf886c988f8ad9af7c21b41,goodboya,NORMAL,0,0,0,0,0.0,0,6,24,0.0,1786779346,only 0 resolved markets — not enough history
 0xe88d4252391deb5f3b940722a5af742fc0d76a3a,,NORMAL,0,0,0,0,0.0,0,1,7,0.0,1786437087,only 0 resolved markets — not enough history
