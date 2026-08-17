@@ -1,4 +1,4 @@
-# polycopy status — 2026-08-17 05:11 UTC
+# polycopy status — 2026-08-17 06:02 UTC
 
 ## Qualified wallets
 ```
@@ -28,6 +28,11 @@ address                                      label              W   L    wr trad
     - low activity (32 trades)
     - meaningful stakes (avg $433/market)
     - geo/politics concentration 80%
+0xc62796d790c46a93f6511b112411f125714bcf54   INSIDER_SUSPECT   18   0  100%     82          625 *
+    - perfect record: 18W/0L
+    - low activity (82 trades)
+    - meaningful stakes (avg $1,911/market)
+    - late entries (median 2h before close)
 0xc1288413973a8e48a28b702c94450a6b1fc3d982   NEAR_PERFECT      35   1   97%     59          120 *
     - near-perfect: 97% over 55 resolved
     - low activity (59 trades)
@@ -82,7 +87,7 @@ s100        fills=  4 (closed 0, open 4) invested=$400 fees=$0.00 realized=$+0.0
 perfect100  fills= 23 (closed 18, open 5) invested=$2,300 fees=$0.00 realized=$-160.79 openMTM=$+0.83 total=$-159.96 (-7.0%) win 5/18
 
 == backtest fills ==
-s10         fills= 77 (closed 42, open 35) invested=$770 fees=$0.00 realized=$+10.83 openMTM=$-3.03 total=$+7.79 (+1.0%) win 34/42
-s100        fills= 77 (closed 42, open 35) invested=$7,700 fees=$0.00 realized=$+108.26 openMTM=$-30.34 total=$+77.92 (+1.0%) win 34/42
-perfect100  fills=488 (closed 432, open 56) invested=$48,800 fees=$0.00 realized=$-1,367.98 openMTM=$+26.08 total=$-1,341.89 (-2.7%) win 336/432
+s10         fills= 88 (closed 52, open 36) invested=$880 fees=$0.00 realized=$+20.60 openMTM=$-3.60 total=$+17.01 (+1.9%) win 44/52
+s100        fills= 88 (closed 52, open 36) invested=$8,800 fees=$0.00 realized=$+206.04 openMTM=$-35.98 total=$+170.06 (+1.9%) win 44/52
+perfect100  fills=499 (closed 442, open 57) invested=$49,900 fees=$0.00 realized=$-1,270.20 openMTM=$+22.88 total=$-1,247.32 (-2.5%) win 346/442
 ```
