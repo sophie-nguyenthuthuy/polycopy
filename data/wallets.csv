@@ -157,7 +157,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x03759e18cd1c9c7d43f25aa5783b3edf979ab4ca,Kashabasha,NORMAL,0,0,2,0,1.0,2,4,16,57.81996198927196,1786522989,only 2 resolved markets — not enough history
 0x03805a13a0b3e058f55f6c6af95389d4f431073d,donthackme,SCALPER,0,0,355,48,0.8808933002481389,434,785,3000,-284.65712105572493,1786909683,3000 trades — market-maker/scalper profile
 0x05374492e37f036fb751d708fe487aeca60b5b0f,Frigg,SCALPER,0,0,127,27,0.8246753246753247,154,9,1000,39750.61929824693,1786676885,1000 trades — market-maker/scalper profile
-0x06a059bcb4e617364f70dd37f1aea93a4d04397e,,NORMAL,0,0,0,0,0.0,0,1,1,0.0,1786869428,only 0 resolved markets — not enough history
+0x06a059bcb4e617364f70dd37f1aea93a4d04397e,,NORMAL,0,0,0,0,0.0,0,3,9,0.0,1787036199,only 0 resolved markets — not enough history
 0x076daa87c4fe1a85402a9b6b8e0a866224388d4c,,SCALPER,0,0,79,86,0.47878787878787876,165,156,1000,2842.8173668123977,1786426143,1000 trades — market-maker/scalper profile
 0x08c95f70b0565ee01fbb30705b61aa641616a2ef,ourdemocracy,SCALPER,0,0,296,45,0.8680351906158358,343,142,994,39197.64313878452,1786924129,994 trades — market-maker/scalper profile
 0x0bf840764ca2efac73ba45dbc67142fdd91403b2,Edwardkang3080,SCALPER,0,0,255,147,0.6343283582089553,402,12,1000,31335.2979919668,1786532764,1000 trades — market-maker/scalper profile
