@@ -253,6 +253,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x3c343aefac78ff1ff08093e06df52fc7a6b06fbd,,NORMAL,0,0,0,0,0.0,0,1,19,0.0,1786779344,only 0 resolved markets — not enough history
 0x3eae57986be5e0ca435102ffe1f14206ffa2e2ed,thoodr,SCALPER,0,0,164,8,0.9534883720930233,172,85,1000,65589.77789038292,1786804136,1000 trades — market-maker/scalper profile
 0x3f610edaf25db2fe296a5a0cbd0b58a0dc99e259,1231123123,SCALPER,0,0,346,57,0.858560794044665,407,15,999,73645.54191869097,1786908399,999 trades — market-maker/scalper profile
+0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9,Lolakis,SCALPER,0,0,91,24,0.7913043478260869,115,27,1000,20408.092960404094,1787202332,1000 trades — market-maker/scalper profile
 0x41583f2efc720b8e2682750fffb67f2806fece9f,Toncar16,SCALPER,0,0,88,91,0.49162011173184356,180,24,1000,35737.52840875037,1786963111,1000 trades — market-maker/scalper profile
 0x41b130e34adb4c82a2f30906af537821faaadcae,,NORMAL,0,0,0,0,0.0,0,29,31,0.0,1787157480,only 0 resolved markets — not enough history
 0x4478d7bd8a295691ac84f60a5ec2b47e122102a4,Warren-Buffett,SCALPER,0,0,221,55,0.8007246376811594,277,77,1006,64855.11995750367,1787067526,1006 trades — market-maker/scalper profile
