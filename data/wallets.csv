@@ -46,6 +46,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x4299c46d9164d1e84b8a99ac6e7f8da27c2110cc,0x4299c46d9164d1e84B8a99Ac6e7F8DA27C2110cC-1785148631380,NORMAL,4,0,30,28,0.5172413793103449,58,38,247,-240.58724997586802,1786869432,meaningful stakes (avg $669/market); buys uncertainty (median entry 0.40); geo/politics concentration 70%; late entries (median 11h before close)
 0x4369b0173f66efeddb57bc2f4c680632c9622441,AlwaysAWinner12,NORMAL,4,0,4,3,0.5714285714285714,7,1,17,-1025.4075670991763,1787225796,low activity (17 trades); meaningful stakes (avg $681/market); buys uncertainty (median entry 0.72); late entries (median 3h before close)
 0x43b9fb91a92b1f9c5aa6ea779f418b4e768d5db9,UntitledUser1,NORMAL,4,0,21,9,0.7,30,58,553,1894.5609700058221,1786561835,meaningful stakes (avg $843/market); buys uncertainty (median entry 0.63); geo/politics concentration 47%; late entries (median 0h before close)
+0x4892ff1a3e029d06f4a3fd65fb7a9460eab34442,CircusAP,NORMAL,4,0,10,7,0.5882352941176471,17,1,18,-726.4203369448151,1787299642,low activity (18 trades); meaningful stakes (avg $321/market); buys uncertainty (median entry 0.64); late entries (median 4h before close)
 0x49eaeca84633b706776c86955edae6ebfcae36cd,daccongbcr,NORMAL,4,0,15,6,0.7142857142857143,21,1,25,10212.201600096634,1786638430,low activity (25 trades); meaningful stakes (avg $704/market); buys uncertainty (median entry 0.57); late entries (median 4h before close)
 0x4ac4afdf41718ffa0a8da9c25d8ae6c1ae681a34,0xE803d29468a46F48FBEE7fAfF51f2b0D78f3Def0-1766707294864,NORMAL,4,0,16,15,0.5161290322580645,31,1,98,2472.006901154819,1786527812,low activity (98 trades); meaningful stakes (avg $725/market); buys uncertainty (median entry 0.47); late entries (median 3h before close)
 0x4ed7aa9b5c35130bd7ee098e9bc11c8351ad767e,C-Ride,NORMAL,4,0,35,34,0.5072463768115942,69,9,95,865.7839036606305,1786830559,low activity (95 trades); meaningful stakes (avg $928/market); buys uncertainty (median entry 0.45); geo/politics concentration 42%
@@ -414,7 +415,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xb8ad2849635c9ce413f1fdd2e7b364bbfafeff58,Rr55,SCALPER,0,0,307,62,0.8319783197831978,370,75,1000,55118.532782680704,1786821991,1000 trades — market-maker/scalper profile
 0xba38f6073ca6434b91e9969d66d2a17d6075f74d,ImAdUmDuM,SCALPER,0,0,206,196,0.5124378109452736,408,50,1000,10876.571497125675,1786963129,1000 trades — market-maker/scalper profile
 0xbacd00c9080a82ded56f504ee8810af732b0ab35,ScottyNooo,ARB,0,0,119,86,0.5804878048780487,205,36,1000,18011.613685621713,1786460980,holds both sides in 32% of markets
-0xbadb9af986ee66437bd39e6cd3d3036cbbdc31a7,0xBadB9af986EE66437BD39E6cd3D3036CbbDc31a,SCALPER,0,0,213,192,0.5259259259259259,405,24,1000,48838.81773030766,1787063971,1000 trades — market-maker/scalper profile
+0xbadb9af986ee66437bd39e6cd3d3036cbbdc31a7,0xBadB9af986EE66437BD39E6cd3D3036CbbDc31a,SCALPER,0,0,242,241,0.5010351966873706,483,27,1249,32128.28064997252,1787299654,1249 trades — market-maker/scalper profile
 0xbbba4b915d4b5c7b15a59ff905d5c760990fac2d,Resignation,SCALPER,0,0,460,19,0.9603340292275574,480,4,1000,15082.936490257125,1787235018,1000 trades — market-maker/scalper profile
 0xbbe51e42fe8dfdc5816fe3b16ac4ad82a85f9728,troopers21,NORMAL,0,0,0,0,0.0,0,1,1,0.0,1786909685,only 0 resolved markets — not enough history
 0xbc0c38a9c217843b79499fd4d4ac1a04fd4cdac0,ZEST011,SCALPER,0,0,253,73,0.7760736196319018,326,6,1000,17600.95157001252,1786913587,1000 trades — market-maker/scalper profile
@@ -506,6 +507,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xf64e4932a8ef1dd3c45e8b1f675f630f0763a1dd,zhong333,ARB,0,0,46,20,0.696969696969697,66,5,1443,58398.29354130299,1786890569,holds both sides in 97% of markets
 0xf68a281980f8c13828e84e147e3822381d6e5b1b,Nooserac,SCALPER,0,0,412,284,0.5919540229885057,696,47,999,47826.57271007923,1786426288,999 trades — market-maker/scalper profile
 0xf6c6a84c86372f2f3b8a2292e533e8a474a40eca,0xF6c6A8,NORMAL,0,0,0,0,0.0,0,84,149,0.0,1786908465,only 0 resolved markets — not enough history
+0xf6f2dc0dc941ee5440a017b03b8f1a37de6fb422,MathPsycho,SCALPER,0,0,192,201,0.48854961832061067,395,35,1000,-8643.379399517333,1787299650,1000 trades — market-maker/scalper profile
 0xf92a950992181e21874dd1b36c7e5666c443a517,nedsta,SCALPER,0,0,168,7,0.96,175,36,1000,43781.520765649046,1786943455,1000 trades — market-maker/scalper profile
 0xf954be3020a40c3609ea27459fd6a722714a9f60,0xf954bE,NORMAL,0,0,0,0,0.0,0,98,242,0.0,1786980681,only 0 resolved markets — not enough history
 0xf9b71663d723d28fa455db659098e1dacde860a4,siick,SCALPER,0,0,217,146,0.5977961432506887,364,90,1000,123535.69041750566,1786598363,1000 trades — market-maker/scalper profile
