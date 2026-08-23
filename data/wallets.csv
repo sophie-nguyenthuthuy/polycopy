@@ -220,6 +220,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x84eeecd1b7e901ca0f3c36842f9f7a44301564b4,BERICHING,NORMAL,2,0,120,59,0.6703910614525139,179,3,322,-743.7873468087785,1786765682,buys uncertainty (median entry 0.68); late entries (median 4h before close)
 0x9765b5ff568c548d1620ef99ddd9d290ede1436b,byteA,NORMAL,2,0,63,16,0.7974683544303798,79,14,173,2677.253005157974,1786616117,low activity (173 trades); meaningful stakes (avg $583/market)
 0x9b0b60aa0a1df93202f996860342fd5607815e43,Irboz-sama,NORMAL,2,0,165,38,0.812807881773399,213,21,408,35552.53553654051,1787261660,meaningful stakes (avg $512/market); late entries (median 37h before close)
+0xa0926fbc4a90e29e479b459ef92a147ebe5b11e3,G.laila,NORMAL,2,0,157,46,0.7733990147783252,203,7,458,35945.80239429555,1787468088,"meaningful stakes (avg $1,396/market); late entries (median 5h before close)"
 0xa1ed2ae1eaaa057b6d09204cbb0808ef78a4e774,NefariousX,NORMAL,2,0,64,21,0.7529411764705882,85,5,327,14477.51193704751,1787323327,"meaningful stakes (avg $4,254/market); geo/politics concentration 71%"
 0xa33d7104059352d748d0e38546c4aeaed112eabe,XVHJSGD,NORMAL,2,0,33,48,0.4074074074074074,82,87,502,3931.4783729287806,1786793194,"meaningful stakes (avg $1,902/market); geo/politics concentration 44%"
 0xecc90c67e3100ce7e7e33f6c641a03237fe55f71,0xeCc90C67E3100ce7e7E33F6c641A03237FE55f71-1770624266352,NORMAL,2,0,257,64,0.8006230529595015,322,3,712,44543.17755208009,1786561830,buys uncertainty (median entry 0.56); late entries (median 0h before close)
@@ -462,7 +463,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xafe4272b4fb0bcc1d734ee2cdec3e78cdc94f3f7,QuentinChen,SCALPER,0,0,210,204,0.5072463768115942,414,1,941,212675.06188146007,1786426309,941 trades — market-maker/scalper profile
 0xb077e7482c6bea18f75e33bf823cbbe59cda8fe8,0xNuttawut,SCALPER,0,0,202,192,0.5126903553299492,394,1,1039,120264.21407711456,1786909707,1039 trades — market-maker/scalper profile
 0xb0c85813a7a4428f1139ff91d3118a92c391fe7f,jump-trading-with-80pct-taker-rebate,SCALPER,0,0,311,52,0.8567493112947658,397,569,2000,327.16522901674966,1787416387,2000 trades — market-maker/scalper profile
-0xb1ca909e848cc24ec4e220ce1c453bc290c51705,abdkxrhxr,SCALPER,0,0,104,41,0.7172413793103448,145,687,1120,60124.656639299224,1786779423,1120 trades — market-maker/scalper profile
+0xb1ca909e848cc24ec4e220ce1c453bc290c51705,abdkxrhxr,SCALPER,0,0,139,74,0.6525821596244131,213,962,1590,65371.886139886796,1787468149,1590 trades — market-maker/scalper profile
 0xb1dbca8782dda416f2327252d0c7ede9d00ec0af,wtf99999,SCALPER,0,0,225,75,0.75,301,29,1000,-4826.093750427299,1787421033,1000 trades — market-maker/scalper profile
 0xb2cbf3389906f0cadb8d727bc166cfcc818b2bad,695,SCALPER,0,0,465,4,0.9914712153518124,489,71,999,435396.4090827683,1786908426,999 trades — market-maker/scalper profile
 0xb36fb851c72e6da93884f97801c17cefc02053d0,yokinok0,SCALPER,0,0,260,241,0.5189620758483033,501,6,1000,-596.305700824912,1787178654,1000 trades — market-maker/scalper profile
