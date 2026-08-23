@@ -233,6 +233,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xa0926fbc4a90e29e479b459ef92a147ebe5b11e3,G.laila,NORMAL,2,0,157,46,0.7733990147783252,203,7,458,35945.80239429555,1787468088,"meaningful stakes (avg $1,396/market); late entries (median 5h before close)"
 0xa1ed2ae1eaaa057b6d09204cbb0808ef78a4e774,NefariousX,NORMAL,2,0,64,21,0.7529411764705882,85,5,327,14477.51193704751,1787323327,"meaningful stakes (avg $4,254/market); geo/politics concentration 71%"
 0xa33d7104059352d748d0e38546c4aeaed112eabe,XVHJSGD,NORMAL,2,0,33,48,0.4074074074074074,82,87,502,3931.4783729287806,1786793194,"meaningful stakes (avg $1,902/market); geo/politics concentration 44%"
+0xd20edcca8618ac8fd0c6bcc6d3b880656500b050,essence19910705,NORMAL,2,0,38,18,0.6785714285714286,56,25,719,1928.0590051159381,1787524117,meaningful stakes (avg $830/market); geo/politics concentration 62%
 0xecc90c67e3100ce7e7e33f6c641a03237fe55f71,0xeCc90C67E3100ce7e7E33F6c641A03237FE55f71-1770624266352,NORMAL,2,0,257,64,0.8006230529595015,322,3,712,44543.17755208009,1786561830,buys uncertainty (median entry 0.56); late entries (median 0h before close)
 0x000d257d2dc7616feaef4ae0f14600fdf50a758e,scottilicious,SCALPER,0,0,197,26,0.8834080717488789,223,47,1000,839687.3663351029,1787517035,1000 trades — market-maker/scalper profile
 0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2,TommyLeePeeca,ARB,0,0,189,74,0.7186311787072244,263,2,10581,85754.44466702723,1787510298,holds both sides in 86% of markets
