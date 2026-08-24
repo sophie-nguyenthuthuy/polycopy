@@ -508,6 +508,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xb6ce76828a51b382f7e88cbb9baa0f03f9c17a7d,black-rabbit,ARB,0,0,288,167,0.6329670329670329,456,2,2061,102395.4600689585,1787333736,holds both sides in 52% of markets
 0xb78610d4b8c46f8c64f7c0b10c391027e5a308f2,,NORMAL,0,0,0,0,0.0,0,3,4,0.0,1787183539,only 0 resolved markets — not enough history
 0xb7b3ed1c02a77a200b600ac407747be2f3b79573,cuti,SCALPER,0,0,233,133,0.6366120218579235,368,47,1000,27641.147250014306,1787485813,1000 trades — market-maker/scalper profile
+0xb82b4205cefecb1a3281c4b94f9397681c9d730e,Vipine,NORMAL,0,0,1,1,0.5,2,7,13,-467.736886972292,1787576524,only 2 resolved markets — not enough history
 0xb8ad2849635c9ce413f1fdd2e7b364bbfafeff58,Rr55,SCALPER,0,0,307,62,0.8319783197831978,370,75,1000,55118.532782680704,1786821991,1000 trades — market-maker/scalper profile
 0xba38f6073ca6434b91e9969d66d2a17d6075f74d,ImAdUmDuM,SCALPER,0,0,206,196,0.5124378109452736,408,50,1000,10876.571497125675,1786963129,1000 trades — market-maker/scalper profile
 0xbaac4adee9e1b1eff4097ab2e2cc5a25ba22ff10,roverpredicts,SCALPER,0,0,348,126,0.7341772151898734,474,5,1000,73372.59765424734,1787419617,1000 trades — market-maker/scalper profile
@@ -573,6 +574,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xdfee1d79b4384ca40109c87c8b5027df33a364bb,User175,SCALPER,0,0,136,124,0.5230769230769231,260,27,999,93874.28043853582,1786853397,999 trades — market-maker/scalper profile
 0xe0365eb2c28789e787b2a4c993ff845c49f0511a,e333e,NORMAL,0,0,0,0,0.0,0,51,172,0.0,1787405805,only 0 resolved markets — not enough history
 0xe0a2f29b1fadb2259111bbeca392d3805ec4a349,Marty-Byrde,SCALPER,0,0,171,28,0.8592964824120602,199,160,1000,64317.30177025651,1787071142,1000 trades — market-maker/scalper profile
+0xe0e91d9fe7fe7223658d676dc9971779213e8b01,,NORMAL,0,0,0,0,0.0,0,1,25,0.0,1787576526,only 0 resolved markets — not enough history
 0xe234959595e01dacd391a9502a6ad0edf4e3304a,0x701187150980c2421bc3c87a74dbdef31d75c6c,SCALPER,0,0,34,35,0.4927536231884058,69,54,1000,41776.34413946991,1787261665,1000 trades — market-maker/scalper profile
 0xe36296a42555b95e95880412387e954d84b0bd00,SnowballHustle,SCALPER,0,0,100,73,0.5780346820809249,174,17,1000,22682.813781600744,1787183548,1000 trades — market-maker/scalper profile
 0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2,Mysaria,SCALPER,0,0,0,0,0.0,0,579,1000,0.0,1786425858,1000 trades — market-maker/scalper profile
