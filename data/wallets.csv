@@ -652,7 +652,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xf59ca5004f511b67d21226f2eb0fe0786f849f3f,Parishs,NORMAL,0,0,4,0,1.0,4,7,13,782.8299999999999,1786432671,only 4 resolved markets — not enough history
 0xf64e4932a8ef1dd3c45e8b1f675f630f0763a1dd,zhong333,ARB,0,0,46,20,0.696969696969697,66,5,1443,58398.29354130299,1786890569,holds both sides in 97% of markets
 0xf68a281980f8c13828e84e147e3822381d6e5b1b,Nooserac,SCALPER,0,0,412,284,0.5919540229885057,696,47,999,47826.57271007923,1786426288,999 trades — market-maker/scalper profile
-0xf68d5c2db9ca5d9c5e5f65e11a3346ffa938a9b1,,NORMAL,0,0,0,0,0.0,0,4,8,0.0,1787720823,only 0 resolved markets — not enough history
+0xf68d5c2db9ca5d9c5e5f65e11a3346ffa938a9b1,,NORMAL,0,0,0,0,0.0,0,4,8,0.0,1787724082,only 0 resolved markets — not enough history
 0xf6c6a84c86372f2f3b8a2292e533e8a474a40eca,0xF6c6A8,NORMAL,0,0,0,0,0.0,0,84,149,0.0,1786908465,only 0 resolved markets — not enough history
 0xf6f2dc0dc941ee5440a017b03b8f1a37de6fb422,MathPsycho,SCALPER,0,0,192,201,0.48854961832061067,395,35,1000,-8643.379399517333,1787299650,1000 trades — market-maker/scalper profile
 0xf92a950992181e21874dd1b36c7e5666c443a517,nedsta,SCALPER,0,0,168,7,0.96,175,36,1000,43781.520765649046,1786943455,1000 trades — market-maker/scalper profile
