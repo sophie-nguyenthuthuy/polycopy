@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-01 20:08 UTC
+# polycopy status — 2026-09-01 22:46 UTC
 
 ## Qualified wallets
 ```
@@ -207,12 +207,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills= 83 (closed 62, open 21) invested=$830 fees=$0.00 realized=$-79.69 openMTM=$+7.38 total=$-72.31 (-8.7%) win 38/62
-s100        fills= 83 (closed 62, open 21) invested=$8,300 fees=$0.00 realized=$-806.79 openMTM=$+53.40 total=$-753.39 (-9.1%) win 38/62
-perfect100  fills=189 (closed 147, open 42) invested=$18,900 fees=$0.00 realized=$-806.52 openMTM=$+3.16 total=$-803.36 (-4.3%) win 105/147
+s10         fills= 83 (closed 63, open 20) invested=$830 fees=$0.00 realized=$-79.10 openMTM=$+7.09 total=$-72.01 (-8.7%) win 39/63
+s100        fills= 83 (closed 63, open 20) invested=$8,300 fees=$0.00 realized=$-800.94 openMTM=$+50.27 total=$-750.67 (-9.0%) win 39/63
+perfect100  fills=189 (closed 148, open 41) invested=$18,900 fees=$0.00 realized=$-800.67 openMTM=$-2.48 total=$-803.15 (-4.2%) win 106/148
 
 == backtest fills ==
-s10         fills=333 (closed 239, open 94) invested=$3,330 fees=$0.00 realized=$+99.35 openMTM=$+18.17 total=$+117.52 (+3.5%) win 186/239
-s100        fills=333 (closed 239, open 94) invested=$33,300 fees=$0.00 realized=$+993.47 openMTM=$+181.72 total=$+1,175.19 (+3.5%) win 186/239
-perfect100  fills=1449 (closed 1246, open 203) invested=$144,900 fees=$0.00 realized=$-444.58 openMTM=$+1,458.15 total=$+1,013.57 (+0.7%) win 981/1246
+s10         fills=333 (closed 240, open 93) invested=$3,330 fees=$0.00 realized=$+99.36 openMTM=$+19.07 total=$+118.43 (+3.6%) win 187/240
+s100        fills=333 (closed 240, open 93) invested=$33,300 fees=$0.00 realized=$+993.59 openMTM=$+190.72 total=$+1,184.32 (+3.6%) win 187/240
+perfect100  fills=1449 (closed 1249, open 200) invested=$144,900 fees=$0.00 realized=$-438.05 openMTM=$+1,453.21 total=$+1,015.17 (+0.7%) win 984/1249
 ```
