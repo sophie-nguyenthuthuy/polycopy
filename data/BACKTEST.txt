@@ -1,5 +1,5 @@
 Backtest (entries at trader price +150bps adverse, exits on trader sell/resolution):
 
-s10         fills=372 (closed 290, open 82) invested=$3,720 fees=$0.00 realized=$+109.37 openMTM=$+13.64 total=$+123.00 (+3.3%) win 223/290
-s100        fills=372 (closed 290, open 82) invested=$37,200 fees=$0.00 realized=$+1,093.69 openMTM=$+136.36 total=$+1,230.05 (+3.3%) win 223/290
-perfect100  fills=1608 (closed 1384, open 224) invested=$160,800 fees=$0.00 realized=$-526.80 openMTM=$+1,256.28 total=$+729.49 (+0.5%) win 1092/1384
+s10         fills=372 (closed 290, open 82) invested=$3,720 fees=$0.00 realized=$+109.37 openMTM=$+11.96 total=$+121.33 (+3.3%) win 223/290
+s100        fills=372 (closed 290, open 82) invested=$37,200 fees=$0.00 realized=$+1,093.69 openMTM=$+119.63 total=$+1,213.32 (+3.3%) win 223/290
+perfect100  fills=1611 (closed 1385, open 226) invested=$161,100 fees=$0.00 realized=$-520.97 openMTM=$+1,260.19 total=$+739.21 (+0.5%) win 1093/1385
