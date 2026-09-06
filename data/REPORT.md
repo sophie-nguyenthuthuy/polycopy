@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-06 05:00 UTC
+# polycopy status — 2026-09-06 09:20 UTC
 
 ## Qualified wallets
 ```
@@ -211,12 +211,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=136 (closed 123, open 13) invested=$1,360 fees=$0.00 realized=$-148.74 openMTM=$+4.76 total=$-143.98 (-10.6%) win 79/123
-s100        fills=136 (closed 123, open 13) invested=$13,600 fees=$0.00 realized=$-1,504.02 openMTM=$+28.18 total=$-1,475.84 (-10.9%) win 79/123
-perfect100  fills=284 (closed 241, open 43) invested=$28,400 fees=$0.00 realized=$-1,621.75 openMTM=$-8.25 total=$-1,630.00 (-5.7%) win 176/241
+s10         fills=136 (closed 123, open 13) invested=$1,360 fees=$0.00 realized=$-148.74 openMTM=$+5.89 total=$-142.85 (-10.5%) win 79/123
+s100        fills=136 (closed 123, open 13) invested=$13,600 fees=$0.00 realized=$-1,504.02 openMTM=$+39.18 total=$-1,464.84 (-10.8%) win 79/123
+perfect100  fills=286 (closed 241, open 45) invested=$28,600 fees=$0.00 realized=$-1,621.75 openMTM=$-1.41 total=$-1,623.17 (-5.7%) win 176/241
 
 == backtest fills ==
-s10         fills=385 (closed 306, open 79) invested=$3,850 fees=$0.00 realized=$+29.48 openMTM=$+8.90 total=$+38.38 (+1.0%) win 230/306
-s100        fills=385 (closed 306, open 79) invested=$38,500 fees=$0.00 realized=$+294.77 openMTM=$+89.01 total=$+383.79 (+1.0%) win 230/306
-perfect100  fills=1638 (closed 1420, open 218) invested=$163,800 fees=$0.00 realized=$-1,322.91 openMTM=$+1,165.11 total=$-157.81 (-0.1%) win 1118/1420
+s10         fills=385 (closed 306, open 79) invested=$3,850 fees=$0.00 realized=$+29.48 openMTM=$+11.06 total=$+40.54 (+1.1%) win 230/306
+s100        fills=385 (closed 306, open 79) invested=$38,500 fees=$0.00 realized=$+294.77 openMTM=$+110.64 total=$+405.41 (+1.1%) win 230/306
+perfect100  fills=1640 (closed 1421, open 219) invested=$164,000 fees=$0.00 realized=$-1,320.34 openMTM=$+1,191.52 total=$-128.81 (-0.1%) win 1119/1421
 ```
