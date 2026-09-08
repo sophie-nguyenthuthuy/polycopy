@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-07 21:45 UTC
+# polycopy status — 2026-09-08 00:08 UTC
 
 ## Qualified wallets
 ```
@@ -211,12 +211,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=139 (closed 124, open 15) invested=$1,390 fees=$0.00 realized=$-140.32 openMTM=$+1.59 total=$-138.72 (-10.0%) win 80/124
-s100        fills=139 (closed 124, open 15) invested=$13,900 fees=$0.00 realized=$-1,419.75 openMTM=$-3.80 total=$-1,423.56 (-10.2%) win 80/124
-perfect100  fills=308 (closed 259, open 49) invested=$30,800 fees=$0.00 realized=$-1,442.27 openMTM=$-127.69 total=$-1,569.97 (-5.1%) win 194/259
+s10         fills=139 (closed 125, open 14) invested=$1,390 fees=$0.00 realized=$-150.32 openMTM=$+5.08 total=$-145.24 (-10.4%) win 80/125
+s100        fills=139 (closed 125, open 14) invested=$13,900 fees=$0.00 realized=$-1,519.75 openMTM=$+31.07 total=$-1,488.68 (-10.7%) win 80/125
+perfect100  fills=308 (closed 260, open 48) invested=$30,800 fees=$0.00 realized=$-1,542.27 openMTM=$-86.17 total=$-1,628.45 (-5.3%) win 194/260
 
 == backtest fills ==
-s10         fills=388 (closed 307, open 81) invested=$3,880 fees=$0.00 realized=$+37.72 openMTM=$+8.76 total=$+46.48 (+1.2%) win 231/307
-s100        fills=388 (closed 307, open 81) invested=$38,800 fees=$0.00 realized=$+377.22 openMTM=$+87.60 total=$+464.82 (+1.2%) win 231/307
-perfect100  fills=1662 (closed 1439, open 223) invested=$166,200 fees=$0.00 realized=$-1,164.79 openMTM=$+1,100.01 total=$-64.78 (-0.0%) win 1137/1439
+s10         fills=388 (closed 307, open 81) invested=$3,880 fees=$0.00 realized=$+37.72 openMTM=$+2.38 total=$+40.11 (+1.0%) win 231/307
+s100        fills=388 (closed 307, open 81) invested=$38,800 fees=$0.00 realized=$+377.22 openMTM=$+23.84 total=$+401.06 (+1.0%) win 231/307
+perfect100  fills=1662 (closed 1439, open 223) invested=$166,200 fees=$0.00 realized=$-1,164.79 openMTM=$+1,068.24 total=$-96.55 (-0.1%) win 1137/1439
 ```
