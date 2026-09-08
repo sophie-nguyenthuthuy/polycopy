@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-08 21:23 UTC
+# polycopy status — 2026-09-08 23:36 UTC
 
 ## Qualified wallets
 ```
@@ -211,12 +211,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=143 (closed 129, open 14) invested=$1,430 fees=$0.00 realized=$-147.51 openMTM=$+4.03 total=$-143.48 (-10.0%) win 83/129
-s100        fills=143 (closed 129, open 14) invested=$14,300 fees=$0.00 realized=$-1,496.07 openMTM=$+15.16 total=$-1,480.91 (-10.4%) win 83/129
-perfect100  fills=319 (closed 269, open 50) invested=$31,900 fees=$0.00 realized=$-1,445.34 openMTM=$-120.34 total=$-1,565.68 (-4.9%) win 202/269
+s10         fills=143 (closed 129, open 14) invested=$1,430 fees=$0.00 realized=$-147.51 openMTM=$+4.45 total=$-143.06 (-10.0%) win 83/129
+s100        fills=143 (closed 129, open 14) invested=$14,300 fees=$0.00 realized=$-1,496.07 openMTM=$+19.15 total=$-1,476.92 (-10.3%) win 83/129
+perfect100  fills=320 (closed 269, open 51) invested=$32,000 fees=$0.00 realized=$-1,445.34 openMTM=$-103.45 total=$-1,548.79 (-4.8%) win 202/269
 
 == backtest fills ==
-s10         fills=391 (closed 312, open 79) invested=$3,910 fees=$0.00 realized=$+38.23 openMTM=$+14.10 total=$+52.34 (+1.3%) win 234/312
-s100        fills=391 (closed 312, open 79) invested=$39,100 fees=$0.00 realized=$+382.33 openMTM=$+141.02 total=$+523.35 (+1.3%) win 234/312
-perfect100  fills=1672 (closed 1449, open 223) invested=$167,200 fees=$0.00 realized=$-1,106.72 openMTM=$+1,208.36 total=$+101.64 (+0.1%) win 1145/1449
+s10         fills=391 (closed 312, open 79) invested=$3,910 fees=$0.00 realized=$+38.23 openMTM=$+15.10 total=$+53.33 (+1.4%) win 234/312
+s100        fills=391 (closed 312, open 79) invested=$39,100 fees=$0.00 realized=$+382.33 openMTM=$+151.00 total=$+533.34 (+1.4%) win 234/312
+perfect100  fills=1673 (closed 1450, open 223) invested=$167,300 fees=$0.00 realized=$-1,100.67 openMTM=$+1,203.57 total=$+102.89 (+0.1%) win 1146/1450
 ```
