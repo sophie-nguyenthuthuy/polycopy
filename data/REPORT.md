@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-09 20:49 UTC
+# polycopy status — 2026-09-09 23:08 UTC
 
 ## Qualified wallets
 ```
@@ -211,12 +211,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=146 (closed 131, open 15) invested=$1,460 fees=$0.00 realized=$-157.50 openMTM=$+4.76 total=$-152.74 (-10.5%) win 84/131
-s100        fills=146 (closed 131, open 15) invested=$14,600 fees=$0.00 realized=$-1,595.97 openMTM=$+21.80 total=$-1,574.17 (-10.8%) win 84/131
-perfect100  fills=333 (closed 277, open 56) invested=$33,300 fees=$0.00 realized=$-1,736.99 openMTM=$-109.86 total=$-1,846.85 (-5.5%) win 207/277
+s10         fills=146 (closed 131, open 15) invested=$1,460 fees=$0.00 realized=$-157.50 openMTM=$+5.20 total=$-152.30 (-10.4%) win 84/131
+s100        fills=146 (closed 131, open 15) invested=$14,600 fees=$0.00 realized=$-1,595.97 openMTM=$+26.20 total=$-1,569.76 (-10.8%) win 84/131
+perfect100  fills=334 (closed 279, open 55) invested=$33,400 fees=$0.00 realized=$-1,730.14 openMTM=$-101.65 total=$-1,831.80 (-5.5%) win 209/279
 
 == backtest fills ==
-s10         fills=393 (closed 313, open 80) invested=$3,930 fees=$0.00 realized=$+38.30 openMTM=$+14.86 total=$+53.16 (+1.4%) win 235/313
-s100        fills=393 (closed 313, open 80) invested=$39,300 fees=$0.00 realized=$+382.96 openMTM=$+148.64 total=$+531.60 (+1.4%) win 235/313
-perfect100  fills=1682 (closed 1458, open 224) invested=$168,200 fees=$0.00 realized=$-1,286.35 openMTM=$+1,255.97 total=$-30.38 (-0.0%) win 1152/1458
+s10         fills=393 (closed 313, open 80) invested=$3,930 fees=$0.00 realized=$+38.30 openMTM=$+16.05 total=$+54.34 (+1.4%) win 235/313
+s100        fills=393 (closed 313, open 80) invested=$39,300 fees=$0.00 realized=$+382.96 openMTM=$+160.45 total=$+543.41 (+1.4%) win 235/313
+perfect100  fills=1683 (closed 1459, open 224) invested=$168,300 fees=$0.00 realized=$-1,284.17 openMTM=$+1,295.38 total=$+11.20 (+0.0%) win 1153/1459
 ```
