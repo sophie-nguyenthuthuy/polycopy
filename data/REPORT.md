@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-08 23:36 UTC
+# polycopy status — 2026-09-09 04:15 UTC
 
 ## Qualified wallets
 ```
@@ -211,12 +211,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=143 (closed 129, open 14) invested=$1,430 fees=$0.00 realized=$-147.51 openMTM=$+4.45 total=$-143.06 (-10.0%) win 83/129
-s100        fills=143 (closed 129, open 14) invested=$14,300 fees=$0.00 realized=$-1,496.07 openMTM=$+19.15 total=$-1,476.92 (-10.3%) win 83/129
-perfect100  fills=320 (closed 269, open 51) invested=$32,000 fees=$0.00 realized=$-1,445.34 openMTM=$-103.45 total=$-1,548.79 (-4.8%) win 202/269
+s10         fills=144 (closed 129, open 15) invested=$1,440 fees=$0.00 realized=$-147.51 openMTM=$+4.32 total=$-143.18 (-9.9%) win 83/129
+s100        fills=144 (closed 129, open 15) invested=$14,400 fees=$0.00 realized=$-1,496.07 openMTM=$+18.11 total=$-1,477.96 (-10.3%) win 83/129
+perfect100  fills=321 (closed 270, open 51) invested=$32,100 fees=$0.00 realized=$-1,443.89 openMTM=$-91.54 total=$-1,535.43 (-4.8%) win 203/270
 
 == backtest fills ==
-s10         fills=391 (closed 312, open 79) invested=$3,910 fees=$0.00 realized=$+38.23 openMTM=$+15.10 total=$+53.33 (+1.4%) win 234/312
-s100        fills=391 (closed 312, open 79) invested=$39,100 fees=$0.00 realized=$+382.33 openMTM=$+151.00 total=$+533.34 (+1.4%) win 234/312
-perfect100  fills=1673 (closed 1450, open 223) invested=$167,300 fees=$0.00 realized=$-1,100.67 openMTM=$+1,203.57 total=$+102.89 (+0.1%) win 1146/1450
+s10         fills=392 (closed 312, open 80) invested=$3,920 fees=$0.00 realized=$+38.23 openMTM=$+15.72 total=$+53.96 (+1.4%) win 234/312
+s100        fills=392 (closed 312, open 80) invested=$39,200 fees=$0.00 realized=$+382.33 openMTM=$+157.22 total=$+539.55 (+1.4%) win 234/312
+perfect100  fills=1674 (closed 1450, open 224) invested=$167,400 fees=$0.00 realized=$-1,100.67 openMTM=$+1,223.81 total=$+123.14 (+0.1%) win 1146/1450
 ```
