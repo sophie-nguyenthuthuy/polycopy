@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-11 00:26 UTC
+# polycopy status — 2026-09-11 05:06 UTC
 
 ## Qualified wallets
 ```
@@ -216,12 +216,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=153 (closed 136, open 17) invested=$1,530 fees=$0.00 realized=$-155.23 openMTM=$+6.84 total=$-148.40 (-9.7%) win 88/136
-s100        fills=153 (closed 136, open 17) invested=$15,300 fees=$0.00 realized=$-1,573.33 openMTM=$+40.38 total=$-1,532.95 (-10.0%) win 88/136
-perfect100  fills=354 (closed 291, open 63) invested=$35,400 fees=$0.00 realized=$-1,692.50 openMTM=$-142.93 total=$-1,835.43 (-5.2%) win 218/291
+s10         fills=153 (closed 138, open 15) invested=$1,530 fees=$0.00 realized=$-161.02 openMTM=$+9.09 total=$-151.93 (-9.9%) win 89/138
+s100        fills=153 (closed 138, open 15) invested=$15,300 fees=$0.00 realized=$-1,631.18 openMTM=$+69.18 total=$-1,562.00 (-10.2%) win 89/138
+perfect100  fills=354 (closed 296, open 58) invested=$35,400 fees=$0.00 realized=$-1,847.40 openMTM=$-109.19 total=$-1,956.59 (-5.5%) win 221/296
 
 == backtest fills ==
-s10         fills=404 (closed 322, open 82) invested=$4,040 fees=$0.00 realized=$+64.82 openMTM=$+16.58 total=$+81.40 (+2.0%) win 242/322
-s100        fills=404 (closed 322, open 82) invested=$40,400 fees=$0.00 realized=$+648.17 openMTM=$+165.80 total=$+813.97 (+2.0%) win 242/322
-perfect100  fills=1707 (closed 1478, open 229) invested=$170,700 fees=$0.00 realized=$-1,009.67 openMTM=$+1,183.05 total=$+173.38 (+0.1%) win 1166/1478
+s10         fills=404 (closed 322, open 82) invested=$4,040 fees=$0.00 realized=$+64.82 openMTM=$+16.82 total=$+81.64 (+2.0%) win 242/322
+s100        fills=404 (closed 322, open 82) invested=$40,400 fees=$0.00 realized=$+648.17 openMTM=$+168.21 total=$+816.38 (+2.0%) win 242/322
+perfect100  fills=1707 (closed 1478, open 229) invested=$170,700 fees=$0.00 realized=$-1,009.67 openMTM=$+1,185.97 total=$+176.29 (+0.1%) win 1166/1478
 ```
