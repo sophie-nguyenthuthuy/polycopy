@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-11 09:59 UTC
+# polycopy status — 2026-09-11 14:19 UTC
 
 ## Qualified wallets
 ```
@@ -216,12 +216,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=153 (closed 138, open 15) invested=$1,530 fees=$0.00 realized=$-161.02 openMTM=$+8.75 total=$-152.27 (-10.0%) win 89/138
-s100        fills=153 (closed 138, open 15) invested=$15,300 fees=$0.00 realized=$-1,631.18 openMTM=$+65.78 total=$-1,565.40 (-10.2%) win 89/138
-perfect100  fills=355 (closed 297, open 58) invested=$35,500 fees=$0.00 realized=$-1,843.06 openMTM=$-88.92 total=$-1,931.98 (-5.4%) win 222/297
+s10         fills=154 (closed 138, open 16) invested=$1,540 fees=$0.00 realized=$-161.02 openMTM=$+11.79 total=$-149.23 (-9.7%) win 89/138
+s100        fills=154 (closed 138, open 16) invested=$15,400 fees=$0.00 realized=$-1,631.18 openMTM=$+96.14 total=$-1,535.04 (-10.0%) win 89/138
+perfect100  fills=357 (closed 299, open 58) invested=$35,700 fees=$0.00 realized=$-1,837.67 openMTM=$-41.32 total=$-1,878.99 (-5.3%) win 224/299
 
 == backtest fills ==
-s10         fills=404 (closed 323, open 81) invested=$4,040 fees=$0.00 realized=$+69.10 openMTM=$+14.96 total=$+84.05 (+2.1%) win 243/323
-s100        fills=404 (closed 323, open 81) invested=$40,400 fees=$0.00 realized=$+690.96 openMTM=$+149.59 total=$+840.55 (+2.1%) win 243/323
-perfect100  fills=1708 (closed 1482, open 226) invested=$170,800 fees=$0.00 realized=$-1,065.93 openMTM=$+1,288.57 total=$+222.64 (+0.1%) win 1169/1482
+s10         fills=405 (closed 323, open 82) invested=$4,050 fees=$0.00 realized=$+69.10 openMTM=$+15.46 total=$+84.56 (+2.1%) win 243/323
+s100        fills=405 (closed 323, open 82) invested=$40,500 fees=$0.00 realized=$+690.96 openMTM=$+154.62 total=$+845.57 (+2.1%) win 243/323
+perfect100  fills=1710 (closed 1484, open 226) invested=$171,000 fees=$0.00 realized=$-1,040.90 openMTM=$+1,257.40 total=$+216.50 (+0.1%) win 1170/1484
 ```
