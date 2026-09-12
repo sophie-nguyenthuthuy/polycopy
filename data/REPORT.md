@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-12 01:27 UTC
+# polycopy status — 2026-09-12 06:26 UTC
 
 ## Qualified wallets
 ```
@@ -221,12 +221,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=155 (closed 138, open 17) invested=$1,550 fees=$0.00 realized=$-161.02 openMTM=$+11.06 total=$-149.96 (-9.7%) win 89/138
-s100        fills=155 (closed 138, open 17) invested=$15,500 fees=$0.00 realized=$-1,631.18 openMTM=$+88.84 total=$-1,542.34 (-10.0%) win 89/138
-perfect100  fills=362 (closed 300, open 62) invested=$36,200 fees=$0.00 realized=$-1,836.56 openMTM=$-84.38 total=$-1,920.94 (-5.3%) win 225/300
+s10         fills=155 (closed 138, open 17) invested=$1,550 fees=$0.00 realized=$-161.02 openMTM=$+10.94 total=$-150.08 (-9.7%) win 89/138
+s100        fills=155 (closed 138, open 17) invested=$15,500 fees=$0.00 realized=$-1,631.18 openMTM=$+87.05 total=$-1,544.13 (-10.0%) win 89/138
+perfect100  fills=366 (closed 302, open 64) invested=$36,600 fees=$0.00 realized=$-1,830.90 openMTM=$-102.10 total=$-1,933.01 (-5.3%) win 227/302
 
 == backtest fills ==
-s10         fills=406 (closed 323, open 83) invested=$4,060 fees=$0.00 realized=$+69.10 openMTM=$+19.81 total=$+88.90 (+2.2%) win 243/323
-s100        fills=406 (closed 323, open 83) invested=$40,600 fees=$0.00 realized=$+690.96 openMTM=$+198.06 total=$+889.02 (+2.2%) win 243/323
-perfect100  fills=1925 (closed 1693, open 232) invested=$192,500 fees=$0.00 realized=$+143.36 openMTM=$+1,306.03 total=$+1,449.39 (+0.8%) win 1374/1693
+s10         fills=406 (closed 323, open 83) invested=$4,060 fees=$0.00 realized=$+69.10 openMTM=$+18.39 total=$+87.48 (+2.2%) win 243/323
+s100        fills=406 (closed 323, open 83) invested=$40,600 fees=$0.00 realized=$+690.96 openMTM=$+183.87 total=$+874.83 (+2.2%) win 243/323
+perfect100  fills=1928 (closed 1697, open 231) invested=$192,800 fees=$0.00 realized=$+165.78 openMTM=$+1,295.94 total=$+1,461.71 (+0.8%) win 1378/1697
 ```
