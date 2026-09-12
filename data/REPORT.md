@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-12 17:24 UTC
+# polycopy status — 2026-09-12 19:37 UTC
 
 ## Qualified wallets
 ```
@@ -221,12 +221,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=157 (closed 140, open 17) invested=$1,570 fees=$0.00 realized=$-181.02 openMTM=$+9.66 total=$-171.36 (-10.9%) win 89/140
-s100        fills=157 (closed 140, open 17) invested=$15,700 fees=$0.00 realized=$-1,831.18 openMTM=$+74.09 total=$-1,757.08 (-11.2%) win 89/140
-perfect100  fills=375 (closed 305, open 70) invested=$37,500 fees=$0.00 realized=$-2,029.58 openMTM=$-118.92 total=$-2,148.50 (-5.7%) win 228/305
+s10         fills=157 (closed 140, open 17) invested=$1,570 fees=$0.00 realized=$-181.02 openMTM=$+10.45 total=$-170.57 (-10.9%) win 89/140
+s100        fills=157 (closed 140, open 17) invested=$15,700 fees=$0.00 realized=$-1,831.18 openMTM=$+81.99 total=$-1,749.19 (-11.1%) win 89/140
+perfect100  fills=377 (closed 308, open 69) invested=$37,700 fees=$0.00 realized=$-2,019.67 openMTM=$-107.91 total=$-2,127.58 (-5.6%) win 231/308
 
 == backtest fills ==
-s10         fills=408 (closed 324, open 84) invested=$4,080 fees=$0.00 realized=$+59.10 openMTM=$+12.74 total=$+71.83 (+1.8%) win 243/324
-s100        fills=408 (closed 324, open 84) invested=$40,800 fees=$0.00 realized=$+590.96 openMTM=$+127.37 total=$+718.32 (+1.8%) win 243/324
-perfect100  fills=1935 (closed 1701, open 234) invested=$193,500 fees=$0.00 realized=$+71.93 openMTM=$+1,267.73 total=$+1,339.66 (+0.7%) win 1381/1701
+s10         fills=408 (closed 325, open 83) invested=$4,080 fees=$0.00 realized=$+49.10 openMTM=$+18.38 total=$+67.48 (+1.7%) win 243/325
+s100        fills=408 (closed 325, open 83) invested=$40,800 fees=$0.00 realized=$+490.96 openMTM=$+183.80 total=$+674.75 (+1.7%) win 243/325
+perfect100  fills=1937 (closed 1704, open 233) invested=$193,700 fees=$0.00 realized=$-22.91 openMTM=$+1,304.43 total=$+1,281.52 (+0.7%) win 1383/1704
 ```
