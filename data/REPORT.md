@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-12 22:08 UTC
+# polycopy status — 2026-09-13 00:12 UTC
 
 ## Qualified wallets
 ```
@@ -226,12 +226,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=157 (closed 140, open 17) invested=$1,570 fees=$0.00 realized=$-181.02 openMTM=$+10.78 total=$-170.23 (-10.8%) win 89/140
-s100        fills=157 (closed 140, open 17) invested=$15,700 fees=$0.00 realized=$-1,831.18 openMTM=$+85.31 total=$-1,745.87 (-11.1%) win 89/140
-perfect100  fills=379 (closed 310, open 69) invested=$37,900 fees=$0.00 realized=$-2,015.66 openMTM=$-109.03 total=$-2,124.69 (-5.6%) win 233/310
+s10         fills=158 (closed 140, open 18) invested=$1,580 fees=$0.00 realized=$-181.02 openMTM=$+10.93 total=$-170.09 (-10.8%) win 89/140
+s100        fills=158 (closed 140, open 18) invested=$15,800 fees=$0.00 realized=$-1,831.18 openMTM=$+86.77 total=$-1,744.41 (-11.0%) win 89/140
+perfect100  fills=381 (closed 311, open 70) invested=$38,100 fees=$0.00 realized=$-2,009.81 openMTM=$-107.87 total=$-2,117.67 (-5.6%) win 234/311
 
 == backtest fills ==
-s10         fills=408 (closed 325, open 83) invested=$4,080 fees=$0.00 realized=$+49.10 openMTM=$+17.68 total=$+66.77 (+1.6%) win 243/325
-s100        fills=408 (closed 325, open 83) invested=$40,800 fees=$0.00 realized=$+490.96 openMTM=$+176.77 total=$+667.72 (+1.6%) win 243/325
-perfect100  fills=1939 (closed 1707, open 232) invested=$193,900 fees=$0.00 realized=$-19.21 openMTM=$+1,296.54 total=$+1,277.33 (+0.7%) win 1386/1707
+s10         fills=409 (closed 325, open 84) invested=$4,090 fees=$0.00 realized=$+49.10 openMTM=$+18.19 total=$+67.29 (+1.6%) win 243/325
+s100        fills=409 (closed 325, open 84) invested=$40,900 fees=$0.00 realized=$+490.96 openMTM=$+181.93 total=$+672.89 (+1.6%) win 243/325
+perfect100  fills=1941 (closed 1707, open 234) invested=$194,100 fees=$0.00 realized=$-19.21 openMTM=$+1,252.23 total=$+1,233.02 (+0.6%) win 1386/1707
 ```
