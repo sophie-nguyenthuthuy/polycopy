@@ -492,6 +492,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x450e7a57c0c0b80c26fccb4251624142c5194fdd,krootz,SCALPER,0,0,67,26,0.7204301075268817,93,50,1000,1252.2181700087588,1787147520,1000 trades — market-maker/scalper profile
 0x45564c06fb4ed4c223b2edb50a0223a5c838b684,ldreamingfire,NORMAL,0,0,0,0,0.0,0,1,1,0.0,1789276566,only 0 resolved markets — not enough history
 0x45720deb102f700682bfcb19b5872b5022ad83ff,papuas,SCALPER,0,0,182,150,0.5481927710843374,332,13,1068,16818.172163868647,1787081531,1068 trades — market-maker/scalper profile
+0x45fbc188190672fe1382e3c871ffbb9af831ac20,sangkingtoe,NORMAL,0,0,0,0,0.0,0,5,8,0.0,1789311168,only 0 resolved markets — not enough history
 0x46992d0e547e3822a9c28723f51bfa804ae4e03c,anon.1980.123,SCALPER,0,0,359,29,0.9252577319587629,388,59,1012,26197.140685018036,1787442592,1012 trades — market-maker/scalper profile
 0x47138dc1eef25f1ea91f3b2fda0e0f455c634d21,dsknadkasnkfjs,ARB,0,0,19,13,0.59375,32,17,1000,723.9325000299989,1787330472,holds both sides in 80% of markets
 0x47ab026767cc320ac6e62f6ec747d59cf4d795df,bosshog,SCALPER,0,0,202,55,0.7859922178988327,257,36,1001,546401.3289875009,1787587526,1001 trades — market-maker/scalper profile
@@ -737,6 +738,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xcaab19659b995951a44cc992447cb2ad5be324dd,QMG-CORE,SCALPER,0,0,182,23,0.8878048780487805,208,166,1093,71399.99599108816,1787941732,1093 trades — market-maker/scalper profile
 0xcba138fbcfb4f4ed42bc40a4434e3a40134cba0c,pendingbets,NORMAL,0,0,0,0,0.0,0,3,3,0.0,1787333712,only 0 resolved markets — not enough history
 0xccd81fbd3395dc43a0531f8484b21c2462daf4de,0F62,SCALPER,0,0,193,164,0.5406162464985994,357,5,1000,-212261.358510145,1786426381,1000 trades — market-maker/scalper profile
+0xcd300069721b481c8be9b2f6323583bf8c74fc9b,Auramemnon,SCALPER,0,0,301,181,0.6244813278008299,483,6,1000,-17960.98341980214,1789311166,1000 trades — market-maker/scalper profile
 0xcd30f4698c6f5f3829893e68e183a8e5ea18f316,BOOMBOYS.Kiritych,SCALPER,0,0,131,125,0.51171875,256,5,1219,1406523.3656531938,1787330474,1219 trades — market-maker/scalper profile
 0xcd6be6693e2bc11150d397caa9e6f7c6744b68f5,AlfredTheShiller,SCALPER,0,0,377,121,0.7570281124497992,498,26,999,46696.66606262902,1786963152,999 trades — market-maker/scalper profile
 0xcdb1f1ef8213c06911e4ba6a884176c5571e276c,Ahpo,SCALPER,0,0,117,21,0.8478260869565217,139,116,999,24407.336489801237,1788176803,999 trades — market-maker/scalper profile
