@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-14 07:00 UTC
+# polycopy status — 2026-09-14 13:54 UTC
 
 ## Qualified wallets
 ```
@@ -16,6 +16,12 @@ address                                      label              W   L    wr trad
     - meaningful stakes (avg $252,215/market)
     - geo/politics concentration 75%
     - late entries (median 14h before close)
+0xfe9176423493b93ce72aa9a06cd042e99c537a5a   INSIDER_SUSPECT   10   0  100%     11          270 *
+    - perfect record: 10W/0L
+    - low activity (11 trades)
+    - meaningful stakes (avg $641/market)
+    - geo/politics concentration 73%
+    - late entries (median 49h before close)
 0x91327ef84dca65ca90eea309c5d455daee4b8256   INSIDER_SUSPECT   54   0  100%     68          216 *
     - perfect record: 54W/0L
     - low activity (68 trades)
@@ -226,12 +232,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=163 (closed 145, open 18) invested=$1,630 fees=$0.00 realized=$-158.79 openMTM=$+12.29 total=$-146.51 (-9.0%) win 93/145
-s100        fills=163 (closed 145, open 18) invested=$16,300 fees=$0.00 realized=$-1,619.65 openMTM=$+100.34 total=$-1,519.31 (-9.3%) win 93/145
-perfect100  fills=394 (closed 320, open 74) invested=$39,400 fees=$0.00 realized=$-1,784.01 openMTM=$-99.91 total=$-1,883.93 (-4.8%) win 242/320
+s10         fills=164 (closed 146, open 18) invested=$1,640 fees=$0.00 realized=$-158.68 openMTM=$+11.21 total=$-147.47 (-9.0%) win 94/146
+s100        fills=164 (closed 146, open 18) invested=$16,400 fees=$0.00 realized=$-1,618.52 openMTM=$+90.64 total=$-1,527.88 (-9.3%) win 94/146
+perfect100  fills=396 (closed 322, open 74) invested=$39,600 fees=$0.00 realized=$-1,783.59 openMTM=$-94.12 total=$-1,877.70 (-4.7%) win 243/322
 
 == backtest fills ==
-s10         fills=414 (closed 330, open 84) invested=$4,140 fees=$0.00 realized=$+73.42 openMTM=$+18.91 total=$+92.33 (+2.2%) win 247/330
-s100        fills=414 (closed 330, open 84) invested=$41,400 fees=$0.00 realized=$+734.22 openMTM=$+189.10 total=$+923.32 (+2.2%) win 247/330
-perfect100  fills=1953 (closed 1717, open 236) invested=$195,300 fees=$0.00 realized=$+237.53 openMTM=$+1,353.06 total=$+1,590.59 (+0.8%) win 1394/1717
+s10         fills=417 (closed 333, open 84) invested=$4,170 fees=$0.00 realized=$+78.02 openMTM=$+20.02 total=$+98.04 (+2.4%) win 250/333
+s100        fills=417 (closed 333, open 84) invested=$41,700 fees=$0.00 realized=$+780.17 openMTM=$+200.20 total=$+980.37 (+2.4%) win 250/333
+perfect100  fills=1957 (closed 1721, open 236) invested=$195,700 fees=$0.00 realized=$+233.00 openMTM=$+1,369.95 total=$+1,602.94 (+0.8%) win 1397/1721
 ```
