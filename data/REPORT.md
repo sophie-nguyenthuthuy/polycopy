@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-16 18:22 UTC
+# polycopy status — 2026-09-16 21:37 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=170 (closed 153, open 17) invested=$1,700 fees=$0.00 realized=$-146.79 openMTM=$+3.85 total=$-142.94 (-8.4%) win 99/153
-s100        fills=170 (closed 153, open 17) invested=$17,000 fees=$0.00 realized=$-1,501.72 openMTM=$+13.56 total=$-1,488.17 (-8.8%) win 99/153
-perfect100  fills=420 (closed 341, open 79) invested=$42,000 fees=$0.00 realized=$-1,637.46 openMTM=$-142.39 total=$-1,779.85 (-4.2%) win 260/341
+s10         fills=170 (closed 155, open 15) invested=$1,700 fees=$0.00 realized=$-154.51 openMTM=$+7.50 total=$-147.01 (-8.6%) win 100/155
+s100        fills=170 (closed 155, open 15) invested=$17,000 fees=$0.00 realized=$-1,578.88 openMTM=$+49.65 total=$-1,529.23 (-9.0%) win 100/155
+perfect100  fills=424 (closed 347, open 77) invested=$42,400 fees=$0.00 realized=$-1,798.03 openMTM=$-102.85 total=$-1,900.89 (-4.5%) win 264/347
 
 == backtest fills ==
-s10         fills=423 (closed 340, open 83) invested=$4,230 fees=$0.00 realized=$+103.60 openMTM=$-5.86 total=$+97.74 (+2.3%) win 256/340
-s100        fills=423 (closed 340, open 83) invested=$42,300 fees=$0.00 realized=$+1,036.02 openMTM=$-58.63 total=$+977.38 (+2.3%) win 256/340
-perfect100  fills=2009 (closed 1754, open 255) invested=$200,900 fees=$0.00 realized=$+650.46 openMTM=$+959.27 total=$+1,609.74 (+0.8%) win 1427/1754
+s10         fills=423 (closed 340, open 83) invested=$4,230 fees=$0.00 realized=$+103.60 openMTM=$-3.32 total=$+100.28 (+2.4%) win 256/340
+s100        fills=423 (closed 340, open 83) invested=$42,300 fees=$0.00 realized=$+1,036.02 openMTM=$-33.20 total=$+1,002.81 (+2.4%) win 256/340
+perfect100  fills=2012 (closed 1755, open 257) invested=$201,200 fees=$0.00 realized=$+650.86 openMTM=$+1,018.49 total=$+1,669.35 (+0.8%) win 1428/1755
 ```
