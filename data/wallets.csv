@@ -336,6 +336,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x7fc6e183e48e2f7658cd825ff4f40e44e9327306,tradingdecs,NORMAL,2,0,61,214,0.22181818181818183,279,26,598,10653.439460897931,1786483424,buys uncertainty (median entry 0.09); late entries (median 45h before close)
 0x84eeecd1b7e901ca0f3c36842f9f7a44301564b4,BERICHING,NORMAL,2,0,120,59,0.6703910614525139,179,3,322,-743.7873468087785,1786765682,buys uncertainty (median entry 0.68); late entries (median 4h before close)
 0x8eaf537951373ff616f5fe49f0714faa761d1a93,okayfaygo,NORMAL,2,0,71,54,0.568,125,2,320,2267.1284078261065,1788711866,buys uncertainty (median entry 0.50); late entries (median 0h before close)
+0x9204916867ee23ebf8b53ed35b6587accb215c05,,NORMAL,2,0,41,31,0.5694444444444444,72,24,211,1642.2353624663465,1789550870,meaningful stakes (avg $469/market); geo/politics concentration 53%
 0x9765b5ff568c548d1620ef99ddd9d290ede1436b,byteA,NORMAL,2,0,63,16,0.7974683544303798,79,14,173,2677.253005157974,1786616117,low activity (173 trades); meaningful stakes (avg $583/market)
 0x9b0b60aa0a1df93202f996860342fd5607815e43,Irboz-sama,NORMAL,2,0,165,38,0.812807881773399,213,21,408,35552.53553654051,1787261660,meaningful stakes (avg $512/market); late entries (median 37h before close)
 0x9c3e7196369308579eb5e46f5b7eb289b5192235,clown221,NORMAL,2,0,19,11,0.6333333333333333,30,1,47,2203.2004398960353,1788538192,low activity (47 trades); late entries (median 8h before close)
