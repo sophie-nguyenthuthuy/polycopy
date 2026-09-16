@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-15 23:39 UTC
+# polycopy status — 2026-09-16 04:25 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=170 (closed 152, open 18) invested=$1,700 fees=$0.00 realized=$-150.06 openMTM=$+4.06 total=$-146.01 (-8.6%) win 98/152
-s100        fills=170 (closed 152, open 18) invested=$17,000 fees=$0.00 realized=$-1,534.39 openMTM=$+15.70 total=$-1,518.70 (-8.9%) win 98/152
-perfect100  fills=414 (closed 338, open 76) invested=$41,400 fees=$0.00 realized=$-1,677.43 openMTM=$-153.49 total=$-1,830.92 (-4.4%) win 257/338
+s10         fills=170 (closed 152, open 18) invested=$1,700 fees=$0.00 realized=$-150.06 openMTM=$+4.36 total=$-145.70 (-8.6%) win 98/152
+s100        fills=170 (closed 152, open 18) invested=$17,000 fees=$0.00 realized=$-1,534.39 openMTM=$+18.79 total=$-1,515.60 (-8.9%) win 98/152
+perfect100  fills=414 (closed 338, open 76) invested=$41,400 fees=$0.00 realized=$-1,677.43 openMTM=$-175.48 total=$-1,852.91 (-4.5%) win 257/338
 
 == backtest fills ==
-s10         fills=423 (closed 339, open 84) invested=$4,230 fees=$0.00 realized=$+100.30 openMTM=$+13.42 total=$+113.72 (+2.7%) win 255/339
-s100        fills=423 (closed 339, open 84) invested=$42,300 fees=$0.00 realized=$+1,002.97 openMTM=$+134.24 total=$+1,137.21 (+2.7%) win 255/339
-perfect100  fills=2003 (closed 1751, open 252) invested=$200,300 fees=$0.00 realized=$+611.10 openMTM=$+1,219.86 total=$+1,830.96 (+0.9%) win 1424/1751
+s10         fills=423 (closed 339, open 84) invested=$4,230 fees=$0.00 realized=$+100.30 openMTM=$+2.74 total=$+103.04 (+2.4%) win 255/339
+s100        fills=423 (closed 339, open 84) invested=$42,300 fees=$0.00 realized=$+1,002.97 openMTM=$+27.39 total=$+1,030.36 (+2.4%) win 255/339
+perfect100  fills=2003 (closed 1751, open 252) invested=$200,300 fees=$0.00 realized=$+611.10 openMTM=$+1,191.82 total=$+1,802.91 (+0.9%) win 1424/1751
 ```
