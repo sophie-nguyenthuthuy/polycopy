@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-16 14:22 UTC
+# polycopy status — 2026-09-16 18:22 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=170 (closed 152, open 18) invested=$1,700 fees=$0.00 realized=$-150.06 openMTM=$+4.09 total=$-145.97 (-8.6%) win 98/152
-s100        fills=170 (closed 152, open 18) invested=$17,000 fees=$0.00 realized=$-1,534.39 openMTM=$+16.50 total=$-1,517.89 (-8.9%) win 98/152
-perfect100  fills=417 (closed 339, open 78) invested=$41,700 fees=$0.00 realized=$-1,673.88 openMTM=$-161.58 total=$-1,835.45 (-4.4%) win 258/339
+s10         fills=170 (closed 153, open 17) invested=$1,700 fees=$0.00 realized=$-146.79 openMTM=$+3.85 total=$-142.94 (-8.4%) win 99/153
+s100        fills=170 (closed 153, open 17) invested=$17,000 fees=$0.00 realized=$-1,501.72 openMTM=$+13.56 total=$-1,488.17 (-8.8%) win 99/153
+perfect100  fills=420 (closed 341, open 79) invested=$42,000 fees=$0.00 realized=$-1,637.46 openMTM=$-142.39 total=$-1,779.85 (-4.2%) win 260/341
 
 == backtest fills ==
-s10         fills=423 (closed 339, open 84) invested=$4,230 fees=$0.00 realized=$+100.30 openMTM=$+3.79 total=$+104.09 (+2.5%) win 255/339
-s100        fills=423 (closed 339, open 84) invested=$42,300 fees=$0.00 realized=$+1,002.97 openMTM=$+37.93 total=$+1,040.90 (+2.5%) win 255/339
-perfect100  fills=2006 (closed 1752, open 254) invested=$200,600 fees=$0.00 realized=$+614.69 openMTM=$+1,166.72 total=$+1,781.41 (+0.9%) win 1425/1752
+s10         fills=423 (closed 340, open 83) invested=$4,230 fees=$0.00 realized=$+103.60 openMTM=$-5.86 total=$+97.74 (+2.3%) win 256/340
+s100        fills=423 (closed 340, open 83) invested=$42,300 fees=$0.00 realized=$+1,036.02 openMTM=$-58.63 total=$+977.38 (+2.3%) win 256/340
+perfect100  fills=2009 (closed 1754, open 255) invested=$200,900 fees=$0.00 realized=$+650.46 openMTM=$+959.27 total=$+1,609.74 (+0.8%) win 1427/1754
 ```
