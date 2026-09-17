@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-17 05:12 UTC
+# polycopy status — 2026-09-17 10:21 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=173 (closed 156, open 17) invested=$1,730 fees=$0.00 realized=$-164.51 openMTM=$+5.79 total=$-158.72 (-9.2%) win 100/156
-s100        fills=173 (closed 156, open 17) invested=$17,300 fees=$0.00 realized=$-1,678.88 openMTM=$+31.48 total=$-1,647.40 (-9.5%) win 100/156
-perfect100  fills=437 (closed 352, open 85) invested=$43,700 fees=$0.00 realized=$-1,877.83 openMTM=$-154.29 total=$-2,032.12 (-4.7%) win 268/352
+s10         fills=173 (closed 156, open 17) invested=$1,730 fees=$0.00 realized=$-164.51 openMTM=$+8.30 total=$-156.21 (-9.0%) win 100/156
+s100        fills=173 (closed 156, open 17) invested=$17,300 fees=$0.00 realized=$-1,678.88 openMTM=$+56.87 total=$-1,622.01 (-9.4%) win 100/156
+perfect100  fills=437 (closed 352, open 85) invested=$43,700 fees=$0.00 realized=$-1,877.83 openMTM=$-115.36 total=$-1,993.19 (-4.6%) win 268/352
 
 == backtest fills ==
-s10         fills=426 (closed 342, open 84) invested=$4,260 fees=$0.00 realized=$+96.07 openMTM=$-5.50 total=$+90.58 (+2.1%) win 257/342
-s100        fills=426 (closed 342, open 84) invested=$42,600 fees=$0.00 realized=$+960.73 openMTM=$-54.96 total=$+905.77 (+2.1%) win 257/342
-perfect100  fills=2024 (closed 1768, open 256) invested=$202,400 fees=$0.00 realized=$+430.63 openMTM=$+1,166.94 total=$+1,597.57 (+0.8%) win 1437/1768
+s10         fills=426 (closed 343, open 83) invested=$4,260 fees=$0.00 realized=$+86.07 openMTM=$+4.55 total=$+90.62 (+2.1%) win 257/343
+s100        fills=426 (closed 343, open 83) invested=$42,600 fees=$0.00 realized=$+860.73 openMTM=$+45.49 total=$+906.22 (+2.1%) win 257/343
+perfect100  fills=2024 (closed 1771, open 253) invested=$202,400 fees=$0.00 realized=$+345.25 openMTM=$+1,255.36 total=$+1,600.61 (+0.8%) win 1439/1771
 ```
