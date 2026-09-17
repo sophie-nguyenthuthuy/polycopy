@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-16 21:37 UTC
+# polycopy status — 2026-09-17 00:16 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=170 (closed 155, open 15) invested=$1,700 fees=$0.00 realized=$-154.51 openMTM=$+7.50 total=$-147.01 (-8.6%) win 100/155
-s100        fills=170 (closed 155, open 15) invested=$17,000 fees=$0.00 realized=$-1,578.88 openMTM=$+49.65 total=$-1,529.23 (-9.0%) win 100/155
-perfect100  fills=424 (closed 347, open 77) invested=$42,400 fees=$0.00 realized=$-1,798.03 openMTM=$-102.85 total=$-1,900.89 (-4.5%) win 264/347
+s10         fills=171 (closed 155, open 16) invested=$1,710 fees=$0.00 realized=$-154.51 openMTM=$+6.35 total=$-148.16 (-8.7%) win 100/155
+s100        fills=171 (closed 155, open 16) invested=$17,100 fees=$0.00 realized=$-1,578.88 openMTM=$+38.23 total=$-1,540.65 (-9.0%) win 100/155
+perfect100  fills=434 (closed 349, open 85) invested=$43,400 fees=$0.00 realized=$-1,794.59 openMTM=$-135.76 total=$-1,930.35 (-4.4%) win 266/349
 
 == backtest fills ==
-s10         fills=423 (closed 340, open 83) invested=$4,230 fees=$0.00 realized=$+103.60 openMTM=$-3.32 total=$+100.28 (+2.4%) win 256/340
-s100        fills=423 (closed 340, open 83) invested=$42,300 fees=$0.00 realized=$+1,036.02 openMTM=$-33.20 total=$+1,002.81 (+2.4%) win 256/340
-perfect100  fills=2012 (closed 1755, open 257) invested=$201,200 fees=$0.00 realized=$+650.86 openMTM=$+1,018.49 total=$+1,669.35 (+0.8%) win 1428/1755
+s10         fills=424 (closed 342, open 82) invested=$4,240 fees=$0.00 realized=$+96.07 openMTM=$-4.13 total=$+91.94 (+2.2%) win 257/342
+s100        fills=424 (closed 342, open 82) invested=$42,400 fees=$0.00 realized=$+960.73 openMTM=$-41.33 total=$+919.40 (+2.2%) win 257/342
+perfect100  fills=2021 (closed 1766, open 255) invested=$202,100 fees=$0.00 realized=$+429.19 openMTM=$+1,177.84 total=$+1,607.03 (+0.8%) win 1435/1766
 ```
