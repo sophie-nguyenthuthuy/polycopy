@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-18 05:45 UTC
+# polycopy status — 2026-09-18 11:00 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=177 (closed 158, open 19) invested=$1,770 fees=$0.00 realized=$-184.51 openMTM=$+5.26 total=$-179.25 (-10.1%) win 100/158
-s100        fills=177 (closed 158, open 19) invested=$17,700 fees=$0.00 realized=$-1,878.88 openMTM=$+27.88 total=$-1,851.01 (-10.5%) win 100/158
-perfect100  fills=443 (closed 357, open 86) invested=$44,300 fees=$0.00 realized=$-2,070.91 openMTM=$-153.58 total=$-2,224.49 (-5.0%) win 271/357
+s10         fills=177 (closed 158, open 19) invested=$1,770 fees=$0.00 realized=$-184.51 openMTM=$+5.17 total=$-179.34 (-10.1%) win 100/158
+s100        fills=177 (closed 158, open 19) invested=$17,700 fees=$0.00 realized=$-1,878.88 openMTM=$+27.25 total=$-1,851.63 (-10.5%) win 100/158
+perfect100  fills=444 (closed 357, open 87) invested=$44,400 fees=$0.00 realized=$-2,070.91 openMTM=$-139.22 total=$-2,210.13 (-5.0%) win 271/357
 
 == backtest fills ==
-s10         fills=430 (closed 345, open 85) invested=$4,300 fees=$0.00 realized=$+66.07 openMTM=$+2.15 total=$+68.22 (+1.6%) win 257/345
-s100        fills=430 (closed 345, open 85) invested=$43,000 fees=$0.00 realized=$+660.73 openMTM=$+21.48 total=$+682.20 (+1.6%) win 257/345
-perfect100  fills=2030 (closed 1776, open 254) invested=$203,000 fees=$0.00 realized=$+155.17 openMTM=$+1,266.64 total=$+1,421.81 (+0.7%) win 1442/1776
+s10         fills=430 (closed 345, open 85) invested=$4,300 fees=$0.00 realized=$+66.07 openMTM=$+2.70 total=$+68.77 (+1.6%) win 257/345
+s100        fills=430 (closed 345, open 85) invested=$43,000 fees=$0.00 realized=$+660.73 openMTM=$+27.02 total=$+687.75 (+1.6%) win 257/345
+perfect100  fills=2031 (closed 1776, open 255) invested=$203,100 fees=$0.00 realized=$+155.17 openMTM=$+1,281.85 total=$+1,437.02 (+0.7%) win 1442/1776
 ```
