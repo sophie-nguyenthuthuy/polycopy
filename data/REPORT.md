@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-18 11:00 UTC
+# polycopy status — 2026-09-18 14:57 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=177 (closed 158, open 19) invested=$1,770 fees=$0.00 realized=$-184.51 openMTM=$+5.17 total=$-179.34 (-10.1%) win 100/158
-s100        fills=177 (closed 158, open 19) invested=$17,700 fees=$0.00 realized=$-1,878.88 openMTM=$+27.25 total=$-1,851.63 (-10.5%) win 100/158
-perfect100  fills=444 (closed 357, open 87) invested=$44,400 fees=$0.00 realized=$-2,070.91 openMTM=$-139.22 total=$-2,210.13 (-5.0%) win 271/357
+s10         fills=177 (closed 158, open 19) invested=$1,770 fees=$0.00 realized=$-184.51 openMTM=$+5.30 total=$-179.21 (-10.1%) win 100/158
+s100        fills=177 (closed 158, open 19) invested=$17,700 fees=$0.00 realized=$-1,878.88 openMTM=$+28.51 total=$-1,850.37 (-10.5%) win 100/158
+perfect100  fills=449 (closed 360, open 89) invested=$44,900 fees=$0.00 realized=$-2,124.67 openMTM=$-119.27 total=$-2,243.94 (-5.0%) win 273/360
 
 == backtest fills ==
-s10         fills=430 (closed 345, open 85) invested=$4,300 fees=$0.00 realized=$+66.07 openMTM=$+2.70 total=$+68.77 (+1.6%) win 257/345
-s100        fills=430 (closed 345, open 85) invested=$43,000 fees=$0.00 realized=$+660.73 openMTM=$+27.02 total=$+687.75 (+1.6%) win 257/345
-perfect100  fills=2031 (closed 1776, open 255) invested=$203,100 fees=$0.00 realized=$+155.17 openMTM=$+1,281.85 total=$+1,437.02 (+0.7%) win 1442/1776
+s10         fills=430 (closed 345, open 85) invested=$4,300 fees=$0.00 realized=$+66.07 openMTM=$+1.08 total=$+67.15 (+1.6%) win 257/345
+s100        fills=430 (closed 345, open 85) invested=$43,000 fees=$0.00 realized=$+660.73 openMTM=$+10.76 total=$+671.48 (+1.6%) win 257/345
+perfect100  fills=2036 (closed 1780, open 256) invested=$203,600 fees=$0.00 realized=$+32.99 openMTM=$+1,268.95 total=$+1,301.95 (+0.6%) win 1443/1780
 ```
