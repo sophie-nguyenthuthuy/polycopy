@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-17 22:24 UTC
+# polycopy status — 2026-09-18 00:43 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=175 (closed 157, open 18) invested=$1,750 fees=$0.00 realized=$-174.51 openMTM=$+5.84 total=$-168.67 (-9.6%) win 100/157
-s100        fills=175 (closed 157, open 18) invested=$17,500 fees=$0.00 realized=$-1,778.88 openMTM=$+31.96 total=$-1,746.92 (-10.0%) win 100/157
-perfect100  fills=441 (closed 355, open 86) invested=$44,100 fees=$0.00 realized=$-1,972.93 openMTM=$-150.02 total=$-2,122.95 (-4.8%) win 270/355
+s10         fills=175 (closed 158, open 17) invested=$1,750 fees=$0.00 realized=$-184.51 openMTM=$+6.05 total=$-178.46 (-10.2%) win 100/158
+s100        fills=175 (closed 158, open 17) invested=$17,500 fees=$0.00 realized=$-1,878.88 openMTM=$+36.09 total=$-1,842.79 (-10.5%) win 100/158
+perfect100  fills=441 (closed 357, open 84) invested=$44,100 fees=$0.00 realized=$-2,070.91 openMTM=$-146.18 total=$-2,217.09 (-5.0%) win 271/357
 
 == backtest fills ==
-s10         fills=428 (closed 344, open 84) invested=$4,280 fees=$0.00 realized=$+76.07 openMTM=$-7.44 total=$+68.64 (+1.6%) win 257/344
-s100        fills=428 (closed 344, open 84) invested=$42,800 fees=$0.00 realized=$+760.73 openMTM=$-74.37 total=$+686.35 (+1.6%) win 257/344
-perfect100  fills=2028 (closed 1772, open 256) invested=$202,800 fees=$0.00 realized=$+245.25 openMTM=$+1,149.02 total=$+1,394.27 (+0.7%) win 1439/1772
+s10         fills=428 (closed 344, open 84) invested=$4,280 fees=$0.00 realized=$+76.07 openMTM=$-7.05 total=$+69.02 (+1.6%) win 257/344
+s100        fills=428 (closed 344, open 84) invested=$42,800 fees=$0.00 realized=$+760.73 openMTM=$-70.49 total=$+690.24 (+1.6%) win 257/344
+perfect100  fills=2028 (closed 1774, open 254) invested=$202,800 fees=$0.00 realized=$+248.14 openMTM=$+1,169.78 total=$+1,417.92 (+0.7%) win 1441/1774
 ```
