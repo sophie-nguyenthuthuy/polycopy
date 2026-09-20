@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-20 10:02 UTC
+# polycopy status — 2026-09-20 14:20 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=183 (closed 160, open 23) invested=$1,830 fees=$0.00 realized=$-193.45 openMTM=$+3.47 total=$-189.99 (-10.4%) win 101/160
-s100        fills=183 (closed 160, open 23) invested=$18,300 fees=$0.00 realized=$-1,968.32 openMTM=$+6.72 total=$-1,961.60 (-10.7%) win 101/160
-perfect100  fills=473 (closed 374, open 99) invested=$47,300 fees=$0.00 realized=$-2,273.62 openMTM=$-186.05 total=$-2,459.67 (-5.2%) win 285/374
+s10         fills=184 (closed 160, open 24) invested=$1,840 fees=$0.00 realized=$-193.45 openMTM=$+2.04 total=$-191.42 (-10.4%) win 101/160
+s100        fills=184 (closed 160, open 24) invested=$18,400 fees=$0.00 realized=$-1,968.32 openMTM=$-7.63 total=$-1,975.96 (-10.7%) win 101/160
+perfect100  fills=474 (closed 374, open 100) invested=$47,400 fees=$0.00 realized=$-2,273.62 openMTM=$-175.24 total=$-2,448.86 (-5.2%) win 285/374
 
 == backtest fills ==
-s10         fills=436 (closed 348, open 88) invested=$4,360 fees=$0.00 realized=$+57.61 openMTM=$+1.18 total=$+58.79 (+1.3%) win 259/348
-s100        fills=436 (closed 348, open 88) invested=$43,600 fees=$0.00 realized=$+576.13 openMTM=$+11.75 total=$+587.88 (+1.3%) win 259/348
-perfect100  fills=2058 (closed 1795, open 263) invested=$205,800 fees=$0.00 realized=$-125.05 openMTM=$+1,167.42 total=$+1,042.36 (+0.5%) win 1456/1795
+s10         fills=437 (closed 348, open 89) invested=$4,370 fees=$0.00 realized=$+57.61 openMTM=$-1.55 total=$+56.06 (+1.3%) win 259/348
+s100        fills=437 (closed 348, open 89) invested=$43,700 fees=$0.00 realized=$+576.13 openMTM=$-15.50 total=$+560.64 (+1.3%) win 259/348
+perfect100  fills=2059 (closed 1795, open 264) invested=$205,900 fees=$0.00 realized=$-125.05 openMTM=$+1,222.99 total=$+1,097.94 (+0.5%) win 1456/1795
 ```
