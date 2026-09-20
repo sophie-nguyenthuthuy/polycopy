@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-20 14:20 UTC
+# polycopy status — 2026-09-20 17:38 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=184 (closed 160, open 24) invested=$1,840 fees=$0.00 realized=$-193.45 openMTM=$+2.04 total=$-191.42 (-10.4%) win 101/160
-s100        fills=184 (closed 160, open 24) invested=$18,400 fees=$0.00 realized=$-1,968.32 openMTM=$-7.63 total=$-1,975.96 (-10.7%) win 101/160
-perfect100  fills=474 (closed 374, open 100) invested=$47,400 fees=$0.00 realized=$-2,273.62 openMTM=$-175.24 total=$-2,448.86 (-5.2%) win 285/374
+s10         fills=186 (closed 162, open 24) invested=$1,860 fees=$0.00 realized=$-203.36 openMTM=$-2.55 total=$-205.91 (-11.1%) win 102/162
+s100        fills=186 (closed 162, open 24) invested=$18,600 fees=$0.00 realized=$-2,067.55 openMTM=$-52.85 total=$-2,120.40 (-11.4%) win 102/162
+perfect100  fills=476 (closed 379, open 97) invested=$47,600 fees=$0.00 realized=$-2,466.39 openMTM=$-127.84 total=$-2,594.24 (-5.5%) win 288/379
 
 == backtest fills ==
-s10         fills=437 (closed 348, open 89) invested=$4,370 fees=$0.00 realized=$+57.61 openMTM=$-1.55 total=$+56.06 (+1.3%) win 259/348
-s100        fills=437 (closed 348, open 89) invested=$43,700 fees=$0.00 realized=$+576.13 openMTM=$-15.50 total=$+560.64 (+1.3%) win 259/348
-perfect100  fills=2059 (closed 1795, open 264) invested=$205,900 fees=$0.00 realized=$-125.05 openMTM=$+1,222.99 total=$+1,097.94 (+0.5%) win 1456/1795
+s10         fills=439 (closed 350, open 89) invested=$4,390 fees=$0.00 realized=$+47.70 openMTM=$-2.75 total=$+44.96 (+1.0%) win 260/350
+s100        fills=439 (closed 350, open 89) invested=$43,900 fees=$0.00 realized=$+477.02 openMTM=$-27.45 total=$+449.57 (+1.0%) win 260/350
+perfect100  fills=2061 (closed 1801, open 260) invested=$206,100 fees=$0.00 realized=$-419.75 openMTM=$+1,421.12 total=$+1,001.37 (+0.5%) win 1459/1801
 ```
