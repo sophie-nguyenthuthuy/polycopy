@@ -372,7 +372,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xc42856bf8d432d8f2ea084d13a270781c82c7093,redpi,NORMAL,2,0,1,6,0.14285714285714285,8,5,19,655.7556230033521,1788503233,"low activity (19 trades); meaningful stakes (avg $2,123/market)"
 0xcc026b233847269c5c968186c0ba1897fed50c6f,jackx002,NORMAL,2,0,272,230,0.5418326693227091,503,19,672,3475.7938209607933,1789493808,buys uncertainty (median entry 0.54); late entries (median 0h before close)
 0xd20edcca8618ac8fd0c6bcc6d3b880656500b050,essence19910705,NORMAL,2,0,38,18,0.6785714285714286,56,25,719,1928.0590051159381,1787524117,meaningful stakes (avg $830/market); geo/politics concentration 62%
-0xdf705353876ceb2549f0c03ffcb4cba33d785e92,AngryRhino,NORMAL,2,0,136,50,0.7311827956989247,186,47,481,269915.4668343212,1788609530,"meaningful stakes (avg $9,464/market); geo/politics concentration 58%"
+0xdf705353876ceb2549f0c03ffcb4cba33d785e92,AngryRhino,NORMAL,2,0,143,52,0.7333333333333333,195,74,534,294552.2943045931,1789974107,"meaningful stakes (avg $8,845/market); geo/politics concentration 57%"
 0xebd2d9b162fe497fa2e87f6c09bfa924f55087f8,okongwoo2,NORMAL,2,0,29,30,0.4915254237288136,60,26,264,217.07569347499813,1789435146,buys uncertainty (median entry 0.44); late entries (median 21h before close)
 0xecc90c67e3100ce7e7e33f6c641a03237fe55f71,0xeCc90C67E3100ce7e7E33F6c641A03237FE55f71-1770624266352,NORMAL,2,0,257,64,0.8006230529595015,322,3,712,44543.17755208009,1786561830,buys uncertainty (median entry 0.56); late entries (median 0h before close)
 0xfc46c63b531406332543b7487214db5288cbd7d8,tabakur,NORMAL,2,0,26,11,0.7027027027027027,37,5,87,312.5697257033659,1789258243,low activity (87 trades); meaningful stakes (avg $265/market)
