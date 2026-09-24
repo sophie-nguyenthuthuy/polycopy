@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-24 16:58 UTC
+# polycopy status — 2026-09-24 20:23 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=210 (closed 180, open 30) invested=$2,100 fees=$0.00 realized=$-248.32 openMTM=$-16.12 total=$-264.44 (-12.6%) win 113/180
-s100        fills=210 (closed 180, open 30) invested=$21,000 fees=$0.00 realized=$-2,519.06 openMTM=$-173.98 total=$-2,693.04 (-12.8%) win 113/180
-perfect100  fills=564 (closed 449, open 115) invested=$56,400 fees=$0.00 realized=$-2,986.82 openMTM=$-204.16 total=$-3,190.98 (-5.7%) win 347/449
+s10         fills=210 (closed 180, open 30) invested=$2,100 fees=$0.00 realized=$-248.32 openMTM=$-17.41 total=$-265.73 (-12.7%) win 113/180
+s100        fills=210 (closed 180, open 30) invested=$21,000 fees=$0.00 realized=$-2,519.06 openMTM=$-184.29 total=$-2,703.34 (-12.9%) win 113/180
+perfect100  fills=567 (closed 452, open 115) invested=$56,700 fees=$0.00 realized=$-2,982.42 openMTM=$-240.03 total=$-3,222.45 (-5.7%) win 350/452
 
 == backtest fills ==
-s10         fills=463 (closed 367, open 96) invested=$4,630 fees=$0.00 realized=$+4.48 openMTM=$-26.38 total=$-21.90 (-0.5%) win 270/367
-s100        fills=463 (closed 367, open 96) invested=$46,300 fees=$0.00 realized=$+44.75 openMTM=$-263.78 total=$-219.02 (-0.5%) win 270/367
-perfect100  fills=2147 (closed 1872, open 275) invested=$214,700 fees=$0.00 realized=$-1,015.66 openMTM=$+1,273.82 total=$+258.16 (+0.1%) win 1519/1872
+s10         fills=463 (closed 370, open 93) invested=$4,630 fees=$0.00 realized=$+4.88 openMTM=$-24.53 total=$-19.65 (-0.4%) win 273/370
+s100        fills=463 (closed 370, open 93) invested=$46,300 fees=$0.00 realized=$+48.80 openMTM=$-245.31 total=$-196.51 (-0.4%) win 273/370
+perfect100  fills=2150 (closed 1877, open 273) invested=$215,000 fees=$0.00 realized=$-1,011.41 openMTM=$+1,236.04 total=$+224.63 (+0.1%) win 1524/1877
 ```
