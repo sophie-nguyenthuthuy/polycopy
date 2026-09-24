@@ -402,6 +402,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x050ee4f95b2735d8fd3b4ea729b5a9bd9b88d92f,dexter122,SCALPER,0,0,217,68,0.7614035087719299,286,7,1998,84120.54883114448,1790083127,1998 trades — market-maker/scalper profile
 0x051c8654802b0a0f2fdd165033ba6cf07610ca3f,loserrrrrrrrrrrr,SCALPER,0,0,275,205,0.5729166666666666,481,43,1182,153138.19222902792,1788375249,1182 trades — market-maker/scalper profile
 0x05374492e37f036fb751d708fe487aeca60b5b0f,Frigg,SCALPER,0,0,127,27,0.8246753246753247,154,9,1000,39750.61929824693,1786676885,1000 trades — market-maker/scalper profile
+0x0562e01b3c3e65bb93bf0de32f02cec238a79d66,iForgor,SCALPER,0,0,178,116,0.6054421768707483,295,30,999,112789.5658418659,1790229575,999 trades — market-maker/scalper profile
 0x056d6f84c57f221fe0c8a1fbfe2f0bf26a2021d4,0x056d6F84C57f221FE0C8a1fBfE2f0bF26a2021d4-1789130966251,NORMAL,0,0,0,0,0.0,0,1,1,0.0,1789568427,only 0 resolved markets — not enough history
 0x059636aa0edb3d59aa98ea6c469c14d9e25ae89c,,NORMAL,0,0,0,0,0.0,0,4,15,0.0,1787216846,only 0 resolved markets — not enough history
 0x05dfd81903aae6f5caa20e1c1dd1d472728a882d,jklsjdwoqejasdf,SCALPER,0,0,83,34,0.7094017094017094,118,24,1000,29242.02293011537,1789086368,1000 trades — market-maker/scalper profile
