@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-24 20:23 UTC
+# polycopy status — 2026-09-24 23:22 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=210 (closed 180, open 30) invested=$2,100 fees=$0.00 realized=$-248.32 openMTM=$-17.41 total=$-265.73 (-12.7%) win 113/180
-s100        fills=210 (closed 180, open 30) invested=$21,000 fees=$0.00 realized=$-2,519.06 openMTM=$-184.29 total=$-2,703.34 (-12.9%) win 113/180
-perfect100  fills=567 (closed 452, open 115) invested=$56,700 fees=$0.00 realized=$-2,982.42 openMTM=$-240.03 total=$-3,222.45 (-5.7%) win 350/452
+s10         fills=214 (closed 182, open 32) invested=$2,140 fees=$0.00 realized=$-259.61 openMTM=$-4.44 total=$-264.05 (-12.3%) win 113/182
+s100        fills=214 (closed 182, open 32) invested=$21,400 fees=$0.00 realized=$-2,631.99 openMTM=$-57.08 total=$-2,689.07 (-12.6%) win 113/182
+perfect100  fills=572 (closed 455, open 117) invested=$57,200 fees=$0.00 realized=$-3,094.34 openMTM=$-102.39 total=$-3,196.73 (-5.6%) win 351/455
 
 == backtest fills ==
-s10         fills=463 (closed 370, open 93) invested=$4,630 fees=$0.00 realized=$+4.88 openMTM=$-24.53 total=$-19.65 (-0.4%) win 273/370
-s100        fills=463 (closed 370, open 93) invested=$46,300 fees=$0.00 realized=$+48.80 openMTM=$-245.31 total=$-196.51 (-0.4%) win 273/370
-perfect100  fills=2150 (closed 1877, open 273) invested=$215,000 fees=$0.00 realized=$-1,011.41 openMTM=$+1,236.04 total=$+224.63 (+0.1%) win 1524/1877
+s10         fills=467 (closed 375, open 92) invested=$4,670 fees=$0.00 realized=$-3.55 openMTM=$-12.62 total=$-16.17 (-0.3%) win 276/375
+s100        fills=467 (closed 375, open 92) invested=$46,700 fees=$0.00 realized=$-35.46 openMTM=$-126.20 total=$-161.67 (-0.3%) win 276/375
+perfect100  fills=2155 (closed 1883, open 272) invested=$215,500 fees=$0.00 realized=$-1,093.96 openMTM=$+1,315.17 total=$+221.21 (+0.1%) win 1528/1883
 ```
