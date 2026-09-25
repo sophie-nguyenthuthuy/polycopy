@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-25 18:27 UTC
+# polycopy status — 2026-09-25 21:47 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=218 (closed 186, open 32) invested=$2,180 fees=$0.00 realized=$-262.57 openMTM=$-17.50 total=$-280.06 (-12.8%) win 116/186
-s100        fills=218 (closed 186, open 32) invested=$21,800 fees=$0.00 realized=$-2,664.55 openMTM=$-193.89 total=$-2,858.45 (-13.1%) win 116/186
-perfect100  fills=586 (closed 466, open 120) invested=$58,600 fees=$0.00 realized=$-3,214.66 openMTM=$-237.56 total=$-3,452.22 (-5.9%) win 360/466
+s10         fills=219 (closed 187, open 32) invested=$2,190 fees=$0.00 realized=$-262.27 openMTM=$-19.01 total=$-281.28 (-12.8%) win 117/187
+s100        fills=219 (closed 187, open 32) invested=$21,900 fees=$0.00 realized=$-2,662.01 openMTM=$-210.58 total=$-2,872.60 (-13.1%) win 117/187
+perfect100  fills=591 (closed 470, open 121) invested=$59,100 fees=$0.00 realized=$-3,205.15 openMTM=$-255.54 total=$-3,460.69 (-5.9%) win 364/470
 
 == backtest fills ==
-s10         fills=471 (closed 379, open 92) invested=$4,710 fees=$0.00 realized=$-6.81 openMTM=$-14.21 total=$-21.02 (-0.4%) win 279/379
-s100        fills=471 (closed 379, open 92) invested=$47,100 fees=$0.00 realized=$-68.15 openMTM=$-142.07 total=$-210.22 (-0.4%) win 279/379
-perfect100  fills=2167 (closed 1895, open 272) invested=$216,700 fees=$0.00 realized=$-1,220.31 openMTM=$+1,316.05 total=$+95.73 (+0.0%) win 1538/1895
+s10         fills=472 (closed 379, open 93) invested=$4,720 fees=$0.00 realized=$-6.81 openMTM=$-12.38 total=$-19.19 (-0.4%) win 279/379
+s100        fills=472 (closed 379, open 93) invested=$47,200 fees=$0.00 realized=$-68.15 openMTM=$-123.78 total=$-191.92 (-0.4%) win 279/379
+perfect100  fills=2172 (closed 1895, open 277) invested=$217,200 fees=$0.00 realized=$-1,220.31 openMTM=$+1,332.13 total=$+111.82 (+0.1%) win 1538/1895
 ```
