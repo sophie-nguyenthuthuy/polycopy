@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-24 23:22 UTC
+# polycopy status — 2026-09-25 01:49 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=214 (closed 182, open 32) invested=$2,140 fees=$0.00 realized=$-259.61 openMTM=$-4.44 total=$-264.05 (-12.3%) win 113/182
-s100        fills=214 (closed 182, open 32) invested=$21,400 fees=$0.00 realized=$-2,631.99 openMTM=$-57.08 total=$-2,689.07 (-12.6%) win 113/182
-perfect100  fills=572 (closed 455, open 117) invested=$57,200 fees=$0.00 realized=$-3,094.34 openMTM=$-102.39 total=$-3,196.73 (-5.6%) win 351/455
+s10         fills=217 (closed 182, open 35) invested=$2,170 fees=$0.00 realized=$-259.61 openMTM=$-8.53 total=$-268.14 (-12.4%) win 113/182
+s100        fills=217 (closed 182, open 35) invested=$21,700 fees=$0.00 realized=$-2,631.99 openMTM=$-110.11 total=$-2,742.10 (-12.6%) win 113/182
+perfect100  fills=575 (closed 455, open 120) invested=$57,500 fees=$0.00 realized=$-3,094.34 openMTM=$-209.16 total=$-3,303.49 (-5.7%) win 351/455
 
 == backtest fills ==
-s10         fills=467 (closed 375, open 92) invested=$4,670 fees=$0.00 realized=$-3.55 openMTM=$-12.62 total=$-16.17 (-0.3%) win 276/375
-s100        fills=467 (closed 375, open 92) invested=$46,700 fees=$0.00 realized=$-35.46 openMTM=$-126.20 total=$-161.67 (-0.3%) win 276/375
-perfect100  fills=2155 (closed 1883, open 272) invested=$215,500 fees=$0.00 realized=$-1,093.96 openMTM=$+1,315.17 total=$+221.21 (+0.1%) win 1528/1883
+s10         fills=470 (closed 375, open 95) invested=$4,700 fees=$0.00 realized=$-3.55 openMTM=$-11.58 total=$-15.13 (-0.3%) win 276/375
+s100        fills=470 (closed 375, open 95) invested=$47,000 fees=$0.00 realized=$-35.46 openMTM=$-115.79 total=$-151.25 (-0.3%) win 276/375
+perfect100  fills=2158 (closed 1884, open 274) invested=$215,800 fees=$0.00 realized=$-1,093.86 openMTM=$+1,342.90 total=$+249.04 (+0.1%) win 1529/1884
 ```
