@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-25 07:32 UTC
+# polycopy status — 2026-09-25 13:33 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=218 (closed 186, open 32) invested=$2,180 fees=$0.00 realized=$-262.57 openMTM=$-18.30 total=$-280.86 (-12.9%) win 116/186
-s100        fills=218 (closed 186, open 32) invested=$21,800 fees=$0.00 realized=$-2,664.55 openMTM=$-201.77 total=$-2,866.33 (-13.1%) win 116/186
-perfect100  fills=581 (closed 464, open 117) invested=$58,100 fees=$0.00 realized=$-3,219.48 openMTM=$-280.26 total=$-3,499.74 (-6.0%) win 358/464
+s10         fills=218 (closed 186, open 32) invested=$2,180 fees=$0.00 realized=$-262.57 openMTM=$-20.50 total=$-283.07 (-13.0%) win 116/186
+s100        fills=218 (closed 186, open 32) invested=$21,800 fees=$0.00 realized=$-2,664.55 openMTM=$-223.40 total=$-2,887.95 (-13.2%) win 116/186
+perfect100  fills=583 (closed 465, open 118) invested=$58,300 fees=$0.00 realized=$-3,215.72 openMTM=$-277.58 total=$-3,493.30 (-6.0%) win 359/465
 
 == backtest fills ==
-s10         fills=471 (closed 376, open 95) invested=$4,710 fees=$0.00 realized=$-3.49 openMTM=$-11.05 total=$-14.54 (-0.3%) win 277/376
-s100        fills=471 (closed 376, open 95) invested=$47,100 fees=$0.00 realized=$-34.93 openMTM=$-110.49 total=$-145.42 (-0.3%) win 277/376
-perfect100  fills=2162 (closed 1889, open 273) invested=$216,200 fees=$0.00 realized=$-1,192.48 openMTM=$+1,351.72 total=$+159.24 (+0.1%) win 1533/1889
+s10         fills=471 (closed 379, open 92) invested=$4,710 fees=$0.00 realized=$-6.81 openMTM=$-13.18 total=$-20.00 (-0.4%) win 279/379
+s100        fills=471 (closed 379, open 92) invested=$47,100 fees=$0.00 realized=$-68.15 openMTM=$-131.83 total=$-199.97 (-0.4%) win 279/379
+perfect100  fills=2164 (closed 1894, open 270) invested=$216,400 fees=$0.00 realized=$-1,220.41 openMTM=$+1,302.81 total=$+82.40 (+0.0%) win 1537/1894
 ```
