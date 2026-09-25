@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-25 01:49 UTC
+# polycopy status — 2026-09-25 07:32 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=217 (closed 182, open 35) invested=$2,170 fees=$0.00 realized=$-259.61 openMTM=$-8.53 total=$-268.14 (-12.4%) win 113/182
-s100        fills=217 (closed 182, open 35) invested=$21,700 fees=$0.00 realized=$-2,631.99 openMTM=$-110.11 total=$-2,742.10 (-12.6%) win 113/182
-perfect100  fills=575 (closed 455, open 120) invested=$57,500 fees=$0.00 realized=$-3,094.34 openMTM=$-209.16 total=$-3,303.49 (-5.7%) win 351/455
+s10         fills=218 (closed 186, open 32) invested=$2,180 fees=$0.00 realized=$-262.57 openMTM=$-18.30 total=$-280.86 (-12.9%) win 116/186
+s100        fills=218 (closed 186, open 32) invested=$21,800 fees=$0.00 realized=$-2,664.55 openMTM=$-201.77 total=$-2,866.33 (-13.1%) win 116/186
+perfect100  fills=581 (closed 464, open 117) invested=$58,100 fees=$0.00 realized=$-3,219.48 openMTM=$-280.26 total=$-3,499.74 (-6.0%) win 358/464
 
 == backtest fills ==
-s10         fills=470 (closed 375, open 95) invested=$4,700 fees=$0.00 realized=$-3.55 openMTM=$-11.58 total=$-15.13 (-0.3%) win 276/375
-s100        fills=470 (closed 375, open 95) invested=$47,000 fees=$0.00 realized=$-35.46 openMTM=$-115.79 total=$-151.25 (-0.3%) win 276/375
-perfect100  fills=2158 (closed 1884, open 274) invested=$215,800 fees=$0.00 realized=$-1,093.86 openMTM=$+1,342.90 total=$+249.04 (+0.1%) win 1529/1884
+s10         fills=471 (closed 376, open 95) invested=$4,710 fees=$0.00 realized=$-3.49 openMTM=$-11.05 total=$-14.54 (-0.3%) win 277/376
+s100        fills=471 (closed 376, open 95) invested=$47,100 fees=$0.00 realized=$-34.93 openMTM=$-110.49 total=$-145.42 (-0.3%) win 277/376
+perfect100  fills=2162 (closed 1889, open 273) invested=$216,200 fees=$0.00 realized=$-1,192.48 openMTM=$+1,351.72 total=$+159.24 (+0.1%) win 1533/1889
 ```
