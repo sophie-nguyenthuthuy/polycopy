@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-26 14:42 UTC
+# polycopy status — 2026-09-26 18:29 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-15.65 total=$-287.40 (-13.1%) win 119/190
-s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-175.32 total=$-2,932.26 (-13.4%) win 119/190
-perfect100  fills=600 (closed 480, open 120) invested=$60,000 fees=$0.00 realized=$-3,288.21 openMTM=$-229.81 total=$-3,518.02 (-5.9%) win 372/480
+s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-15.16 total=$-286.91 (-13.1%) win 119/190
+s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-170.74 total=$-2,927.68 (-13.4%) win 119/190
+perfect100  fills=603 (closed 484, open 119) invested=$60,300 fees=$0.00 realized=$-3,278.91 openMTM=$-226.03 total=$-3,504.94 (-5.8%) win 376/484
 
 == backtest fills ==
-s10         fills=472 (closed 381, open 91) invested=$4,720 fees=$0.00 realized=$-15.74 openMTM=$-8.60 total=$-24.34 (-0.5%) win 280/381
-s100        fills=472 (closed 381, open 91) invested=$47,200 fees=$0.00 realized=$-157.45 openMTM=$-85.99 total=$-243.44 (-0.5%) win 280/381
-perfect100  fills=2180 (closed 1907, open 273) invested=$218,000 fees=$0.00 realized=$-1,288.98 openMTM=$+1,337.07 total=$+48.09 (+0.0%) win 1549/1907
+s10         fills=472 (closed 383, open 89) invested=$4,720 fees=$0.00 realized=$-15.53 openMTM=$-10.05 total=$-25.59 (-0.5%) win 282/383
+s100        fills=472 (closed 383, open 89) invested=$47,200 fees=$0.00 realized=$-155.35 openMTM=$-100.52 total=$-255.86 (-0.5%) win 282/383
+perfect100  fills=2183 (closed 1910, open 273) invested=$218,300 fees=$0.00 realized=$-1,286.65 openMTM=$+1,329.74 total=$+43.10 (+0.0%) win 1552/1910
 ```
