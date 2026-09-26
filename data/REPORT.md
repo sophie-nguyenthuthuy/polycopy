@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-26 00:29 UTC
+# polycopy status — 2026-09-26 05:24 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=219 (closed 187, open 32) invested=$2,190 fees=$0.00 realized=$-262.27 openMTM=$-17.75 total=$-280.02 (-12.8%) win 117/187
-s100        fills=219 (closed 187, open 32) invested=$21,900 fees=$0.00 realized=$-2,662.01 openMTM=$-200.01 total=$-2,862.02 (-13.1%) win 117/187
-perfect100  fills=593 (closed 473, open 120) invested=$59,300 fees=$0.00 realized=$-3,198.00 openMTM=$-267.62 total=$-3,465.62 (-5.8%) win 367/473
+s10         fills=219 (closed 188, open 31) invested=$2,190 fees=$0.00 realized=$-272.27 openMTM=$-13.77 total=$-286.04 (-13.1%) win 117/188
+s100        fills=219 (closed 188, open 31) invested=$21,900 fees=$0.00 realized=$-2,762.01 openMTM=$-157.34 total=$-2,919.35 (-13.3%) win 117/188
+perfect100  fills=595 (closed 477, open 118) invested=$59,500 fees=$0.00 realized=$-3,297.04 openMTM=$-216.61 total=$-3,513.66 (-5.9%) win 369/477
 
 == backtest fills ==
-s10         fills=472 (closed 380, open 92) invested=$4,720 fees=$0.00 realized=$-5.74 openMTM=$-13.59 total=$-19.34 (-0.4%) win 280/380
-s100        fills=472 (closed 380, open 92) invested=$47,200 fees=$0.00 realized=$-57.45 openMTM=$-135.90 total=$-193.35 (-0.4%) win 280/380
-perfect100  fills=2174 (closed 1900, open 274) invested=$217,400 fees=$0.00 realized=$-1,203.04 openMTM=$+1,329.99 total=$+126.95 (+0.1%) win 1543/1900
+s10         fills=472 (closed 380, open 92) invested=$4,720 fees=$0.00 realized=$-5.74 openMTM=$-20.60 total=$-26.34 (-0.6%) win 280/380
+s100        fills=472 (closed 380, open 92) invested=$47,200 fees=$0.00 realized=$-57.45 openMTM=$-205.99 total=$-263.44 (-0.6%) win 280/380
+perfect100  fills=2175 (closed 1904, open 271) invested=$217,500 fees=$0.00 realized=$-1,198.86 openMTM=$+1,218.42 total=$+19.57 (+0.0%) win 1547/1904
 ```
