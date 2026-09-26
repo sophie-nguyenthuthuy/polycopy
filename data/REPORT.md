@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-26 05:24 UTC
+# polycopy status — 2026-09-26 14:42 UTC
 
 ## Qualified wallets
 ```
@@ -238,12 +238,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=219 (closed 188, open 31) invested=$2,190 fees=$0.00 realized=$-272.27 openMTM=$-13.77 total=$-286.04 (-13.1%) win 117/188
-s100        fills=219 (closed 188, open 31) invested=$21,900 fees=$0.00 realized=$-2,762.01 openMTM=$-157.34 total=$-2,919.35 (-13.3%) win 117/188
-perfect100  fills=595 (closed 477, open 118) invested=$59,500 fees=$0.00 realized=$-3,297.04 openMTM=$-216.61 total=$-3,513.66 (-5.9%) win 369/477
+s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-15.65 total=$-287.40 (-13.1%) win 119/190
+s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-175.32 total=$-2,932.26 (-13.4%) win 119/190
+perfect100  fills=600 (closed 480, open 120) invested=$60,000 fees=$0.00 realized=$-3,288.21 openMTM=$-229.81 total=$-3,518.02 (-5.9%) win 372/480
 
 == backtest fills ==
-s10         fills=472 (closed 380, open 92) invested=$4,720 fees=$0.00 realized=$-5.74 openMTM=$-20.60 total=$-26.34 (-0.6%) win 280/380
-s100        fills=472 (closed 380, open 92) invested=$47,200 fees=$0.00 realized=$-57.45 openMTM=$-205.99 total=$-263.44 (-0.6%) win 280/380
-perfect100  fills=2175 (closed 1904, open 271) invested=$217,500 fees=$0.00 realized=$-1,198.86 openMTM=$+1,218.42 total=$+19.57 (+0.0%) win 1547/1904
+s10         fills=472 (closed 381, open 91) invested=$4,720 fees=$0.00 realized=$-15.74 openMTM=$-8.60 total=$-24.34 (-0.5%) win 280/381
+s100        fills=472 (closed 381, open 91) invested=$47,200 fees=$0.00 realized=$-157.45 openMTM=$-85.99 total=$-243.44 (-0.5%) win 280/381
+perfect100  fills=2180 (closed 1907, open 273) invested=$218,000 fees=$0.00 realized=$-1,288.98 openMTM=$+1,337.07 total=$+48.09 (+0.0%) win 1549/1907
 ```
