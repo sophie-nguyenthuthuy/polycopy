@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-27 04:54 UTC
+# polycopy status — 2026-09-27 10:29 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=220 (closed 190, open 30) invested=$2,200 fees=$0.00 realized=$-271.75 openMTM=$-13.28 total=$-285.03 (-13.0%) win 119/190
-s100        fills=220 (closed 190, open 30) invested=$22,000 fees=$0.00 realized=$-2,756.94 openMTM=$-152.04 total=$-2,908.98 (-13.2%) win 119/190
-perfect100  fills=611 (closed 492, open 119) invested=$61,100 fees=$0.00 realized=$-3,112.51 openMTM=$-301.28 total=$-3,413.79 (-5.6%) win 383/492
+s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-8.67 total=$-280.41 (-12.7%) win 120/191
+s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-109.22 total=$-2,866.06 (-13.0%) win 120/191
+perfect100  fills=618 (closed 497, open 121) invested=$61,800 fees=$0.00 realized=$-2,373.88 openMTM=$-115.41 total=$-2,489.30 (-4.0%) win 387/497
 
 == backtest fills ==
-s10         fills=473 (closed 383, open 90) invested=$4,730 fees=$0.00 realized=$-15.53 openMTM=$-9.47 total=$-25.00 (-0.5%) win 282/383
-s100        fills=473 (closed 383, open 90) invested=$47,300 fees=$0.00 realized=$-155.35 openMTM=$-94.66 total=$-250.01 (-0.5%) win 282/383
-perfect100  fills=2203 (closed 1933, open 270) invested=$220,300 fees=$0.00 realized=$-1,206.06 openMTM=$+1,337.33 total=$+131.28 (+0.1%) win 1572/1933
+s10         fills=473 (closed 383, open 90) invested=$4,730 fees=$0.00 realized=$-15.53 openMTM=$-7.99 total=$-23.52 (-0.5%) win 282/383
+s100        fills=473 (closed 383, open 90) invested=$47,300 fees=$0.00 realized=$-155.35 openMTM=$-79.88 total=$-235.22 (-0.5%) win 282/383
+perfect100  fills=2210 (closed 1937, open 273) invested=$221,000 fees=$0.00 realized=$-491.05 openMTM=$+1,051.82 total=$+560.77 (+0.3%) win 1575/1937
 ```
