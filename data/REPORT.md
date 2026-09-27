@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-27 19:14 UTC
+# polycopy status — 2026-09-27 22:32 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-9.59 total=$-281.33 (-12.8%) win 120/191
-s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-115.71 total=$-2,872.55 (-13.1%) win 120/191
-perfect100  fills=625 (closed 506, open 119) invested=$62,500 fees=$0.00 realized=$-2,467.91 openMTM=$-279.71 total=$-2,747.62 (-4.4%) win 393/506
+s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-8.74 total=$-280.48 (-12.7%) win 120/191
+s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-107.28 total=$-2,864.12 (-13.0%) win 120/191
+perfect100  fills=626 (closed 507, open 119) invested=$62,600 fees=$0.00 realized=$-2,298.99 openMTM=$-267.12 total=$-2,566.11 (-4.1%) win 394/507
 
 == backtest fills ==
-s10         fills=473 (closed 384, open 89) invested=$4,730 fees=$0.00 realized=$-15.19 openMTM=$-0.48 total=$-15.68 (-0.3%) win 283/384
-s100        fills=473 (closed 384, open 89) invested=$47,300 fees=$0.00 realized=$-151.93 openMTM=$-4.83 total=$-156.76 (-0.3%) win 283/384
-perfect100  fills=2217 (closed 1947, open 270) invested=$221,700 fees=$0.00 realized=$-624.36 openMTM=$+1,257.34 total=$+632.98 (+0.3%) win 1581/1947
+s10         fills=473 (closed 384, open 89) invested=$4,730 fees=$0.00 realized=$-15.19 openMTM=$-1.86 total=$-17.05 (-0.4%) win 283/384
+s100        fills=473 (closed 384, open 89) invested=$47,300 fees=$0.00 realized=$-151.93 openMTM=$-18.60 total=$-170.53 (-0.4%) win 283/384
+perfect100  fills=2218 (closed 1947, open 271) invested=$221,800 fees=$0.00 realized=$-624.36 openMTM=$+1,250.93 total=$+626.57 (+0.3%) win 1581/1947
 ```
