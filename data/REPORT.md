@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-26 23:50 UTC
+# polycopy status — 2026-09-27 04:54 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-14.25 total=$-286.00 (-13.1%) win 119/190
-s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-162.02 total=$-2,918.96 (-13.3%) win 119/190
-perfect100  fills=610 (closed 492, open 118) invested=$61,000 fees=$0.00 realized=$-3,112.51 openMTM=$-221.96 total=$-3,334.47 (-5.5%) win 383/492
+s10         fills=220 (closed 190, open 30) invested=$2,200 fees=$0.00 realized=$-271.75 openMTM=$-13.28 total=$-285.03 (-13.0%) win 119/190
+s100        fills=220 (closed 190, open 30) invested=$22,000 fees=$0.00 realized=$-2,756.94 openMTM=$-152.04 total=$-2,908.98 (-13.2%) win 119/190
+perfect100  fills=611 (closed 492, open 119) invested=$61,100 fees=$0.00 realized=$-3,112.51 openMTM=$-301.28 total=$-3,413.79 (-5.6%) win 383/492
 
 == backtest fills ==
-s10         fills=472 (closed 383, open 89) invested=$4,720 fees=$0.00 realized=$-15.53 openMTM=$-10.36 total=$-25.90 (-0.5%) win 282/383
-s100        fills=472 (closed 383, open 89) invested=$47,200 fees=$0.00 realized=$-155.35 openMTM=$-103.62 total=$-258.97 (-0.5%) win 282/383
-perfect100  fills=2202 (closed 1930, open 272) invested=$220,200 fees=$0.00 realized=$-1,212.35 openMTM=$+1,323.66 total=$+111.31 (+0.1%) win 1569/1930
+s10         fills=473 (closed 383, open 90) invested=$4,730 fees=$0.00 realized=$-15.53 openMTM=$-9.47 total=$-25.00 (-0.5%) win 282/383
+s100        fills=473 (closed 383, open 90) invested=$47,300 fees=$0.00 realized=$-155.35 openMTM=$-94.66 total=$-250.01 (-0.5%) win 282/383
+perfect100  fills=2203 (closed 1933, open 270) invested=$220,300 fees=$0.00 realized=$-1,206.06 openMTM=$+1,337.33 total=$+131.28 (+0.1%) win 1572/1933
 ```
