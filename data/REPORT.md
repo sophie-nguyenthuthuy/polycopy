@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-26 21:28 UTC
+# polycopy status — 2026-09-26 23:50 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-14.48 total=$-286.24 (-13.1%) win 119/190
-s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-165.04 total=$-2,921.98 (-13.3%) win 119/190
-perfect100  fills=608 (closed 487, open 121) invested=$60,800 fees=$0.00 realized=$-3,272.50 openMTM=$-216.02 total=$-3,488.53 (-5.7%) win 379/487
+s10         fills=219 (closed 190, open 29) invested=$2,190 fees=$0.00 realized=$-271.75 openMTM=$-14.25 total=$-286.00 (-13.1%) win 119/190
+s100        fills=219 (closed 190, open 29) invested=$21,900 fees=$0.00 realized=$-2,756.94 openMTM=$-162.02 total=$-2,918.96 (-13.3%) win 119/190
+perfect100  fills=610 (closed 492, open 118) invested=$61,000 fees=$0.00 realized=$-3,112.51 openMTM=$-221.96 total=$-3,334.47 (-5.5%) win 383/492
 
 == backtest fills ==
-s10         fills=472 (closed 383, open 89) invested=$4,720 fees=$0.00 realized=$-15.53 openMTM=$-10.43 total=$-25.97 (-0.6%) win 282/383
-s100        fills=472 (closed 383, open 89) invested=$47,200 fees=$0.00 realized=$-155.35 openMTM=$-104.34 total=$-259.69 (-0.6%) win 282/383
-perfect100  fills=2202 (closed 1928, open 274) invested=$220,200 fees=$0.00 realized=$-1,173.86 openMTM=$+1,326.99 total=$+153.12 (+0.1%) win 1568/1928
+s10         fills=472 (closed 383, open 89) invested=$4,720 fees=$0.00 realized=$-15.53 openMTM=$-10.36 total=$-25.90 (-0.5%) win 282/383
+s100        fills=472 (closed 383, open 89) invested=$47,200 fees=$0.00 realized=$-155.35 openMTM=$-103.62 total=$-258.97 (-0.5%) win 282/383
+perfect100  fills=2202 (closed 1930, open 272) invested=$220,200 fees=$0.00 realized=$-1,212.35 openMTM=$+1,323.66 total=$+111.31 (+0.1%) win 1569/1930
 ```
