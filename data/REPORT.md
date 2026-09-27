@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-27 10:29 UTC
+# polycopy status — 2026-09-27 15:18 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-8.67 total=$-280.41 (-12.7%) win 120/191
-s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-109.22 total=$-2,866.06 (-13.0%) win 120/191
-perfect100  fills=618 (closed 497, open 121) invested=$61,800 fees=$0.00 realized=$-2,373.88 openMTM=$-115.41 total=$-2,489.30 (-4.0%) win 387/497
+s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-8.21 total=$-279.95 (-12.7%) win 120/191
+s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-101.65 total=$-2,858.49 (-13.0%) win 120/191
+perfect100  fills=623 (closed 504, open 119) invested=$62,300 fees=$0.00 realized=$-2,470.36 openMTM=$-263.43 total=$-2,733.79 (-4.4%) win 391/504
 
 == backtest fills ==
-s10         fills=473 (closed 383, open 90) invested=$4,730 fees=$0.00 realized=$-15.53 openMTM=$-7.99 total=$-23.52 (-0.5%) win 282/383
-s100        fills=473 (closed 383, open 90) invested=$47,300 fees=$0.00 realized=$-155.35 openMTM=$-79.88 total=$-235.22 (-0.5%) win 282/383
-perfect100  fills=2210 (closed 1937, open 273) invested=$221,000 fees=$0.00 realized=$-491.05 openMTM=$+1,051.82 total=$+560.77 (+0.3%) win 1575/1937
+s10         fills=473 (closed 384, open 89) invested=$4,730 fees=$0.00 realized=$-15.19 openMTM=$-0.74 total=$-15.93 (-0.3%) win 283/384
+s100        fills=473 (closed 384, open 89) invested=$47,300 fees=$0.00 realized=$-151.93 openMTM=$-7.37 total=$-159.30 (-0.3%) win 283/384
+perfect100  fills=2215 (closed 1944, open 271) invested=$221,500 fees=$0.00 realized=$-523.39 openMTM=$+1,161.35 total=$+637.96 (+0.3%) win 1580/1944
 ```
