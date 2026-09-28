@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-27 22:32 UTC
+# polycopy status — 2026-09-28 01:32 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-8.74 total=$-280.48 (-12.7%) win 120/191
-s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-107.28 total=$-2,864.12 (-13.0%) win 120/191
-perfect100  fills=626 (closed 507, open 119) invested=$62,600 fees=$0.00 realized=$-2,298.99 openMTM=$-267.12 total=$-2,566.11 (-4.1%) win 394/507
+s10         fills=220 (closed 191, open 29) invested=$2,200 fees=$0.00 realized=$-271.74 openMTM=$-7.66 total=$-279.40 (-12.7%) win 120/191
+s100        fills=220 (closed 191, open 29) invested=$22,000 fees=$0.00 realized=$-2,756.84 openMTM=$-96.48 total=$-2,853.32 (-13.0%) win 120/191
+perfect100  fills=627 (closed 509, open 118) invested=$62,700 fees=$0.00 realized=$-2,347.04 openMTM=$-205.39 total=$-2,552.43 (-4.1%) win 395/509
 
 == backtest fills ==
-s10         fills=473 (closed 384, open 89) invested=$4,730 fees=$0.00 realized=$-15.19 openMTM=$-1.86 total=$-17.05 (-0.4%) win 283/384
-s100        fills=473 (closed 384, open 89) invested=$47,300 fees=$0.00 realized=$-151.93 openMTM=$-18.60 total=$-170.53 (-0.4%) win 283/384
-perfect100  fills=2218 (closed 1947, open 271) invested=$221,800 fees=$0.00 realized=$-624.36 openMTM=$+1,250.93 total=$+626.57 (+0.3%) win 1581/1947
+s10         fills=473 (closed 384, open 89) invested=$4,730 fees=$0.00 realized=$-15.19 openMTM=$-1.26 total=$-16.46 (-0.3%) win 283/384
+s100        fills=473 (closed 384, open 89) invested=$47,300 fees=$0.00 realized=$-151.93 openMTM=$-12.63 total=$-164.56 (-0.3%) win 283/384
+perfect100  fills=2219 (closed 1948, open 271) invested=$221,900 fees=$0.00 realized=$-450.69 openMTM=$+1,192.12 total=$+741.43 (+0.3%) win 1582/1948
 ```
