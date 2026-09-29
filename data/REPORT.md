@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-29 02:16 UTC
+# polycopy status — 2026-09-29 08:57 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=223 (closed 192, open 31) invested=$2,230 fees=$0.00 realized=$-281.74 openMTM=$-11.28 total=$-293.02 (-13.1%) win 120/192
-s100        fills=223 (closed 192, open 31) invested=$22,300 fees=$0.00 realized=$-2,856.84 openMTM=$-135.53 total=$-2,992.37 (-13.4%) win 120/192
-perfect100  fills=638 (closed 518, open 120) invested=$63,800 fees=$0.00 realized=$-2,230.07 openMTM=$+24.01 total=$-2,206.06 (-3.5%) win 401/518
+s10         fills=224 (closed 192, open 32) invested=$2,240 fees=$0.00 realized=$-281.74 openMTM=$-13.28 total=$-295.02 (-13.2%) win 120/192
+s100        fills=224 (closed 192, open 32) invested=$22,400 fees=$0.00 realized=$-2,856.84 openMTM=$-153.77 total=$-3,010.61 (-13.4%) win 120/192
+perfect100  fills=641 (closed 518, open 123) invested=$64,100 fees=$0.00 realized=$-2,230.07 openMTM=$-7.74 total=$-2,237.81 (-3.5%) win 401/518
 
 == backtest fills ==
-s10         fills=476 (closed 385, open 91) invested=$4,760 fees=$0.00 realized=$-25.19 openMTM=$-4.71 total=$-29.91 (-0.6%) win 283/385
-s100        fills=476 (closed 385, open 91) invested=$47,600 fees=$0.00 realized=$-251.93 openMTM=$-47.12 total=$-299.05 (-0.6%) win 283/385
-perfect100  fills=2230 (closed 1958, open 272) invested=$223,000 fees=$0.00 realized=$-772.11 openMTM=$+1,662.22 total=$+890.11 (+0.4%) win 1587/1958
+s10         fills=477 (closed 385, open 92) invested=$4,770 fees=$0.00 realized=$-25.19 openMTM=$-6.82 total=$-32.01 (-0.7%) win 283/385
+s100        fills=477 (closed 385, open 92) invested=$47,700 fees=$0.00 realized=$-251.93 openMTM=$-68.21 total=$-320.13 (-0.7%) win 283/385
+perfect100  fills=2233 (closed 1960, open 273) invested=$223,300 fees=$0.00 realized=$-769.80 openMTM=$+1,617.57 total=$+847.76 (+0.4%) win 1589/1960
 ```
