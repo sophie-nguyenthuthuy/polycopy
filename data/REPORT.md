@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-29 15:41 UTC
+# polycopy status — 2026-09-29 20:39 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=227 (closed 192, open 35) invested=$2,270 fees=$0.00 realized=$-281.74 openMTM=$-22.76 total=$-304.50 (-13.4%) win 120/192
-s100        fills=227 (closed 192, open 35) invested=$22,700 fees=$0.00 realized=$-2,856.84 openMTM=$-245.86 total=$-3,102.70 (-13.7%) win 120/192
-perfect100  fills=647 (closed 518, open 129) invested=$64,700 fees=$0.00 realized=$-2,230.07 openMTM=$-71.21 total=$-2,301.28 (-3.6%) win 401/518
+s10         fills=227 (closed 193, open 34) invested=$2,270 fees=$0.00 realized=$-291.18 openMTM=$-27.83 total=$-319.01 (-14.1%) win 120/193
+s100        fills=227 (closed 193, open 34) invested=$22,700 fees=$0.00 realized=$-2,951.26 openMTM=$-298.54 total=$-3,249.80 (-14.3%) win 120/193
+perfect100  fills=651 (closed 520, open 131) invested=$65,100 fees=$0.00 realized=$-2,317.51 openMTM=$-133.00 total=$-2,450.50 (-3.8%) win 402/520
 
 == backtest fills ==
-s10         fills=480 (closed 385, open 95) invested=$4,800 fees=$0.00 realized=$-25.19 openMTM=$-6.21 total=$-31.41 (-0.7%) win 283/385
-s100        fills=480 (closed 385, open 95) invested=$48,000 fees=$0.00 realized=$-251.93 openMTM=$-62.12 total=$-314.05 (-0.7%) win 283/385
-perfect100  fills=2238 (closed 1962, open 276) invested=$223,800 fees=$0.00 realized=$-770.27 openMTM=$+1,628.23 total=$+857.97 (+0.4%) win 1590/1962
+s10         fills=480 (closed 386, open 94) invested=$4,800 fees=$0.00 realized=$-34.62 openMTM=$-23.55 total=$-58.17 (-1.2%) win 283/386
+s100        fills=480 (closed 386, open 94) invested=$48,000 fees=$0.00 realized=$-346.23 openMTM=$-235.50 total=$-581.74 (-1.2%) win 283/386
+perfect100  fills=2242 (closed 1964, open 278) invested=$224,200 fees=$0.00 realized=$-858.64 openMTM=$+1,439.62 total=$+580.98 (+0.3%) win 1591/1964
 ```
