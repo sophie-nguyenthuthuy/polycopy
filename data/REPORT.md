@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-28 22:30 UTC
+# polycopy status — 2026-09-29 02:16 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=223 (closed 192, open 31) invested=$2,230 fees=$0.00 realized=$-281.74 openMTM=$-8.88 total=$-290.62 (-13.0%) win 120/192
-s100        fills=223 (closed 192, open 31) invested=$22,300 fees=$0.00 realized=$-2,856.84 openMTM=$-107.99 total=$-2,964.83 (-13.3%) win 120/192
-perfect100  fills=638 (closed 516, open 122) invested=$63,800 fees=$0.00 realized=$-2,234.37 openMTM=$+79.31 total=$-2,155.07 (-3.4%) win 399/516
+s10         fills=223 (closed 192, open 31) invested=$2,230 fees=$0.00 realized=$-281.74 openMTM=$-11.28 total=$-293.02 (-13.1%) win 120/192
+s100        fills=223 (closed 192, open 31) invested=$22,300 fees=$0.00 realized=$-2,856.84 openMTM=$-135.53 total=$-2,992.37 (-13.4%) win 120/192
+perfect100  fills=638 (closed 518, open 120) invested=$63,800 fees=$0.00 realized=$-2,230.07 openMTM=$+24.01 total=$-2,206.06 (-3.5%) win 401/518
 
 == backtest fills ==
-s10         fills=476 (closed 385, open 91) invested=$4,760 fees=$0.00 realized=$-25.19 openMTM=$-5.97 total=$-31.16 (-0.7%) win 283/385
-s100        fills=476 (closed 385, open 91) invested=$47,600 fees=$0.00 realized=$-251.93 openMTM=$-59.67 total=$-311.60 (-0.7%) win 283/385
-perfect100  fills=2230 (closed 1958, open 272) invested=$223,000 fees=$0.00 realized=$-772.11 openMTM=$+1,657.45 total=$+885.34 (+0.4%) win 1587/1958
+s10         fills=476 (closed 385, open 91) invested=$4,760 fees=$0.00 realized=$-25.19 openMTM=$-4.71 total=$-29.91 (-0.6%) win 283/385
+s100        fills=476 (closed 385, open 91) invested=$47,600 fees=$0.00 realized=$-251.93 openMTM=$-47.12 total=$-299.05 (-0.6%) win 283/385
+perfect100  fills=2230 (closed 1958, open 272) invested=$223,000 fees=$0.00 realized=$-772.11 openMTM=$+1,662.22 total=$+890.11 (+0.4%) win 1587/1958
 ```
