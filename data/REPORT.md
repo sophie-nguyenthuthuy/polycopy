@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-29 08:57 UTC
+# polycopy status — 2026-09-29 15:41 UTC
 
 ## Qualified wallets
 ```
@@ -243,12 +243,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=224 (closed 192, open 32) invested=$2,240 fees=$0.00 realized=$-281.74 openMTM=$-13.28 total=$-295.02 (-13.2%) win 120/192
-s100        fills=224 (closed 192, open 32) invested=$22,400 fees=$0.00 realized=$-2,856.84 openMTM=$-153.77 total=$-3,010.61 (-13.4%) win 120/192
-perfect100  fills=641 (closed 518, open 123) invested=$64,100 fees=$0.00 realized=$-2,230.07 openMTM=$-7.74 total=$-2,237.81 (-3.5%) win 401/518
+s10         fills=227 (closed 192, open 35) invested=$2,270 fees=$0.00 realized=$-281.74 openMTM=$-22.76 total=$-304.50 (-13.4%) win 120/192
+s100        fills=227 (closed 192, open 35) invested=$22,700 fees=$0.00 realized=$-2,856.84 openMTM=$-245.86 total=$-3,102.70 (-13.7%) win 120/192
+perfect100  fills=647 (closed 518, open 129) invested=$64,700 fees=$0.00 realized=$-2,230.07 openMTM=$-71.21 total=$-2,301.28 (-3.6%) win 401/518
 
 == backtest fills ==
-s10         fills=477 (closed 385, open 92) invested=$4,770 fees=$0.00 realized=$-25.19 openMTM=$-6.82 total=$-32.01 (-0.7%) win 283/385
-s100        fills=477 (closed 385, open 92) invested=$47,700 fees=$0.00 realized=$-251.93 openMTM=$-68.21 total=$-320.13 (-0.7%) win 283/385
-perfect100  fills=2233 (closed 1960, open 273) invested=$223,300 fees=$0.00 realized=$-769.80 openMTM=$+1,617.57 total=$+847.76 (+0.4%) win 1589/1960
+s10         fills=480 (closed 385, open 95) invested=$4,800 fees=$0.00 realized=$-25.19 openMTM=$-6.21 total=$-31.41 (-0.7%) win 283/385
+s100        fills=480 (closed 385, open 95) invested=$48,000 fees=$0.00 realized=$-251.93 openMTM=$-62.12 total=$-314.05 (-0.7%) win 283/385
+perfect100  fills=2238 (closed 1962, open 276) invested=$223,800 fees=$0.00 realized=$-770.27 openMTM=$+1,628.23 total=$+857.97 (+0.4%) win 1590/1962
 ```
