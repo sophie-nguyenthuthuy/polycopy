@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-30 18:06 UTC
+# polycopy status — 2026-09-30 22:32 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=228 (closed 195, open 33) invested=$2,280 fees=$0.00 realized=$-311.18 openMTM=$-4.67 total=$-315.86 (-13.9%) win 120/195
-s100        fills=228 (closed 195, open 33) invested=$22,800 fees=$0.00 realized=$-3,151.26 openMTM=$-92.61 total=$-3,243.86 (-14.2%) win 120/195
-perfect100  fills=659 (closed 526, open 133) invested=$65,900 fees=$0.00 realized=$-2,512.22 openMTM=$+60.63 total=$-2,451.58 (-3.7%) win 406/526
+s10         fills=228 (closed 197, open 31) invested=$2,280 fees=$0.00 realized=$-319.56 openMTM=$-7.09 total=$-326.65 (-14.3%) win 121/197
+s100        fills=228 (closed 197, open 31) invested=$22,800 fees=$0.00 realized=$-3,235.00 openMTM=$-95.94 total=$-3,330.94 (-14.6%) win 121/197
+perfect100  fills=664 (closed 533, open 131) invested=$66,400 fees=$0.00 realized=$-2,568.91 openMTM=$+25.64 total=$-2,543.27 (-3.8%) win 412/533
 
 == backtest fills ==
-s10         fills=481 (closed 388, open 93) invested=$4,810 fees=$0.00 realized=$-54.62 openMTM=$+13.63 total=$-40.99 (-0.9%) win 283/388
-s100        fills=481 (closed 388, open 93) invested=$48,100 fees=$0.00 realized=$-546.23 openMTM=$+136.33 total=$-409.90 (-0.9%) win 283/388
-perfect100  fills=2288 (closed 2010, open 278) invested=$228,800 fees=$0.00 realized=$-673.32 openMTM=$+1,876.89 total=$+1,203.58 (+0.5%) win 1618/2010
+s10         fills=481 (closed 389, open 92) invested=$4,810 fees=$0.00 realized=$-64.56 openMTM=$+12.89 total=$-51.68 (-1.1%) win 283/389
+s100        fills=481 (closed 389, open 92) invested=$48,100 fees=$0.00 realized=$-645.64 openMTM=$+128.86 total=$-516.77 (-1.1%) win 283/389
+perfect100  fills=2292 (closed 2013, open 279) invested=$229,200 fees=$0.00 realized=$-765.37 openMTM=$+1,956.83 total=$+1,191.45 (+0.5%) win 1620/2013
 ```
