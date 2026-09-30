@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-30 12:21 UTC
+# polycopy status — 2026-09-30 18:06 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=227 (closed 195, open 32) invested=$2,270 fees=$0.00 realized=$-311.18 openMTM=$-3.34 total=$-314.53 (-13.9%) win 120/195
-s100        fills=227 (closed 195, open 32) invested=$22,700 fees=$0.00 realized=$-3,151.26 openMTM=$-80.31 total=$-3,231.57 (-14.2%) win 120/195
-perfect100  fills=654 (closed 526, open 128) invested=$65,400 fees=$0.00 realized=$-2,512.22 openMTM=$+57.41 total=$-2,454.81 (-3.8%) win 406/526
+s10         fills=228 (closed 195, open 33) invested=$2,280 fees=$0.00 realized=$-311.18 openMTM=$-4.67 total=$-315.86 (-13.9%) win 120/195
+s100        fills=228 (closed 195, open 33) invested=$22,800 fees=$0.00 realized=$-3,151.26 openMTM=$-92.61 total=$-3,243.86 (-14.2%) win 120/195
+perfect100  fills=659 (closed 526, open 133) invested=$65,900 fees=$0.00 realized=$-2,512.22 openMTM=$+60.63 total=$-2,451.58 (-3.7%) win 406/526
 
 == backtest fills ==
-s10         fills=480 (closed 388, open 92) invested=$4,800 fees=$0.00 realized=$-54.62 openMTM=$+3.44 total=$-51.19 (-1.1%) win 283/388
-s100        fills=480 (closed 388, open 92) invested=$48,000 fees=$0.00 realized=$-546.23 openMTM=$+34.36 total=$-511.87 (-1.1%) win 283/388
-perfect100  fills=2285 (closed 2008, open 277) invested=$228,500 fees=$0.00 realized=$-679.94 openMTM=$+1,770.19 total=$+1,090.24 (+0.5%) win 1616/2008
+s10         fills=481 (closed 388, open 93) invested=$4,810 fees=$0.00 realized=$-54.62 openMTM=$+13.63 total=$-40.99 (-0.9%) win 283/388
+s100        fills=481 (closed 388, open 93) invested=$48,100 fees=$0.00 realized=$-546.23 openMTM=$+136.33 total=$-409.90 (-0.9%) win 283/388
+perfect100  fills=2288 (closed 2010, open 278) invested=$228,800 fees=$0.00 realized=$-673.32 openMTM=$+1,876.89 total=$+1,203.58 (+0.5%) win 1618/2010
 ```
