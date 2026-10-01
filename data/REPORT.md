@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-01 16:17 UTC
+# polycopy status — 2026-10-01 21:16 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=228 (closed 202, open 26) invested=$2,280 fees=$0.00 realized=$-318.40 openMTM=$-4.55 total=$-322.95 (-14.2%) win 126/202
-s100        fills=228 (closed 202, open 26) invested=$22,800 fees=$0.00 realized=$-3,226.96 openMTM=$-86.51 total=$-3,313.48 (-14.5%) win 126/202
-perfect100  fills=673 (closed 548, open 125) invested=$67,300 fees=$0.00 realized=$-2,502.60 openMTM=$-44.04 total=$-2,546.63 (-3.8%) win 427/548
+s10         fills=228 (closed 202, open 26) invested=$2,280 fees=$0.00 realized=$-318.40 openMTM=$-7.42 total=$-325.82 (-14.3%) win 126/202
+s100        fills=228 (closed 202, open 26) invested=$22,800 fees=$0.00 realized=$-3,226.96 openMTM=$-89.57 total=$-3,316.53 (-14.5%) win 126/202
+perfect100  fills=673 (closed 548, open 125) invested=$67,300 fees=$0.00 realized=$-2,502.60 openMTM=$-32.21 total=$-2,534.81 (-3.8%) win 427/548
 
 == backtest fills ==
-s10         fills=481 (closed 404, open 77) invested=$4,810 fees=$0.00 realized=$-68.56 openMTM=$+20.17 total=$-48.39 (-1.0%) win 297/404
-s100        fills=481 (closed 404, open 77) invested=$48,100 fees=$0.00 realized=$-685.59 openMTM=$+201.72 total=$-483.87 (-1.0%) win 297/404
-perfect100  fills=2299 (closed 2057, open 242) invested=$229,900 fees=$0.00 realized=$-576.51 openMTM=$+1,841.47 total=$+1,264.96 (+0.6%) win 1663/2057
+s10         fills=481 (closed 405, open 76) invested=$4,810 fees=$0.00 realized=$-67.71 openMTM=$+16.22 total=$-51.49 (-1.1%) win 298/405
+s100        fills=481 (closed 405, open 76) invested=$48,100 fees=$0.00 realized=$-677.09 openMTM=$+162.18 total=$-514.91 (-1.1%) win 298/405
+perfect100  fills=2299 (closed 2058, open 241) invested=$229,900 fees=$0.00 realized=$-568.01 openMTM=$+1,820.45 total=$+1,252.44 (+0.5%) win 1664/2058
 ```
