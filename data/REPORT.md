@@ -1,4 +1,4 @@
-# polycopy status — 2026-09-30 22:32 UTC
+# polycopy status — 2026-10-01 01:57 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=228 (closed 197, open 31) invested=$2,280 fees=$0.00 realized=$-319.56 openMTM=$-7.09 total=$-326.65 (-14.3%) win 121/197
-s100        fills=228 (closed 197, open 31) invested=$22,800 fees=$0.00 realized=$-3,235.00 openMTM=$-95.94 total=$-3,330.94 (-14.6%) win 121/197
-perfect100  fills=664 (closed 533, open 131) invested=$66,400 fees=$0.00 realized=$-2,568.91 openMTM=$+25.64 total=$-2,543.27 (-3.8%) win 412/533
+s10         fills=228 (closed 198, open 30) invested=$2,280 fees=$0.00 realized=$-319.33 openMTM=$-3.87 total=$-323.20 (-14.2%) win 122/198
+s100        fills=228 (closed 198, open 30) invested=$22,800 fees=$0.00 realized=$-3,232.87 openMTM=$-84.11 total=$-3,316.99 (-14.5%) win 122/198
+perfect100  fills=664 (closed 534, open 130) invested=$66,400 fees=$0.00 realized=$-2,566.79 openMTM=$+39.26 total=$-2,527.52 (-3.8%) win 413/534
 
 == backtest fills ==
-s10         fills=481 (closed 389, open 92) invested=$4,810 fees=$0.00 realized=$-64.56 openMTM=$+12.89 total=$-51.68 (-1.1%) win 283/389
-s100        fills=481 (closed 389, open 92) invested=$48,100 fees=$0.00 realized=$-645.64 openMTM=$+128.86 total=$-516.77 (-1.1%) win 283/389
-perfect100  fills=2292 (closed 2013, open 279) invested=$229,200 fees=$0.00 realized=$-765.37 openMTM=$+1,956.83 total=$+1,191.45 (+0.5%) win 1620/2013
+s10         fills=481 (closed 390, open 91) invested=$4,810 fees=$0.00 realized=$-63.11 openMTM=$+5.55 total=$-57.55 (-1.2%) win 284/390
+s100        fills=481 (closed 390, open 91) invested=$48,100 fees=$0.00 realized=$-631.07 openMTM=$+55.54 total=$-575.54 (-1.2%) win 284/390
+perfect100  fills=2292 (closed 2018, open 274) invested=$229,200 fees=$0.00 realized=$-708.54 openMTM=$+1,834.70 total=$+1,126.16 (+0.5%) win 1625/2018
 ```
