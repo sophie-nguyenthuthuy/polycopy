@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-01 08:45 UTC
+# polycopy status — 2026-10-01 16:17 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=228 (closed 202, open 26) invested=$2,280 fees=$0.00 realized=$-318.40 openMTM=$-3.63 total=$-322.03 (-14.1%) win 126/202
-s100        fills=228 (closed 202, open 26) invested=$22,800 fees=$0.00 realized=$-3,226.96 openMTM=$-83.14 total=$-3,310.10 (-14.5%) win 126/202
-perfect100  fills=670 (closed 548, open 122) invested=$67,000 fees=$0.00 realized=$-2,502.60 openMTM=$+0.89 total=$-2,501.70 (-3.7%) win 427/548
+s10         fills=228 (closed 202, open 26) invested=$2,280 fees=$0.00 realized=$-318.40 openMTM=$-4.55 total=$-322.95 (-14.2%) win 126/202
+s100        fills=228 (closed 202, open 26) invested=$22,800 fees=$0.00 realized=$-3,226.96 openMTM=$-86.51 total=$-3,313.48 (-14.5%) win 126/202
+perfect100  fills=673 (closed 548, open 125) invested=$67,300 fees=$0.00 realized=$-2,502.60 openMTM=$-44.04 total=$-2,546.63 (-3.8%) win 427/548
 
 == backtest fills ==
-s10         fills=481 (closed 392, open 89) invested=$4,810 fees=$0.00 realized=$-62.15 openMTM=$+11.89 total=$-50.27 (-1.0%) win 286/392
-s100        fills=481 (closed 392, open 89) invested=$48,100 fees=$0.00 realized=$-621.54 openMTM=$+118.87 total=$-502.67 (-1.0%) win 286/392
-perfect100  fills=2298 (closed 2032, open 266) invested=$229,800 fees=$0.00 realized=$-616.71 openMTM=$+1,829.56 total=$+1,212.84 (+0.5%) win 1639/2032
+s10         fills=481 (closed 404, open 77) invested=$4,810 fees=$0.00 realized=$-68.56 openMTM=$+20.17 total=$-48.39 (-1.0%) win 297/404
+s100        fills=481 (closed 404, open 77) invested=$48,100 fees=$0.00 realized=$-685.59 openMTM=$+201.72 total=$-483.87 (-1.0%) win 297/404
+perfect100  fills=2299 (closed 2057, open 242) invested=$229,900 fees=$0.00 realized=$-576.51 openMTM=$+1,841.47 total=$+1,264.96 (+0.6%) win 1663/2057
 ```
