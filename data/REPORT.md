@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-02 01:03 UTC
+# polycopy status — 2026-10-02 07:27 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=229 (closed 202, open 27) invested=$2,290 fees=$0.00 realized=$-318.40 openMTM=$-13.55 total=$-331.95 (-14.5%) win 126/202
-s100        fills=229 (closed 202, open 27) invested=$22,900 fees=$0.00 realized=$-3,226.96 openMTM=$-149.77 total=$-3,376.74 (-14.7%) win 126/202
-perfect100  fills=674 (closed 549, open 125) invested=$67,400 fees=$0.00 realized=$-2,602.60 openMTM=$-86.39 total=$-2,688.99 (-4.0%) win 427/549
+s10         fills=229 (closed 203, open 26) invested=$2,290 fees=$0.00 realized=$-315.96 openMTM=$-8.69 total=$-324.65 (-14.2%) win 127/203
+s100        fills=229 (closed 203, open 26) invested=$22,900 fees=$0.00 realized=$-3,202.59 openMTM=$-102.22 total=$-3,304.81 (-14.4%) win 127/203
+perfect100  fills=678 (closed 551, open 127) invested=$67,800 fees=$0.00 realized=$-2,578.12 openMTM=$-51.84 total=$-2,629.96 (-3.9%) win 429/551
 
 == backtest fills ==
-s10         fills=482 (closed 405, open 77) invested=$4,820 fees=$0.00 realized=$-67.71 openMTM=$+7.88 total=$-59.83 (-1.2%) win 298/405
-s100        fills=482 (closed 405, open 77) invested=$48,200 fees=$0.00 realized=$-677.09 openMTM=$+78.80 total=$-598.29 (-1.2%) win 298/405
-perfect100  fills=2300 (closed 2058, open 242) invested=$230,000 fees=$0.00 realized=$-568.01 openMTM=$+1,668.66 total=$+1,100.66 (+0.5%) win 1664/2058
+s10         fills=482 (closed 406, open 76) invested=$4,820 fees=$0.00 realized=$-53.42 openMTM=$+0.32 total=$-53.10 (-1.1%) win 299/406
+s100        fills=482 (closed 406, open 76) invested=$48,200 fees=$0.00 realized=$-534.18 openMTM=$+3.16 total=$-531.02 (-1.1%) win 299/406
+perfect100  fills=2304 (closed 2060, open 244) invested=$230,400 fees=$0.00 realized=$-525.09 openMTM=$+1,682.16 total=$+1,157.07 (+0.5%) win 1665/2060
 ```
