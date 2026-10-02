@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-02 07:27 UTC
+# polycopy status — 2026-10-02 14:05 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=229 (closed 203, open 26) invested=$2,290 fees=$0.00 realized=$-315.96 openMTM=$-8.69 total=$-324.65 (-14.2%) win 127/203
-s100        fills=229 (closed 203, open 26) invested=$22,900 fees=$0.00 realized=$-3,202.59 openMTM=$-102.22 total=$-3,304.81 (-14.4%) win 127/203
-perfect100  fills=678 (closed 551, open 127) invested=$67,800 fees=$0.00 realized=$-2,578.12 openMTM=$-51.84 total=$-2,629.96 (-3.9%) win 429/551
+s10         fills=229 (closed 203, open 26) invested=$2,290 fees=$0.00 realized=$-315.96 openMTM=$-7.94 total=$-323.90 (-14.1%) win 127/203
+s100        fills=229 (closed 203, open 26) invested=$22,900 fees=$0.00 realized=$-3,202.59 openMTM=$-93.81 total=$-3,296.39 (-14.4%) win 127/203
+perfect100  fills=679 (closed 553, open 126) invested=$67,900 fees=$0.00 realized=$-2,561.70 openMTM=$-108.82 total=$-2,670.52 (-3.9%) win 431/553
 
 == backtest fills ==
-s10         fills=482 (closed 406, open 76) invested=$4,820 fees=$0.00 realized=$-53.42 openMTM=$+0.32 total=$-53.10 (-1.1%) win 299/406
-s100        fills=482 (closed 406, open 76) invested=$48,200 fees=$0.00 realized=$-534.18 openMTM=$+3.16 total=$-531.02 (-1.1%) win 299/406
-perfect100  fills=2304 (closed 2060, open 244) invested=$230,400 fees=$0.00 realized=$-525.09 openMTM=$+1,682.16 total=$+1,157.07 (+0.5%) win 1665/2060
+s10         fills=482 (closed 406, open 76) invested=$4,820 fees=$0.00 realized=$-53.42 openMTM=$+1.03 total=$-52.39 (-1.1%) win 299/406
+s100        fills=482 (closed 406, open 76) invested=$48,200 fees=$0.00 realized=$-534.18 openMTM=$+10.31 total=$-523.87 (-1.1%) win 299/406
+perfect100  fills=2305 (closed 2062, open 243) invested=$230,500 fees=$0.00 realized=$-523.08 openMTM=$+1,626.79 total=$+1,103.71 (+0.5%) win 1667/2062
 ```
