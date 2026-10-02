@@ -789,6 +789,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xa4e87291b58c51400bc7844c7dc3c0a14db76300,ludokak,SCALPER,0,0,266,203,0.5671641791044776,469,7,995,100095.01297005331,1787693721,995 trades — market-maker/scalper profile
 0xa4fd70a8d79c3433ca2eb967ee605a356986748b,alexdave888,SCALPER,0,0,156,247,0.3870967741935484,403,10,1000,177102.63127924575,1787941767,1000 trades — market-maker/scalper profile
 0xa62373e4098417a42d666da61338dcc69e0fa4fe,Penguinchik,ARB,0,0,202,152,0.5706214689265536,356,4,2045,30554.05022602442,1787828741,holds both sides in 58% of markets
+0xa66790e2b0075e73c3781ddaf1d0b875a3aaceb3,Elias.Thornwell,SCALPER,0,0,7,7,0.5,16,773,1000,-8.895750000000003,1790969323,1000 trades — market-maker/scalper profile
 0xa69cd17a239f8827564ceae501a7d5309c5ab1ac,,NORMAL,0,0,0,0,0.0,0,1,6,0.0,1786552078,only 0 resolved markets — not enough history
 0xa71093cafc0c099b4ccab24c3cb8018d817923c4,Talvez10,SCALPER,0,0,400,370,0.5194805194805194,770,0,1000,919390.8320721758,1786425602,1000 trades — market-maker/scalper profile
 0xa797d6bd8fe6e404bb4d8e4ab3d97c38336fdede,LonnieHawkins,SCALPER,0,0,110,98,0.5288461538461539,210,22,1000,20923.84916718335,1788025868,1000 trades — market-maker/scalper profile
@@ -806,6 +807,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0xab5324996a0dda2c3ef83008c920084441a5664f,0xAB5324,NORMAL,0,0,0,0,0.0,0,74,116,0.0,1786909698,only 0 resolved markets — not enough history
 0xab963523a92e1779aaaf670bcafe1f800103989f,naive-child,SCALPER,0,0,181,283,0.3900862068965517,464,8,1000,-1346.9276775360943,1788699851,1000 trades — market-maker/scalper profile
 0xaba6eb96620a77cf5777dae47a40a15bf8510cd9,,NORMAL,0,0,1,0,1.0,1,13,110,44.339622002075465,1786865803,only 1 resolved markets — not enough history
+0xac175a86ae75dbe35f1ebf432d76a7214cb0ecca,angela88,SCALPER,0,0,200,220,0.47619047619047616,453,3,940,110.63869335893733,1790969337,940 trades — market-maker/scalper profile
 0xad288e024b9f5063b0ca5fd43b74928323159b01,,NORMAL,0,0,4,0,1.0,4,7,24,2836.590729962975,1788375251,only 4 resolved markets — not enough history
 0xae1c550336092d2c3d271c69d892e792e32a50b4,Accentualll,NORMAL,0,0,3,0,1.0,3,1,7,153.68373000214854,1787426877,only 3 resolved markets — not enough history
 0xae26ba21e0971efc5aeae03496eace1c2696fdb3,wonderous,SCALPER,0,0,102,69,0.5964912280701754,172,7,1000,1916.2161219880597,1787175079,1000 trades — market-maker/scalper profile
