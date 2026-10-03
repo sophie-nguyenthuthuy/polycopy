@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-03 02:17 UTC
+# polycopy status — 2026-10-03 08:31 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=229 (closed 203, open 26) invested=$2,290 fees=$0.00 realized=$-315.96 openMTM=$-7.57 total=$-323.53 (-14.1%) win 127/203
-s100        fills=229 (closed 203, open 26) invested=$22,900 fees=$0.00 realized=$-3,202.59 openMTM=$-90.17 total=$-3,292.75 (-14.4%) win 127/203
-perfect100  fills=688 (closed 562, open 126) invested=$68,800 fees=$0.00 realized=$-2,498.89 openMTM=$-107.95 total=$-2,606.84 (-3.8%) win 440/562
+s10         fills=231 (closed 203, open 28) invested=$2,310 fees=$0.00 realized=$-315.96 openMTM=$-10.36 total=$-326.32 (-14.1%) win 127/203
+s100        fills=231 (closed 203, open 28) invested=$23,100 fees=$0.00 realized=$-3,202.59 openMTM=$-126.72 total=$-3,329.30 (-14.4%) win 127/203
+perfect100  fills=690 (closed 562, open 128) invested=$69,000 fees=$0.00 realized=$-2,498.89 openMTM=$-154.09 total=$-2,652.98 (-3.8%) win 440/562
 
 == backtest fills ==
-s10         fills=482 (closed 406, open 76) invested=$4,820 fees=$0.00 realized=$-53.42 openMTM=$+2.86 total=$-50.56 (-1.0%) win 299/406
-s100        fills=482 (closed 406, open 76) invested=$48,200 fees=$0.00 realized=$-534.18 openMTM=$+28.62 total=$-505.56 (-1.0%) win 299/406
-perfect100  fills=2314 (closed 2072, open 242) invested=$231,400 fees=$0.00 realized=$-468.51 openMTM=$+1,730.53 total=$+1,262.03 (+0.5%) win 1677/2072
+s10         fills=484 (closed 406, open 78) invested=$4,840 fees=$0.00 realized=$-53.42 openMTM=$+0.10 total=$-53.32 (-1.1%) win 299/406
+s100        fills=484 (closed 406, open 78) invested=$48,400 fees=$0.00 realized=$-534.18 openMTM=$+1.00 total=$-533.17 (-1.1%) win 299/406
+perfect100  fills=2316 (closed 2072, open 244) invested=$231,600 fees=$0.00 realized=$-468.51 openMTM=$+1,695.85 total=$+1,227.34 (+0.5%) win 1677/2072
 ```
