@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-04 19:34 UTC
+# polycopy status — 2026-10-04 22:58 UTC
 
 ## Qualified wallets
 ```
@@ -250,12 +250,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=236 (closed 205, open 31) invested=$2,360 fees=$0.00 realized=$-328.87 openMTM=$-28.80 total=$-357.67 (-15.2%) win 127/205
-s100        fills=236 (closed 205, open 31) invested=$23,600 fees=$0.00 realized=$-3,329.41 openMTM=$-309.77 total=$-3,639.18 (-15.4%) win 127/205
-perfect100  fills=703 (closed 567, open 136) invested=$70,300 fees=$0.00 realized=$-2,607.62 openMTM=$-315.26 total=$-2,922.88 (-4.2%) win 443/567
+s10         fills=236 (closed 205, open 31) invested=$2,360 fees=$0.00 realized=$-328.87 openMTM=$-26.41 total=$-355.28 (-15.1%) win 127/205
+s100        fills=236 (closed 205, open 31) invested=$23,600 fees=$0.00 realized=$-3,329.41 openMTM=$-286.99 total=$-3,616.40 (-15.3%) win 127/205
+perfect100  fills=706 (closed 569, open 137) invested=$70,600 fees=$0.00 realized=$-2,456.49 openMTM=$-414.31 total=$-2,870.80 (-4.1%) win 445/569
 
 == backtest fills ==
-s10         fills=489 (closed 408, open 81) invested=$4,890 fees=$0.00 realized=$-35.40 openMTM=$-9.87 total=$-45.27 (-0.9%) win 301/408
-s100        fills=489 (closed 408, open 81) invested=$48,900 fees=$0.00 realized=$-354.01 openMTM=$-98.68 total=$-452.68 (-0.9%) win 301/408
-perfect100  fills=2372 (closed 2117, open 255) invested=$237,200 fees=$0.00 realized=$-768.65 openMTM=$+1,532.03 total=$+763.38 (+0.3%) win 1710/2117
+s10         fills=489 (closed 408, open 81) invested=$4,890 fees=$0.00 realized=$-35.40 openMTM=$-11.91 total=$-47.31 (-1.0%) win 301/408
+s100        fills=489 (closed 408, open 81) invested=$48,900 fees=$0.00 realized=$-354.01 openMTM=$-119.10 total=$-473.11 (-1.0%) win 301/408
+perfect100  fills=2374 (closed 2118, open 256) invested=$237,400 fees=$0.00 realized=$-768.80 openMTM=$+1,669.66 total=$+900.86 (+0.4%) win 1710/2118
 ```
