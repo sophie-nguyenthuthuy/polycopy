@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-04 05:27 UTC
+# polycopy status — 2026-10-04 11:18 UTC
 
 ## Qualified wallets
 ```
@@ -247,12 +247,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=236 (closed 203, open 33) invested=$2,360 fees=$0.00 realized=$-315.96 openMTM=$-32.78 total=$-348.74 (-14.8%) win 127/203
-s100        fills=236 (closed 203, open 33) invested=$23,600 fees=$0.00 realized=$-3,202.59 openMTM=$-362.27 total=$-3,564.86 (-15.1%) win 127/203
-perfect100  fills=702 (closed 565, open 137) invested=$70,200 fees=$0.00 realized=$-2,480.80 openMTM=$-511.49 total=$-2,992.29 (-4.3%) win 443/565
+s10         fills=236 (closed 203, open 33) invested=$2,360 fees=$0.00 realized=$-315.96 openMTM=$-40.38 total=$-356.35 (-15.1%) win 127/203
+s100        fills=236 (closed 203, open 33) invested=$23,600 fees=$0.00 realized=$-3,202.59 openMTM=$-432.15 total=$-3,634.73 (-15.4%) win 127/203
+perfect100  fills=702 (closed 565, open 137) invested=$70,200 fees=$0.00 realized=$-2,480.80 openMTM=$-579.94 total=$-3,060.74 (-4.4%) win 443/565
 
 == backtest fills ==
-s10         fills=489 (closed 406, open 83) invested=$4,890 fees=$0.00 realized=$-53.42 openMTM=$+0.48 total=$-52.94 (-1.1%) win 299/406
-s100        fills=489 (closed 406, open 83) invested=$48,900 fees=$0.00 realized=$-534.18 openMTM=$+4.77 total=$-529.40 (-1.1%) win 299/406
-perfect100  fills=2328 (closed 2074, open 254) invested=$232,800 fees=$0.00 realized=$-467.56 openMTM=$+1,660.59 total=$+1,193.03 (+0.5%) win 1679/2074
+s10         fills=489 (closed 406, open 83) invested=$4,890 fees=$0.00 realized=$-53.42 openMTM=$+1.00 total=$-52.41 (-1.1%) win 299/406
+s100        fills=489 (closed 406, open 83) invested=$48,900 fees=$0.00 realized=$-534.18 openMTM=$+10.03 total=$-524.14 (-1.1%) win 299/406
+perfect100  fills=2328 (closed 2075, open 253) invested=$232,800 fees=$0.00 realized=$-439.61 openMTM=$+1,610.55 total=$+1,170.94 (+0.5%) win 1680/2075
 ```
