@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-05 01:49 UTC
+# polycopy status — 2026-10-05 08:47 UTC
 
 ## Qualified wallets
 ```
@@ -250,12 +250,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=236 (closed 205, open 31) invested=$2,360 fees=$0.00 realized=$-328.87 openMTM=$-10.88 total=$-339.75 (-14.4%) win 127/205
-s100        fills=236 (closed 205, open 31) invested=$23,600 fees=$0.00 realized=$-3,329.41 openMTM=$-135.14 total=$-3,464.54 (-14.7%) win 127/205
-perfect100  fills=706 (closed 569, open 137) invested=$70,600 fees=$0.00 realized=$-2,456.49 openMTM=$-254.78 total=$-2,711.27 (-3.8%) win 445/569
+s10         fills=237 (closed 207, open 30) invested=$2,370 fees=$0.00 realized=$-325.90 openMTM=$-12.48 total=$-338.38 (-14.3%) win 129/207
+s100        fills=237 (closed 207, open 30) invested=$23,700 fees=$0.00 realized=$-3,300.80 openMTM=$-150.40 total=$-3,451.19 (-14.6%) win 129/207
+perfect100  fills=708 (closed 572, open 136) invested=$70,800 fees=$0.00 realized=$-2,427.78 openMTM=$-242.42 total=$-2,670.20 (-3.8%) win 448/572
 
 == backtest fills ==
-s10         fills=489 (closed 408, open 81) invested=$4,890 fees=$0.00 realized=$-35.40 openMTM=$+7.38 total=$-28.02 (-0.6%) win 301/408
-s100        fills=489 (closed 408, open 81) invested=$48,900 fees=$0.00 realized=$-354.01 openMTM=$+73.77 total=$-280.24 (-0.6%) win 301/408
-perfect100  fills=2374 (closed 2120, open 254) invested=$237,400 fees=$0.00 realized=$-644.86 openMTM=$+1,716.91 total=$+1,072.05 (+0.5%) win 1711/2120
+s10         fills=490 (closed 409, open 81) invested=$4,900 fees=$0.00 realized=$-34.68 openMTM=$+7.10 total=$-27.57 (-0.6%) win 302/409
+s100        fills=490 (closed 409, open 81) invested=$49,000 fees=$0.00 realized=$-346.78 openMTM=$+71.03 total=$-275.74 (-0.6%) win 302/409
+perfect100  fills=2376 (closed 2121, open 255) invested=$237,600 fees=$0.00 realized=$-637.63 openMTM=$+1,725.67 total=$+1,088.04 (+0.5%) win 1712/2121
 ```
