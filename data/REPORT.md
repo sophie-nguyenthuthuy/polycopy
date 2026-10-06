@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-05 18:15 UTC
+# polycopy status — 2026-10-06 00:16 UTC
 
 ## Qualified wallets
 ```
@@ -250,12 +250,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=240 (closed 208, open 32) invested=$2,400 fees=$0.00 realized=$-325.62 openMTM=$-13.48 total=$-339.11 (-14.1%) win 130/208
-s100        fills=240 (closed 208, open 32) invested=$24,000 fees=$0.00 realized=$-3,298.00 openMTM=$-161.02 total=$-3,459.02 (-14.4%) win 130/208
-perfect100  fills=714 (closed 574, open 140) invested=$71,400 fees=$0.00 realized=$-2,414.95 openMTM=$-241.77 total=$-2,656.72 (-3.7%) win 450/574
+s10         fills=240 (closed 208, open 32) invested=$2,400 fees=$0.00 realized=$-325.62 openMTM=$-13.72 total=$-339.34 (-14.1%) win 130/208
+s100        fills=240 (closed 208, open 32) invested=$24,000 fees=$0.00 realized=$-3,298.00 openMTM=$-162.98 total=$-3,460.98 (-14.4%) win 130/208
+perfect100  fills=716 (closed 574, open 142) invested=$71,600 fees=$0.00 realized=$-2,414.95 openMTM=$-317.55 total=$-2,732.50 (-3.8%) win 450/574
 
 == backtest fills ==
-s10         fills=493 (closed 410, open 83) invested=$4,930 fees=$0.00 realized=$-31.92 openMTM=$+0.81 total=$-31.11 (-0.6%) win 303/410
-s100        fills=493 (closed 410, open 83) invested=$49,300 fees=$0.00 realized=$-319.20 openMTM=$+8.07 total=$-311.13 (-0.6%) win 303/410
-perfect100  fills=2382 (closed 2124, open 258) invested=$238,200 fees=$0.00 realized=$-588.19 openMTM=$+1,664.76 total=$+1,076.57 (+0.5%) win 1715/2124
+s10         fills=493 (closed 411, open 82) invested=$4,930 fees=$0.00 realized=$-31.72 openMTM=$-1.25 total=$-32.97 (-0.7%) win 304/411
+s100        fills=493 (closed 411, open 82) invested=$49,300 fees=$0.00 realized=$-317.21 openMTM=$-12.51 total=$-329.73 (-0.7%) win 304/411
+perfect100  fills=2383 (closed 2126, open 257) invested=$238,300 fees=$0.00 realized=$-585.30 openMTM=$+1,610.22 total=$+1,024.91 (+0.4%) win 1717/2126
 ```
