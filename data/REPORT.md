@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-06 19:49 UTC
+# polycopy status — 2026-10-06 23:44 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-16.23 total=$-341.62 (-13.9%) win 132/210
-s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-216.46 total=$-3,512.13 (-14.3%) win 132/210
-perfect100  fills=731 (closed 577, open 154) invested=$73,100 fees=$0.00 realized=$-2,409.86 openMTM=$-432.94 total=$-2,842.80 (-3.9%) win 453/577
+s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-14.38 total=$-339.77 (-13.8%) win 132/210
+s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-204.68 total=$-3,500.34 (-14.2%) win 132/210
+perfect100  fills=735 (closed 583, open 152) invested=$73,500 fees=$0.00 realized=$-2,203.97 openMTM=$-431.09 total=$-2,635.07 (-3.6%) win 458/583
 
 == backtest fills ==
-s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+14.46 total=$-17.23 (-0.3%) win 306/413
-s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+144.55 total=$-172.30 (-0.3%) win 306/413
-perfect100  fills=2587 (closed 2312, open 275) invested=$258,700 fees=$0.00 realized=$-1,591.06 openMTM=$+1,729.81 total=$+138.75 (+0.1%) win 1820/2312
+s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+10.35 total=$-21.33 (-0.4%) win 306/413
+s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+103.50 total=$-213.35 (-0.4%) win 306/413
+perfect100  fills=2591 (closed 2314, open 277) invested=$259,100 fees=$0.00 realized=$-1,436.60 openMTM=$+1,658.90 total=$+222.30 (+0.1%) win 1821/2314
 ```
