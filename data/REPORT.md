@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-06 06:48 UTC
+# polycopy status — 2026-10-06 14:09 UTC
 
 ## Qualified wallets
 ```
@@ -250,12 +250,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=241 (closed 208, open 33) invested=$2,410 fees=$0.00 realized=$-325.62 openMTM=$-13.63 total=$-339.25 (-14.1%) win 130/208
-s100        fills=241 (closed 208, open 33) invested=$24,100 fees=$0.00 realized=$-3,298.00 openMTM=$-201.87 total=$-3,499.87 (-14.5%) win 130/208
-perfect100  fills=717 (closed 574, open 143) invested=$71,700 fees=$0.00 realized=$-2,414.95 openMTM=$-360.97 total=$-2,775.92 (-3.9%) win 450/574
+s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-15.20 total=$-340.58 (-13.8%) win 132/210
+s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-218.59 total=$-3,514.25 (-14.3%) win 132/210
+perfect100  fills=724 (closed 577, open 147) invested=$72,400 fees=$0.00 realized=$-2,409.86 openMTM=$-361.36 total=$-2,771.22 (-3.8%) win 453/577
 
 == backtest fills ==
-s10         fills=494 (closed 411, open 83) invested=$4,940 fees=$0.00 realized=$-31.72 openMTM=$+13.56 total=$-18.16 (-0.4%) win 304/411
-s100        fills=494 (closed 411, open 83) invested=$49,400 fees=$0.00 realized=$-317.21 openMTM=$+135.63 total=$-181.58 (-0.4%) win 304/411
-perfect100  fills=2384 (closed 2126, open 258) invested=$238,400 fees=$0.00 realized=$-585.30 openMTM=$+1,733.07 total=$+1,147.76 (+0.5%) win 1717/2126
+s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+14.68 total=$-17.00 (-0.3%) win 306/413
+s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+146.83 total=$-170.02 (-0.3%) win 306/413
+perfect100  fills=2391 (closed 2128, open 263) invested=$239,100 fees=$0.00 realized=$-584.94 openMTM=$+1,717.39 total=$+1,132.44 (+0.5%) win 1719/2128
 ```
