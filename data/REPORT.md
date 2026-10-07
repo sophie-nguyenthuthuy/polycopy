@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-07 11:59 UTC
+# polycopy status — 2026-10-07 18:52 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-19.27 total=$-344.66 (-14.0%) win 132/210
-s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-249.71 total=$-3,545.37 (-14.4%) win 132/210
-perfect100  fills=748 (closed 597, open 151) invested=$74,800 fees=$0.00 realized=$-2,152.95 openMTM=$-589.24 total=$-2,742.19 (-3.7%) win 465/597
+s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-18.65 total=$-344.04 (-14.0%) win 132/210
+s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-244.82 total=$-3,540.48 (-14.4%) win 132/210
+perfect100  fills=779 (closed 621, open 158) invested=$77,900 fees=$0.00 realized=$-2,233.94 openMTM=$-581.83 total=$-2,815.77 (-3.6%) win 483/621
 
 == backtest fills ==
-s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+6.73 total=$-24.95 (-0.5%) win 306/413
-s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+67.31 total=$-249.55 (-0.5%) win 306/413
-perfect100  fills=2604 (closed 2332, open 272) invested=$260,400 fees=$0.00 realized=$-1,451.37 openMTM=$+1,552.26 total=$+100.89 (+0.0%) win 1830/2332
+s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+6.69 total=$-24.99 (-0.5%) win 306/413
+s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+66.94 total=$-249.91 (-0.5%) win 306/413
+perfect100  fills=2635 (closed 2355, open 280) invested=$263,500 fees=$0.00 realized=$-1,480.87 openMTM=$+1,527.74 total=$+46.87 (+0.0%) win 1847/2355
 ```
