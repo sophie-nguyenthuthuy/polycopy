@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-06 23:44 UTC
+# polycopy status — 2026-10-07 05:30 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-14.38 total=$-339.77 (-13.8%) win 132/210
-s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-204.68 total=$-3,500.34 (-14.2%) win 132/210
-perfect100  fills=735 (closed 583, open 152) invested=$73,500 fees=$0.00 realized=$-2,203.97 openMTM=$-431.09 total=$-2,635.07 (-3.6%) win 458/583
+s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-18.86 total=$-344.25 (-14.0%) win 132/210
+s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-245.46 total=$-3,541.12 (-14.4%) win 132/210
+perfect100  fills=738 (closed 586, open 152) invested=$73,800 fees=$0.00 realized=$-2,174.74 openMTM=$-553.40 total=$-2,728.14 (-3.7%) win 461/586
 
 == backtest fills ==
-s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+10.35 total=$-21.33 (-0.4%) win 306/413
-s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+103.50 total=$-213.35 (-0.4%) win 306/413
-perfect100  fills=2591 (closed 2314, open 277) invested=$259,100 fees=$0.00 realized=$-1,436.60 openMTM=$+1,658.90 total=$+222.30 (+0.1%) win 1821/2314
+s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+16.15 total=$-15.53 (-0.3%) win 306/413
+s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+161.53 total=$-155.32 (-0.3%) win 306/413
+perfect100  fills=2594 (closed 2319, open 275) invested=$259,400 fees=$0.00 realized=$-1,397.73 openMTM=$+1,613.29 total=$+215.56 (+0.1%) win 1826/2319
 ```
