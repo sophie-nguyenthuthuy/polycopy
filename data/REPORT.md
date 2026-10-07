@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-07 18:52 UTC
+# polycopy status — 2026-10-07 23:35 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 210, open 36) invested=$2,460 fees=$0.00 realized=$-325.39 openMTM=$-18.65 total=$-344.04 (-14.0%) win 132/210
-s100        fills=246 (closed 210, open 36) invested=$24,600 fees=$0.00 realized=$-3,295.66 openMTM=$-244.82 total=$-3,540.48 (-14.4%) win 132/210
-perfect100  fills=779 (closed 621, open 158) invested=$77,900 fees=$0.00 realized=$-2,233.94 openMTM=$-581.83 total=$-2,815.77 (-3.6%) win 483/621
+s10         fills=246 (closed 211, open 35) invested=$2,460 fees=$0.00 realized=$-335.26 openMTM=$-9.82 total=$-345.09 (-14.0%) win 132/211
+s100        fills=246 (closed 211, open 35) invested=$24,600 fees=$0.00 realized=$-3,394.54 openMTM=$-155.34 total=$-3,549.88 (-14.4%) win 132/211
+perfect100  fills=786 (closed 629, open 157) invested=$78,600 fees=$0.00 realized=$-2,198.32 openMTM=$-372.27 total=$-2,570.59 (-3.3%) win 489/629
 
 == backtest fills ==
-s10         fills=499 (closed 413, open 86) invested=$4,990 fees=$0.00 realized=$-31.69 openMTM=$+6.69 total=$-24.99 (-0.5%) win 306/413
-s100        fills=499 (closed 413, open 86) invested=$49,900 fees=$0.00 realized=$-316.85 openMTM=$+66.94 total=$-249.91 (-0.5%) win 306/413
-perfect100  fills=2635 (closed 2355, open 280) invested=$263,500 fees=$0.00 realized=$-1,480.87 openMTM=$+1,527.74 total=$+46.87 (+0.0%) win 1847/2355
+s10         fills=499 (closed 414, open 85) invested=$4,990 fees=$0.00 realized=$-41.60 openMTM=$+19.69 total=$-21.91 (-0.4%) win 306/414
+s100        fills=499 (closed 414, open 85) invested=$49,900 fees=$0.00 realized=$-415.97 openMTM=$+196.86 total=$-219.11 (-0.4%) win 306/414
+perfect100  fills=2642 (closed 2363, open 279) invested=$264,200 fees=$0.00 realized=$-1,539.42 openMTM=$+1,646.69 total=$+107.27 (+0.0%) win 1853/2363
 ```
