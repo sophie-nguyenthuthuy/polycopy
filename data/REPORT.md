@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-07 23:35 UTC
+# polycopy status — 2026-10-08 05:38 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 211, open 35) invested=$2,460 fees=$0.00 realized=$-335.26 openMTM=$-9.82 total=$-345.09 (-14.0%) win 132/211
-s100        fills=246 (closed 211, open 35) invested=$24,600 fees=$0.00 realized=$-3,394.54 openMTM=$-155.34 total=$-3,549.88 (-14.4%) win 132/211
-perfect100  fills=786 (closed 629, open 157) invested=$78,600 fees=$0.00 realized=$-2,198.32 openMTM=$-372.27 total=$-2,570.59 (-3.3%) win 489/629
+s10         fills=246 (closed 214, open 32) invested=$2,460 fees=$0.00 realized=$-314.71 openMTM=$-14.57 total=$-329.28 (-13.4%) win 135/214
+s100        fills=246 (closed 214, open 32) invested=$24,600 fees=$0.00 realized=$-3,299.24 openMTM=$-162.09 total=$-3,461.33 (-14.1%) win 135/214
+perfect100  fills=790 (closed 637, open 153) invested=$79,000 fees=$0.00 realized=$-2,085.99 openMTM=$-396.29 total=$-2,482.28 (-3.1%) win 497/637
 
 == backtest fills ==
-s10         fills=499 (closed 414, open 85) invested=$4,990 fees=$0.00 realized=$-41.60 openMTM=$+19.69 total=$-21.91 (-0.4%) win 306/414
-s100        fills=499 (closed 414, open 85) invested=$49,900 fees=$0.00 realized=$-415.97 openMTM=$+196.86 total=$-219.11 (-0.4%) win 306/414
-perfect100  fills=2642 (closed 2363, open 279) invested=$264,200 fees=$0.00 realized=$-1,539.42 openMTM=$+1,646.69 total=$+107.27 (+0.0%) win 1853/2363
+s10         fills=499 (closed 414, open 85) invested=$4,990 fees=$0.00 realized=$-41.60 openMTM=$+33.07 total=$-8.52 (-0.2%) win 306/414
+s100        fills=499 (closed 414, open 85) invested=$49,900 fees=$0.00 realized=$-415.97 openMTM=$+330.74 total=$-85.23 (-0.2%) win 306/414
+perfect100  fills=2646 (closed 2366, open 280) invested=$264,600 fees=$0.00 realized=$-1,530.94 openMTM=$+1,830.88 total=$+299.94 (+0.1%) win 1856/2366
 ```
