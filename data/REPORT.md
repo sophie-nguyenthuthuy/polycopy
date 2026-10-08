@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-08 05:38 UTC
+# polycopy status — 2026-10-08 13:13 UTC
 
 ## Qualified wallets
 ```
@@ -254,12 +254,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=246 (closed 214, open 32) invested=$2,460 fees=$0.00 realized=$-314.71 openMTM=$-14.57 total=$-329.28 (-13.4%) win 135/214
-s100        fills=246 (closed 214, open 32) invested=$24,600 fees=$0.00 realized=$-3,299.24 openMTM=$-162.09 total=$-3,461.33 (-14.1%) win 135/214
-perfect100  fills=790 (closed 637, open 153) invested=$79,000 fees=$0.00 realized=$-2,085.99 openMTM=$-396.29 total=$-2,482.28 (-3.1%) win 497/637
+s10         fills=247 (closed 214, open 33) invested=$2,470 fees=$0.00 realized=$-314.71 openMTM=$-16.08 total=$-330.80 (-13.4%) win 135/214
+s100        fills=247 (closed 214, open 33) invested=$24,700 fees=$0.00 realized=$-3,299.24 openMTM=$-179.26 total=$-3,478.50 (-14.1%) win 135/214
+perfect100  fills=805 (closed 651, open 154) invested=$80,500 fees=$0.00 realized=$+32,418.48 openMTM=$-274.02 total=$+32,144.46 (+39.9%) win 503/651
 
 == backtest fills ==
-s10         fills=499 (closed 414, open 85) invested=$4,990 fees=$0.00 realized=$-41.60 openMTM=$+33.07 total=$-8.52 (-0.2%) win 306/414
-s100        fills=499 (closed 414, open 85) invested=$49,900 fees=$0.00 realized=$-415.97 openMTM=$+330.74 total=$-85.23 (-0.2%) win 306/414
-perfect100  fills=2646 (closed 2366, open 280) invested=$264,600 fees=$0.00 realized=$-1,530.94 openMTM=$+1,830.88 total=$+299.94 (+0.1%) win 1856/2366
+s10         fills=500 (closed 417, open 83) invested=$5,000 fees=$0.00 realized=$+19.63 openMTM=$-0.08 total=$+19.55 (+0.4%) win 309/417
+s100        fills=500 (closed 417, open 83) invested=$50,000 fees=$0.00 realized=$+196.31 openMTM=$-0.79 total=$+195.52 (+0.4%) win 309/417
+perfect100  fills=2661 (closed 2384, open 277) invested=$266,100 fees=$0.00 realized=$-949.53 openMTM=$+1,393.71 total=$+444.17 (+0.2%) win 1868/2384
 ```
