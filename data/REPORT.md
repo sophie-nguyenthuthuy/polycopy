@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-09 13:00 UTC
+# polycopy status — 2026-10-09 18:48 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=248 (closed 216, open 32) invested=$2,480 fees=$0.00 realized=$-311.92 openMTM=$-18.19 total=$-330.10 (-13.3%) win 137/216
-s100        fills=248 (closed 216, open 32) invested=$24,800 fees=$0.00 realized=$-3,271.33 openMTM=$-198.06 total=$-3,469.39 (-14.0%) win 137/216
-perfect100  fills=832 (closed 682, open 150) invested=$83,200 fees=$0.00 realized=$+165,566.85 openMTM=$-258.78 total=$+165,308.07 (+198.7%) win 529/682
+s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-21.35 total=$-336.52 (-13.5%) win 137/217
+s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-247.18 total=$-3,553.00 (-14.2%) win 137/217
+perfect100  fills=848 (closed 692, open 156) invested=$84,800 fees=$0.00 realized=$+165,758.67 openMTM=$-524.62 total=$+165,234.04 (+194.9%) win 536/692
 
 == backtest fills ==
-s10         fills=501 (closed 419, open 82) invested=$5,010 fees=$0.00 realized=$+22.30 openMTM=$+1.56 total=$+23.86 (+0.5%) win 311/419
-s100        fills=501 (closed 419, open 82) invested=$50,100 fees=$0.00 realized=$+222.96 openMTM=$+15.64 total=$+238.60 (+0.5%) win 311/419
-perfect100  fills=2765 (closed 2486, open 279) invested=$276,500 fees=$0.00 realized=$-1,300.61 openMTM=$+1,636.50 total=$+335.89 (+0.1%) win 1955/2486
+s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$-5.81 total=$+17.09 (+0.3%) win 312/420
+s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$-58.12 total=$+170.94 (+0.3%) win 312/420
+perfect100  fills=2781 (closed 2495, open 286) invested=$278,100 fees=$0.00 realized=$-1,013.69 openMTM=$+1,509.86 total=$+496.16 (+0.2%) win 1963/2495
 ```
