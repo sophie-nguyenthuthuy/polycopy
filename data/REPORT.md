@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-08 19:25 UTC
+# polycopy status — 2026-10-09 05:43 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=247 (closed 214, open 33) invested=$2,470 fees=$0.00 realized=$-314.71 openMTM=$-23.24 total=$-337.95 (-13.7%) win 135/214
-s100        fills=247 (closed 214, open 33) invested=$24,700 fees=$0.00 realized=$-3,299.24 openMTM=$-249.81 total=$-3,549.05 (-14.4%) win 135/214
-perfect100  fills=814 (closed 663, open 151) invested=$81,400 fees=$0.00 realized=$+165,514.61 openMTM=$-302.93 total=$+165,211.68 (+203.0%) win 512/663
+s10         fills=247 (closed 215, open 32) invested=$2,470 fees=$0.00 realized=$-314.59 openMTM=$-20.81 total=$-335.40 (-13.6%) win 136/215
+s100        fills=247 (closed 215, open 32) invested=$24,700 fees=$0.00 realized=$-3,298.07 openMTM=$-225.76 total=$-3,523.83 (-14.3%) win 136/215
+perfect100  fills=824 (closed 676, open 148) invested=$82,400 fees=$0.00 realized=$+165,601.10 openMTM=$-305.83 total=$+165,295.27 (+200.6%) win 525/676
 
 == backtest fills ==
-s10         fills=500 (closed 417, open 83) invested=$5,000 fees=$0.00 realized=$+19.63 openMTM=$+7.59 total=$+27.22 (+0.5%) win 309/417
-s100        fills=500 (closed 417, open 83) invested=$50,000 fees=$0.00 realized=$+196.31 openMTM=$+75.88 total=$+272.19 (+0.5%) win 309/417
-perfect100  fills=2748 (closed 2467, open 281) invested=$274,800 fees=$0.00 realized=$-1,327.96 openMTM=$+1,704.43 total=$+376.47 (+0.1%) win 1938/2467
+s10         fills=500 (closed 417, open 83) invested=$5,000 fees=$0.00 realized=$+19.63 openMTM=$-2.89 total=$+16.74 (+0.3%) win 309/417
+s100        fills=500 (closed 417, open 83) invested=$50,000 fees=$0.00 realized=$+196.31 openMTM=$-28.91 total=$+167.40 (+0.3%) win 309/417
+perfect100  fills=2757 (closed 2477, open 280) invested=$275,700 fees=$0.00 realized=$-1,271.31 openMTM=$+1,617.97 total=$+346.66 (+0.1%) win 1948/2477
 ```
