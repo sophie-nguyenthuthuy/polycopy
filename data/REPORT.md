@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-09 23:09 UTC
+# polycopy status — 2026-10-10 02:38 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-22.46 total=$-337.63 (-13.5%) win 137/217
-s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-258.31 total=$-3,564.13 (-14.3%) win 137/217
-perfect100  fills=849 (closed 697, open 152) invested=$84,900 fees=$0.00 realized=$+165,765.14 openMTM=$-476.40 total=$+165,288.74 (+194.7%) win 541/697
+s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-21.01 total=$-336.18 (-13.4%) win 137/217
+s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-243.77 total=$-3,549.59 (-14.2%) win 137/217
+perfect100  fills=851 (closed 697, open 154) invested=$85,100 fees=$0.00 realized=$+165,765.14 openMTM=$-377.87 total=$+165,387.26 (+194.3%) win 541/697
 
 == backtest fills ==
-s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$+0.56 total=$+23.47 (+0.5%) win 312/420
-s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$+5.62 total=$+234.68 (+0.5%) win 312/420
-perfect100  fills=2781 (closed 2497, open 284) invested=$278,100 fees=$0.00 realized=$-1,012.19 openMTM=$+1,532.30 total=$+520.10 (+0.2%) win 1965/2497
+s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$-1.05 total=$+21.86 (+0.4%) win 312/420
+s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$-10.51 total=$+218.55 (+0.4%) win 312/420
+perfect100  fills=2783 (closed 2501, open 282) invested=$278,300 fees=$0.00 realized=$-1,008.96 openMTM=$+1,568.17 total=$+559.21 (+0.2%) win 1969/2501
 ```
