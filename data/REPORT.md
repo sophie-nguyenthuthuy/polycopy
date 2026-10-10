@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-10 15:50 UTC
+# polycopy status — 2026-10-10 19:58 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-22.80 total=$-337.97 (-13.5%) win 137/217
-s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-261.66 total=$-3,567.48 (-14.3%) win 137/217
-perfect100  fills=867 (closed 713, open 154) invested=$86,700 fees=$0.00 realized=$+165,577.31 openMTM=$-307.82 total=$+165,269.49 (+190.6%) win 551/713
+s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-22.09 total=$-337.26 (-13.5%) win 137/217
+s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-259.47 total=$-3,565.29 (-14.3%) win 137/217
+perfect100  fills=874 (closed 717, open 157) invested=$87,400 fees=$0.00 realized=$+165,598.05 openMTM=$-419.96 total=$+165,178.10 (+189.0%) win 554/717
 
 == backtest fills ==
-s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$-4.09 total=$+18.82 (+0.4%) win 312/420
-s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$-40.90 total=$+188.16 (+0.4%) win 312/420
-perfect100  fills=2799 (closed 2517, open 282) invested=$279,900 fees=$0.00 realized=$-1,216.64 openMTM=$+1,634.94 total=$+418.30 (+0.1%) win 1978/2517
+s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$-4.58 total=$+18.32 (+0.4%) win 312/420
+s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$-45.83 total=$+183.24 (+0.4%) win 312/420
+perfect100  fills=2805 (closed 2519, open 286) invested=$280,500 fees=$0.00 realized=$-1,271.94 openMTM=$+1,621.67 total=$+349.73 (+0.1%) win 1979/2519
 ```
