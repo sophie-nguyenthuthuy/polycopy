@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-11 09:14 UTC
+# polycopy status — 2026-10-11 15:56 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-20.41 total=$-335.58 (-13.4%) win 137/217
-s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-244.46 total=$-3,550.28 (-14.2%) win 137/217
-perfect100  fills=888 (closed 725, open 163) invested=$88,800 fees=$0.00 realized=$+165,648.55 openMTM=$-297.53 total=$+165,351.02 (+186.2%) win 561/725
+s10         fills=251 (closed 218, open 33) invested=$2,510 fees=$0.00 realized=$-314.74 openMTM=$-19.77 total=$-334.51 (-13.3%) win 138/218
+s100        fills=251 (closed 218, open 33) invested=$25,100 fees=$0.00 realized=$-3,301.55 openMTM=$-236.34 total=$-3,537.89 (-14.1%) win 138/218
+perfect100  fills=898 (closed 734, open 164) invested=$89,800 fees=$0.00 realized=$+235,403.50 openMTM=$-347.18 total=$+235,056.32 (+261.8%) win 569/734
 
 == backtest fills ==
-s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$+3.47 total=$+26.37 (+0.5%) win 312/420
-s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$+34.67 total=$+263.73 (+0.5%) win 312/420
-perfect100  fills=2818 (closed 2529, open 289) invested=$281,800 fees=$0.00 realized=$-1,181.96 openMTM=$+1,644.01 total=$+462.05 (+0.2%) win 1988/2529
+s10         fills=504 (closed 421, open 83) invested=$5,040 fees=$0.00 realized=$+23.23 openMTM=$-0.11 total=$+23.12 (+0.5%) win 313/421
+s100        fills=504 (closed 421, open 83) invested=$50,400 fees=$0.00 realized=$+232.31 openMTM=$-1.09 total=$+231.22 (+0.5%) win 313/421
+perfect100  fills=2828 (closed 2540, open 288) invested=$282,800 fees=$0.00 realized=$-962.11 openMTM=$+1,619.37 total=$+657.26 (+0.2%) win 1997/2540
 ```
