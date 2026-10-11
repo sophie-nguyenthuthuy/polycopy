@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-11 02:07 UTC
+# polycopy status — 2026-10-11 09:14 UTC
 
 ## Qualified wallets
 ```
@@ -257,12 +257,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-20.40 total=$-335.57 (-13.4%) win 137/217
-s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-245.05 total=$-3,550.87 (-14.2%) win 137/217
-perfect100  fills=881 (closed 722, open 159) invested=$88,100 fees=$0.00 realized=$+165,568.89 openMTM=$-382.24 total=$+165,186.65 (+187.5%) win 558/722
+s10         fills=250 (closed 217, open 33) invested=$2,500 fees=$0.00 realized=$-315.17 openMTM=$-20.41 total=$-335.58 (-13.4%) win 137/217
+s100        fills=250 (closed 217, open 33) invested=$25,000 fees=$0.00 realized=$-3,305.82 openMTM=$-244.46 total=$-3,550.28 (-14.2%) win 137/217
+perfect100  fills=888 (closed 725, open 163) invested=$88,800 fees=$0.00 realized=$+165,648.55 openMTM=$-297.53 total=$+165,351.02 (+186.2%) win 561/725
 
 == backtest fills ==
-s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$+3.86 total=$+26.76 (+0.5%) win 312/420
-s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$+38.57 total=$+267.63 (+0.5%) win 312/420
-perfect100  fills=2811 (closed 2524, open 287) invested=$281,100 fees=$0.00 realized=$-1,253.39 openMTM=$+1,645.71 total=$+392.32 (+0.1%) win 1983/2524
+s10         fills=503 (closed 420, open 83) invested=$5,030 fees=$0.00 realized=$+22.91 openMTM=$+3.47 total=$+26.37 (+0.5%) win 312/420
+s100        fills=503 (closed 420, open 83) invested=$50,300 fees=$0.00 realized=$+229.07 openMTM=$+34.67 total=$+263.73 (+0.5%) win 312/420
+perfect100  fills=2818 (closed 2529, open 289) invested=$281,800 fees=$0.00 realized=$-1,181.96 openMTM=$+1,644.01 total=$+462.05 (+0.2%) win 1988/2529
 ```
