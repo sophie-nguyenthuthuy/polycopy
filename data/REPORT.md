@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-11 20:09 UTC
+# polycopy status — 2026-10-11 23:53 UTC
 
 ## Qualified wallets
 ```
@@ -262,12 +262,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=251 (closed 218, open 33) invested=$2,510 fees=$0.00 realized=$-314.74 openMTM=$-21.52 total=$-336.26 (-13.4%) win 138/218
-s100        fills=251 (closed 218, open 33) invested=$25,100 fees=$0.00 realized=$-3,301.55 openMTM=$-255.55 total=$-3,557.10 (-14.2%) win 138/218
-perfect100  fills=903 (closed 737, open 166) invested=$90,300 fees=$0.00 realized=$+235,440.62 openMTM=$-378.56 total=$+235,062.05 (+260.3%) win 572/737
+s10         fills=251 (closed 218, open 33) invested=$2,510 fees=$0.00 realized=$-314.74 openMTM=$-21.66 total=$-336.40 (-13.4%) win 138/218
+s100        fills=251 (closed 218, open 33) invested=$25,100 fees=$0.00 realized=$-3,301.55 openMTM=$-260.35 total=$-3,561.90 (-14.2%) win 138/218
+perfect100  fills=906 (closed 740, open 166) invested=$90,600 fees=$0.00 realized=$+235,449.92 openMTM=$-416.36 total=$+235,033.56 (+259.4%) win 575/740
 
 == backtest fills ==
-s10         fills=504 (closed 421, open 83) invested=$5,040 fees=$0.00 realized=$+23.23 openMTM=$-0.10 total=$+23.13 (+0.5%) win 313/421
-s100        fills=504 (closed 421, open 83) invested=$50,400 fees=$0.00 realized=$+232.31 openMTM=$-1.00 total=$+231.32 (+0.5%) win 313/421
-perfect100  fills=2882 (closed 2574, open 308) invested=$288,200 fees=$0.00 realized=$-500.40 openMTM=$+1,683.19 total=$+1,182.80 (+0.4%) win 2028/2574
+s10         fills=504 (closed 421, open 83) invested=$5,040 fees=$0.00 realized=$+23.23 openMTM=$-0.87 total=$+22.36 (+0.4%) win 313/421
+s100        fills=504 (closed 421, open 83) invested=$50,400 fees=$0.00 realized=$+232.31 openMTM=$-8.74 total=$+223.57 (+0.4%) win 313/421
+perfect100  fills=2884 (closed 2574, open 310) invested=$288,400 fees=$0.00 realized=$-500.40 openMTM=$+1,654.82 total=$+1,154.42 (+0.4%) win 2028/2574
 ```
