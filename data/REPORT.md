@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-18 19:35 UTC
+# polycopy status — 2026-10-18 22:22 UTC
 
 ## Qualified wallets
 ```
@@ -279,12 +279,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=260 (closed 222, open 38) invested=$2,600 fees=$0.00 realized=$-325.27 openMTM=$-17.68 total=$-342.95 (-13.2%) win 139/222
-s100        fills=260 (closed 222, open 38) invested=$26,000 fees=$0.00 realized=$-3,409.34 openMTM=$-221.71 total=$-3,631.05 (-14.0%) win 139/222
-perfect100  fills=1152 (closed 980, open 172) invested=$115,200 fees=$0.00 realized=$+242,813.63 openMTM=$-435.56 total=$+242,378.07 (+210.4%) win 749/980
+s10         fills=260 (closed 222, open 38) invested=$2,600 fees=$0.00 realized=$-325.27 openMTM=$-17.67 total=$-342.94 (-13.2%) win 139/222
+s100        fills=260 (closed 222, open 38) invested=$26,000 fees=$0.00 realized=$-3,409.34 openMTM=$-222.32 total=$-3,631.66 (-14.0%) win 139/222
+perfect100  fills=1152 (closed 980, open 172) invested=$115,200 fees=$0.00 realized=$+242,813.63 openMTM=$-427.05 total=$+242,386.58 (+210.4%) win 749/980
 
 == backtest fills ==
-s10         fills=513 (closed 425, open 88) invested=$5,130 fees=$0.00 realized=$+13.80 openMTM=$-0.40 total=$+13.40 (+0.3%) win 315/425
-s100        fills=513 (closed 425, open 88) invested=$51,300 fees=$0.00 realized=$+138.01 openMTM=$-4.04 total=$+133.98 (+0.3%) win 315/425
-perfect100  fills=3067 (closed 2754, open 313) invested=$306,700 fees=$0.00 realized=$-293.83 openMTM=$+1,481.12 total=$+1,187.29 (+0.4%) win 2121/2754
+s10         fills=513 (closed 425, open 88) invested=$5,130 fees=$0.00 realized=$+13.80 openMTM=$-0.64 total=$+13.17 (+0.3%) win 315/425
+s100        fills=513 (closed 425, open 88) invested=$51,300 fees=$0.00 realized=$+138.01 openMTM=$-6.36 total=$+131.65 (+0.3%) win 315/425
+perfect100  fills=3067 (closed 2755, open 312) invested=$306,700 fees=$0.00 realized=$-289.49 openMTM=$+1,479.44 total=$+1,189.95 (+0.4%) win 2122/2755
 ```
