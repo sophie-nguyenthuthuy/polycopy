@@ -849,7 +849,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x7d2299a379eb0b1c6077c7c419a383da6fb7f0cf,Qtyu,SCALPER,0,0,256,13,0.9516728624535316,274,5,845,799156.9856226315,1787637569,845 trades — market-maker/scalper profile
 0x7d67f01d3e7b7c56c3df7b2ea08a58917d7f5f14,BACKTESTEOCARAIO1,ARB,0,0,32,17,0.6530612244897959,49,14,1000,3375.019407406338,1790447290,holds both sides in 95% of markets
 0x7dd60666cfc3b970b1202d149a35d5d3b8a8f386,Paxman,NORMAL,0,0,3,0,1.0,3,4,7,469.85499999999996,1786432705,only 3 resolved markets — not enough history
-0x7e5972bfc25819775ee5a9d4f191919375487b8b,Gaditima,SCALPER,0,0,486,559,0.46507177033492825,1046,318,4990,20156.17789957527,1792517242,4990 trades — market-maker/scalper profile
+0x7e5972bfc25819775ee5a9d4f191919375487b8b,Gaditima,SCALPER,0,0,496,573,0.4639850327408793,1070,344,5175,20355.842049615534,1792556221,5175 trades — market-maker/scalper profile
 0x7e5b53d76c0bc4821daf25c2d6382a87b246e00b,zctrading,NORMAL,0,0,3,1,0.75,4,4,16,87.24867,1786966318,only 4 resolved markets — not enough history
 0x7f45081bef5139c18e59c2818fe7cefe31810788,,NORMAL,0,0,0,0,0.0,0,1,19,0.0,1786776530,only 0 resolved markets — not enough history
 0x7f4aac477bd773bc0d8c37a9f42499411aa6afd7,urloss,SCALPER,0,0,145,196,0.4252199413489736,342,31,999,8083.5350659066835,1787057865,999 trades — market-maker/scalper profile
