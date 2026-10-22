@@ -577,6 +577,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x19fbfcf0fb5cb379e8a5e518d6e69adc459bbd68,skded,ARB,0,0,33,28,0.5409836065573771,61,2,1000,-2949.6518772774048,1789194261,holds both sides in 76% of markets
 0x1ab3580b6d258e31ca0a3efdb93173d081dd64af,Satisfied,NORMAL,0,0,2,0,1.0,2,0,2,6850.991100000001,1786425768,only 2 resolved markets — not enough history
 0x1b47e9b128e6b671edebfb2cac23dd3efc40d814,sbsigner,SCALPER,0,0,362,249,0.5924713584288053,611,25,2004,-49688.18943366671,1787268717,2004 trades — market-maker/scalper profile
+0x1b5ad38e7739c41b2d92af24bbc289395619a95b,freshsocket,NORMAL,0,0,0,0,0.0,0,2,5,0.0,1792690294,only 0 resolved markets — not enough history
 0x1bc99b5d107eac22d27ceaa3b99b47b3376a918e,ChoYou,NORMAL,0,0,0,0,0.0,0,4,9,0.0,1789945623,only 0 resolved markets — not enough history
 0x1c147f2ecc502e1283e5d51d0352cbc386656342,emp992,SCALPER,0,0,250,23,0.9157509157509157,273,22,1000,4428.496843092944,1786623164,1000 trades — market-maker/scalper profile
 0x1cd24cc49782240413903b4b7e7694779f917f85,bitterfish,SCALPER,0,0,351,185,0.6548507462686567,536,17,866,94539.72536723057,1787760141,866 trades — market-maker/scalper profile
@@ -726,7 +727,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x4c1a4d3f08279b5a035c5c8c26a2c522fcd88985,op1umfan,NORMAL,0,0,0,0,0.0,0,3,12,0.0,1786638428,only 0 resolved markets — not enough history
 0x4ce3f17be91c3d0d6dbfed7bd4d326957dec4291,0x4CE3f17Be91C3d0D6dbFed7Bd4D326957dec4291-1768045938794,SCALPER,0,0,75,300,0.2,375,15,1000,-297.9369697963711,1789003351,1000 trades — market-maker/scalper profile
 0x4ddc7068ef679dc7c34e2c22411975baa1b9e73f,0x4dDC7068ef679Dc7c34e2c22411975bAa1B9E73F-1776615168970,SCALPER,0,0,913,8,0.991313789359392,933,12,1000,1965.5798839776676,1791142334,1000 trades — market-maker/scalper profile
-0x4ebc2722adc772bde8680792d0a6fdf15499a33d,aaaa298,ARB,0,0,472,297,0.6137841352405722,769,6,22339,258456.16916924846,1792610098,holds both sides in 91% of markets
+0x4ebc2722adc772bde8680792d0a6fdf15499a33d,aaaa298,ARB,0,0,490,311,0.6117353308364545,801,11,23256,266170.12171952025,1792690307,holds both sides in 91% of markets
 0x4f1d5ae26fc31472966e951af3183308736d8de2,e46m3,SCALPER,0,0,6,4,0.6,10,633,1000,-218.63426002001202,1792199586,1000 trades — market-maker/scalper profile
 0x4f29e103339919c4baaea2a60195cf1c8bb27a7e,0x4f2,SCALPER,0,0,256,97,0.7252124645892352,353,0,1000,155708.68144799996,1786426209,1000 trades — market-maker/scalper profile
 0x4f9bd654ed0867754ecb60dc62cba46d2892e024,pitful,NORMAL,0,0,0,0,0.0,0,1,2,0.0,1789594567,only 0 resolved markets — not enough history
@@ -748,7 +749,7 @@ address,name,label,score,qualified,wins,losses,win_rate,resolved_n,open_n,trade_
 0x55f35253852930ef05a1a3f8dcd0007f6b0acada,Yirmeyahu,SCALPER,0,0,92,39,0.7022900763358778,131,22,924,71719.833826661,1788892058,924 trades — market-maker/scalper profile
 0x567464a8b6b5794c43282c4a9274e12b48ba8b14,Betss,SCALPER,0,0,135,171,0.4411764705882353,306,4,1000,26885.980668296383,1791647325,1000 trades — market-maker/scalper profile
 0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e,dv-pm,SCALPER,0,0,480,494,0.4928131416837782,975,19,1000,106571.13161318954,1786425822,1000 trades — market-maker/scalper profile
-0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e,redvinny,SCALPER,0,0,429,100,0.8109640831758034,529,25,4503,342181.54894297087,1792266036,4503 trades — market-maker/scalper profile
+0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e,redvinny,SCALPER,0,0,492,106,0.822742474916388,598,29,5503,402031.59306207846,1792690300,5503 trades — market-maker/scalper profile
 0x56f4f054e92ced8fa7accfebcad73251afe49ec5,xhxtxh,SCALPER,0,0,109,87,0.5561224489795918,198,25,999,27291.847670895913,1786807719,999 trades — market-maker/scalper profile
 0x56ff8934ee5d991db3567b2ef19de212a1f94926,u45uj44uh3e,NORMAL,0,0,0,0,0.0,0,1,3,0.0,1789149059,only 0 resolved markets — not enough history
 0x57f1ab718d234fa0f3af0be35825e1536b4b078a,Shannonnana,SCALPER,0,0,153,51,0.75,206,1,933,4509.970757859512,1787485826,933 trades — market-maker/scalper profile
