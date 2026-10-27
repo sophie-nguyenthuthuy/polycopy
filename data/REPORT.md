@@ -1,4 +1,4 @@
-# polycopy status — 2026-10-27 02:23 UTC
+# polycopy status — 2026-10-27 08:20 UTC
 
 ## Qualified wallets
 ```
@@ -301,12 +301,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=263 (closed 225, open 38) invested=$2,630 fees=$0.00 realized=$-335.02 openMTM=$-15.86 total=$-350.89 (-13.3%) win 140/225
-s100        fills=263 (closed 225, open 38) invested=$26,300 fees=$0.00 realized=$-3,507.42 openMTM=$-191.51 total=$-3,698.93 (-14.1%) win 140/225
-perfect100  fills=1298 (closed 1115, open 183) invested=$129,800 fees=$0.00 realized=$+343,827.33 openMTM=$-304.82 total=$+343,522.50 (+264.7%) win 849/1115
+s10         fills=263 (closed 226, open 37) invested=$2,630 fees=$0.00 realized=$-334.10 openMTM=$-18.30 total=$-352.40 (-13.4%) win 141/226
+s100        fills=263 (closed 226, open 37) invested=$26,300 fees=$0.00 realized=$-3,499.38 openMTM=$-214.67 total=$-3,714.05 (-14.1%) win 141/226
+perfect100  fills=1304 (closed 1121, open 183) invested=$130,400 fees=$0.00 realized=$+343,790.55 openMTM=$-350.45 total=$+343,440.10 (+263.4%) win 852/1121
 
 == backtest fills ==
-s10         fills=515 (closed 428, open 87) invested=$5,150 fees=$0.00 realized=$+27.38 openMTM=$-15.48 total=$+11.90 (+0.2%) win 317/428
-s100        fills=515 (closed 428, open 87) invested=$51,500 fees=$0.00 realized=$+273.84 openMTM=$-154.83 total=$+119.01 (+0.2%) win 317/428
-perfect100  fills=3267 (closed 2939, open 328) invested=$326,700 fees=$0.00 realized=$+284.88 openMTM=$+1,341.09 total=$+1,625.97 (+0.5%) win 2263/2939
+s10         fills=515 (closed 430, open 85) invested=$5,150 fees=$0.00 realized=$+19.25 openMTM=$-7.16 total=$+12.09 (+0.2%) win 318/430
+s100        fills=515 (closed 430, open 85) invested=$51,500 fees=$0.00 realized=$+192.50 openMTM=$-71.59 total=$+120.91 (+0.2%) win 318/430
+perfect100  fills=3273 (closed 2949, open 324) invested=$327,300 fees=$0.00 realized=$+134.47 openMTM=$+1,511.55 total=$+1,646.02 (+0.5%) win 2269/2949
 ```
