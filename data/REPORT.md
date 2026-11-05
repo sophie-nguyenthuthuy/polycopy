@@ -1,4 +1,4 @@
-# polycopy status — 2026-11-05 00:17 UTC
+# polycopy status — 2026-11-05 07:16 UTC
 
 ## Qualified wallets
 ```
@@ -335,12 +335,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=277 (closed 240, open 37) invested=$2,770 fees=$0.00 realized=$-280.44 openMTM=$+3.29 total=$-277.14 (-10.0%) win 153/240
-s100        fills=277 (closed 240, open 37) invested=$27,700 fees=$0.00 realized=$-3,302.49 openMTM=$-22.18 total=$-3,324.67 (-12.0%) win 153/240
-perfect100  fills=1463 (closed 1345, open 118) invested=$146,300 fees=$0.00 realized=$+355,209.31 openMTM=$+220.71 total=$+355,430.02 (+242.9%) win 1023/1345
+s10         fills=277 (closed 240, open 37) invested=$2,770 fees=$0.00 realized=$-280.44 openMTM=$+13.50 total=$-266.94 (-9.6%) win 153/240
+s100        fills=277 (closed 240, open 37) invested=$27,700 fees=$0.00 realized=$-3,302.49 openMTM=$+23.69 total=$-3,278.79 (-11.8%) win 153/240
+perfect100  fills=1463 (closed 1346, open 117) invested=$146,300 fees=$0.00 realized=$+355,211.95 openMTM=$+273.05 total=$+355,484.99 (+243.0%) win 1024/1346
 
 == backtest fills ==
-s10         fills=559 (closed 474, open 85) invested=$5,590 fees=$0.00 realized=$+212.21 openMTM=$+3.34 total=$+215.55 (+3.9%) win 356/474
-s100        fills=559 (closed 474, open 85) invested=$55,900 fees=$0.00 realized=$+2,122.06 openMTM=$+33.43 total=$+2,155.49 (+3.9%) win 356/474
-perfect100  fills=3836 (closed 3544, open 292) invested=$383,600 fees=$0.00 realized=$+1,388.66 openMTM=$+1,700.50 total=$+3,089.16 (+0.8%) win 2755/3544
+s10         fills=559 (closed 474, open 85) invested=$5,590 fees=$0.00 realized=$+212.21 openMTM=$+5.12 total=$+217.33 (+3.9%) win 356/474
+s100        fills=559 (closed 474, open 85) invested=$55,900 fees=$0.00 realized=$+2,122.06 openMTM=$+51.21 total=$+2,173.27 (+3.9%) win 356/474
+perfect100  fills=3836 (closed 3550, open 286) invested=$383,600 fees=$0.00 realized=$+1,451.98 openMTM=$+1,567.20 total=$+3,019.18 (+0.8%) win 2761/3550
 ```
