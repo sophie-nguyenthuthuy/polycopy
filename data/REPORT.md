@@ -1,4 +1,4 @@
-# polycopy status — 2026-11-14 16:43 UTC
+# polycopy status — 2026-11-14 21:17 UTC
 
 ## Qualified wallets
 ```
@@ -335,12 +335,12 @@ address                                      label              W   L    wr trad
 ## Copy-simulation P&L
 ```
 == live (watch-mode) fills ==
-s10         fills=277 (closed 244, open 33) invested=$2,770 fees=$0.00 realized=$-248.68 openMTM=$+6.49 total=$-242.19 (-8.7%) win 157/244
-s100        fills=277 (closed 244, open 33) invested=$27,700 fees=$0.00 realized=$-3,228.79 openMTM=$+58.47 total=$-3,170.32 (-11.4%) win 157/244
-perfect100  fills=1463 (closed 1360, open 103) invested=$146,300 fees=$0.00 realized=$+355,357.54 openMTM=$+289.10 total=$+355,646.65 (+243.1%) win 1038/1360
+s10         fills=277 (closed 244, open 33) invested=$2,770 fees=$0.00 realized=$-248.68 openMTM=$+6.52 total=$-242.16 (-8.7%) win 157/244
+s100        fills=277 (closed 244, open 33) invested=$27,700 fees=$0.00 realized=$-3,228.79 openMTM=$+58.82 total=$-3,169.96 (-11.4%) win 157/244
+perfect100  fills=1463 (closed 1361, open 102) invested=$146,300 fees=$0.00 realized=$+355,257.54 openMTM=$+474.69 total=$+355,732.23 (+243.2%) win 1038/1361
 
 == backtest fills ==
-s10         fills=559 (closed 478, open 81) invested=$5,590 fees=$0.00 realized=$+230.83 openMTM=$+11.49 total=$+242.32 (+4.3%) win 360/478
-s100        fills=559 (closed 478, open 81) invested=$55,900 fees=$0.00 realized=$+2,308.29 openMTM=$+114.94 total=$+2,423.23 (+4.3%) win 360/478
-perfect100  fills=3836 (closed 3569, open 267) invested=$383,600 fees=$0.00 realized=$+3,023.01 openMTM=$+520.82 total=$+3,543.83 (+0.9%) win 2780/3569
+s10         fills=559 (closed 478, open 81) invested=$5,590 fees=$0.00 realized=$+230.83 openMTM=$+11.97 total=$+242.80 (+4.3%) win 360/478
+s100        fills=559 (closed 478, open 81) invested=$55,900 fees=$0.00 realized=$+2,308.29 openMTM=$+119.72 total=$+2,428.01 (+4.3%) win 360/478
+perfect100  fills=3836 (closed 3569, open 267) invested=$383,600 fees=$0.00 realized=$+3,023.01 openMTM=$+453.70 total=$+3,476.72 (+0.9%) win 2780/3569
 ```
